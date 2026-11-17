@@ -46,7 +46,7 @@ GROUP          = None         # 'speech' / 'acoustic'; None = ask
 ITEMS_CSV    = 'sws_words/items.csv'        # from sentence_lists_to_tts.py
 SWS_INFO_CSV = 'sws_words/sws_info.csv'     # from make_sws_words_trimmed.py (base -> sws_file)
 DESIGN_DIR   = 'detection/design_tables'              # detection_<pid>_<group>.csv from generate_detection_table.py
-OUT_ROOT     = 'detection/stimuli'                    # -> stimuli/<pid>_<group>/
+OUT_ROOT     = 'detection/stimuli'                    # detection/stimuli/<pid>_<group>/
 
 LIST_TO_TYPE = {'items_2_4': 'S24', 'items_3_3': 'S33'}    # sentence-list file name -> sentence code
 N_ITEMS      = 18                                           # first N items of each list

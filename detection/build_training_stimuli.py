@@ -8,7 +8,7 @@ Words are read directly from training_items.csv and looked up as SWS files:
 items.csv is NOT needed. A word that was never synthesized is reported by name; then add it to a list
 (or put training_items.csv into sentence_lists/) and run the TTS -> trim -> SWS scripts.
 
-Output (OUT_DIR = training_stimuli/):
+Output (OUT_DIR = detection/training_stimuli/):
     training_stimuli.npy        float32 (n_stimuli, max_samples), zero-padded; every stimulus of the
                                 table + the unshifted version of every item
     training_stim_index.csv     row, stim_id, n_samples, word onsets/offsets (ms)
