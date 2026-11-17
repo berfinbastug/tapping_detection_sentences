@@ -24,7 +24,7 @@ os.chdir(PROJECT_DIR)
 # %% SETTINGS
 PARTICIPANT_ID = 'P02'
 GROUP          = 'acoustic'
-STIM_DIR   = f'stimuli/{PARTICIPANT_ID}_{GROUP}'
+STIM_DIR   = f'detection/stimuli/{PARTICIPANT_ID}_{GROUP}'
 N_RANDOM   = 6            # trials to plot
 SEED       = None         # None = new random pick each run; a number = same pick
 STIM_IDS   = None         # or a list, e.g. ['S24_01_I2_p50', 'S33_04_I3_m15'] (overrides N_RANDOM)

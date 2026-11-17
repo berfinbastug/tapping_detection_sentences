@@ -34,7 +34,7 @@ IOI_MS          = 450
 EVENT_MS        = 350
 RESPONSE_S      = 1.5              # assumed mean response time (duration estimate only)
 ITI_S           = 0.8
-OUTPUT_DIR      = "design_tables"
+OUTPUT_DIR      = "detection/design_tables"
 
 # %%
 # further parameters

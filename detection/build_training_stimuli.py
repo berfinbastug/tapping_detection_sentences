@@ -37,9 +37,9 @@ TRAINING_CSV  = 'sentence_lists/training_items.csv'
 WORDS_CSV     = 'sws_words/words.csv'         # word -> base (from sentence_lists_to_tts.py)
 SWS_INFO_CSV  = 'sws_words/sws_info.csv'      # base -> SWS file (from make_sws_words_trimmed.py)
 LOWER_ITEM_INITIAL = True                     # same rule as sentence_lists_to_tts.py
-DESIGN_CSV    = 'design_tables/training_design.csv'
-DESIGN_OUT    = 'design_tables_stim/training_design.csv'
-OUT_DIR       = 'training_stimuli'
+DESIGN_CSV    = 'detection/design_tables/training_design.csv'
+DESIGN_OUT    = 'detection/design_tables_stim/training_design.csv'
+OUT_DIR       = 'detection/training_stimuli'
 
 # must match build_detection_stimuli.py
 N_WORDS, IOI_MS, FS = 6, 450, 44100
@@ -162,8 +162,8 @@ print(f'✓ {DESIGN_OUT}')
 # import matplotlib.pyplot as plt
 
 # # %% SETTINGS
-# DESIGN_CSV = 'design_tables_stim/training_design.csv'
-# STIM_DIR   = 'training_stimuli'
+# DESIGN_CSV = 'detection/design_tables_stim/training_design.csv'
+# STIM_DIR   = 'detection/training_stimuli'
 # TOL_MS     = 0.5
 # ONSET_DB, ENV_WIN_MS = -40, 5
 

@@ -16,10 +16,10 @@ import os
 #=====================
 # PATHS
 #=====================
-MAIN_DIR   = '/Users/bastugb/Desktop/tapping_detection_sentences'  # CHECK
-STIM_DIR   = os.path.join(MAIN_DIR, 'stimuli')               # contains one folder per participant:
-PARTICIPANT_FOLDER = '{pid}_{group}'                        #   stimuli/P01_speech/ (from build_detection_stimuli.py)
-DATA_DIR   = os.path.join(MAIN_DIR, 'data')
+MAIN_DIR   = '/Users/bastugb/Desktop/tapping_detection_sentences'  
+STIM_DIR   = os.path.join(MAIN_DIR, "detection", 'stimuli')               
+PARTICIPANT_FOLDER = '{pid}_{group}'                        
+DATA_DIR   = os.path.join(MAIN_DIR, "detection", 'data')
 
 # files inside a participant folder
 STIM_NPY    = 'detection_stimuli.npy'
@@ -120,9 +120,9 @@ OUTPUT_COLUMNS = DESIGN_COLUMNS + SESSION_COLUMNS + RESPONSE_COLUMNS + TIMING_CO
 #=====================
 # TRAINING (demo + practice)
 #=====================
-TRAINING_STIM_DIR   = os.path.join(MAIN_DIR, 'training_stimuli')            # from build_training_stimuli.py
+TRAINING_STIM_DIR   = os.path.join(MAIN_DIR, "detection", 'training_stimuli')            # from build_training_stimuli.py
 TRAINING_NPY        = 'training_stimuli.npy'
-TRAINING_DESIGN     = os.path.join(MAIN_DIR, 'design_tables_stim', 'training_design.csv')
+TRAINING_DESIGN     = os.path.join(MAIN_DIR, "detection", 'design_tables_stim', 'training_design.csv')
 TRAINING_OUTPUT_PATTERN = 'training_{pid}_{group}_{time}.tsv'
 
 DEMO_PREVIEW_S      = 2.5     # written words / dots before an example

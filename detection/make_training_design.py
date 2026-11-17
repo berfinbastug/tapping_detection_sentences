@@ -21,7 +21,7 @@ PROJECT_DIR = '/Users/bastugb/Desktop/tapping_detection_sentences'
 os.chdir(PROJECT_DIR)
 # %% SETTINGS
 TRAINING_CSV   = 'sentence_lists/training_items.csv'
-OUT_CSV        = 'design_tables/training_design.csv'
+OUT_CSV        = 'detection/design_tables/training_design.csv'
 SEED           = 2026
 
 DEMO_ITEM      = 'TR_DEMO_WL'

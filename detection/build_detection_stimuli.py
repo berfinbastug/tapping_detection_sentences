@@ -13,7 +13,7 @@ Nothing is ever overwritten: if the folder exists, the script stops (delete/rena
     stimuli/<pid>_<group>/examples/*.wav             a few trials as wav, only for listening
 
 Reading one trial in the experiment:
-    stims = np.load('stimuli/P01_speech/detection_stimuli.npy', mmap_mode='r')
+    stims = np.load('detection/stimuli/P01_speech/detection_stimuli.npy', mmap_mode='r')
     y = np.array(stims[row['stim_row'], :row['n_samples']])
 
 Jitter = phase shift at interval Ik: word k+1 and every later word move by shift_ms
@@ -30,7 +30,7 @@ import numpy as np
 import pandas as pd
 import soundfile as sf
 
-import os                                                        # (if not already imported)
+
 PROJECT_DIR = '/Users/bastugb/Desktop/tapping_detection_sentences'
 os.chdir(PROJECT_DIR)
 
@@ -45,8 +45,8 @@ GROUP          = None         # 'speech' / 'acoustic'; None = ask
 
 ITEMS_CSV    = 'sws_words/items.csv'        # from sentence_lists_to_tts.py
 SWS_INFO_CSV = 'sws_words/sws_info.csv'     # from make_sws_words_trimmed.py (base -> sws_file)
-DESIGN_DIR   = 'design_tables'              # detection_<pid>_<group>.csv from generate_detection_table.py
-OUT_ROOT     = 'stimuli'                    # -> stimuli/<pid>_<group>/
+DESIGN_DIR   = 'detection/design_tables'              # detection_<pid>_<group>.csv from generate_detection_table.py
+OUT_ROOT     = 'detection/stimuli'                    # -> stimuli/<pid>_<group>/
 
 LIST_TO_TYPE = {'items_2_4': 'S24', 'items_3_3': 'S33'}    # sentence-list file name -> sentence code
 N_ITEMS      = 18                                           # first N items of each list

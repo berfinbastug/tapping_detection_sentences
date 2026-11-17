@@ -9,10 +9,10 @@ from detection_params import *          # noqa: F401,F403  (all lab values)
 # PATHS (local)
 #=====================
 MAIN_DIR   = '/Users/bastugb/Desktop/tapping_detection_sentences'
-STIM_DIR   = os.path.join(MAIN_DIR, 'stimuli')
-DATA_DIR   = os.path.join(MAIN_DIR, 'data_test')        # test data kept apart from real data
-TRAINING_STIM_DIR = os.path.join(MAIN_DIR, 'training_stimuli')
-TRAINING_DESIGN   = os.path.join(MAIN_DIR, 'design_tables_stim', 'training_design.csv')
+STIM_DIR   = os.path.join(MAIN_DIR, 'detection', 'stimuli')
+DATA_DIR   = os.path.join(MAIN_DIR, 'detection', 'data_test')
+TRAINING_STIM_DIR = os.path.join(MAIN_DIR, 'detection', 'training_stimuli')
+TRAINING_DESIGN   = os.path.join(MAIN_DIR, 'detection', 'design_tables_stim', 'training_design.csv')
 
 #=====================
 # AUDIO
