@@ -16,7 +16,6 @@ Output (OUT_DIR = training_stimuli/):
     wav/<stim_id>.wav           every training stimulus, for listening
     design_tables_stim/training_design.csv   the training table + stim_row + n_samples
 """
-import os
 import sys
 import json
 
@@ -24,7 +23,11 @@ import numpy as np
 import pandas as pd
 import soundfile as sf
 
-REPO_DIR = '/Users/bastugb/Desktop/tapping_detection_sentences/'   # folder that CONTAINS the repo package
+import os                                                        # (if not already imported)
+PROJECT_DIR = '/Users/bastugb/Desktop/tapping_detection_sentences'
+os.chdir(PROJECT_DIR)
+
+REPO_DIR = PROJECT_DIR
 if REPO_DIR is not None:
     sys.path.insert(0, REPO_DIR)
 from repo import build_sequence, find_on_offset, load_audio

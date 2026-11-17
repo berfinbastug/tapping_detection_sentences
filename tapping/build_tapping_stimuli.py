@@ -20,7 +20,7 @@ Outputs in stimuli_tapping/<pid>_<group>/
     examples/*.wav            a few trials as wav, only for listening
 
 Reading one trial in the experiment:
-    stims = np.load('stimuli_tapping/P01_speech/tapping_stimuli.npy', mmap_mode='r')
+    stims = np.load('tapping/stimuli_tapping/P01_speech/tapping_stimuli.npy', mmap_mode='r')
     y = np.array(stims[row['stim_row'], :row['n_samples']])
 
 Trial: 6 noises (lead-in) | 6 words (S1) | 6 noises (A) | the same 6 words (S2) | 6 noises (B).

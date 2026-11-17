@@ -18,6 +18,9 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 
+import os                                                        # (if not already imported)
+PROJECT_DIR = '/Users/bastugb/Desktop/tapping_detection_sentences'
+os.chdir(PROJECT_DIR)
 # %% SETTINGS
 PARTICIPANT_ID = 'P02'
 GROUP          = 'acoustic'

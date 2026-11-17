@@ -6,7 +6,9 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from pathlib import Path
 
-
+import os                                                        # (if not already imported)
+PROJECT_DIR = '/Users/bastugb/Desktop/tapping_detection_sentences'
+os.chdir(PROJECT_DIR)
 # %%
 # SETTINGS
 VALID_GROUPS = ["speech", "acoustic"]   # "speech" (informed SWS) or "acoustic" (naive SWS)

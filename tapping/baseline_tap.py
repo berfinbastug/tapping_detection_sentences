@@ -31,10 +31,10 @@ from psychopy.hardware import keyboard
 SETUP = 'laptop'                            # 'lab' or 'laptop'
 
 SETUPS = {
-    'laptop': dict(MAIN_DIR='/Users/bastugb/Desktop/tapping_detection_sentences', DATA_SUBDIR='data_test',
+    'laptop': dict(MAIN_DIR='/Users/bastugb/Desktop/tapping_detection_sentences', DATA_SUBDIR='tapping/data_test',
                    DEVICE_NAME='US-2x2HR', DEVICE_INDEX=None, LATENCY_CLASS=3,
                    WIN_SIZE=[1000, 650], FULLSCREEN=False, SCREEN=0, TEXT_HEIGHT=0.55, WRAP_WIDTH=24.0),
-    'lab':    dict(MAIN_DIR='/Users/bastugb/Desktop/tapping_detection_sentences', DATA_SUBDIR='data',   # CHECK path
+    'lab':    dict(MAIN_DIR='/Users/bastugb/Desktop/tapping_detection_sentences', DATA_SUBDIR='tapping/data',   # CHECK path
                    DEVICE_NAME='US-4x4HR', DEVICE_INDEX=None, LATENCY_CLASS=1,                        # CHECK device
                    WIN_SIZE=[1920, 1080], FULLSCREEN=True, SCREEN=1, TEXT_HEIGHT=1.0, WRAP_WIDTH=40.0),
 }

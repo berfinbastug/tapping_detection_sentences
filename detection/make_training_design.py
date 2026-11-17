@@ -12,10 +12,13 @@ One training table for ALL participants (fixed seed -> generate once).
 Jitter = phase shift at interval Ik: word k+1 and everything after it move (as in the main experiment).
 Output: design_tables/training_design.csv
 """
-import os
+
 import numpy as np
 import pandas as pd
 
+import os                                                        # (if not already imported)
+PROJECT_DIR = '/Users/bastugb/Desktop/tapping_detection_sentences'
+os.chdir(PROJECT_DIR)
 # %% SETTINGS
 TRAINING_CSV   = 'sentence_lists/training_items.csv'
 OUT_CSV        = 'design_tables/training_design.csv'

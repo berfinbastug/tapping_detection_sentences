@@ -28,10 +28,14 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from matplotlib.colors import TwoSlopeNorm
 
+import os                                                        # (if not already imported)
+PROJECT_DIR = '/Users/bastugb/Desktop/tapping_detection_sentences'
+os.chdir(PROJECT_DIR)
+
 # %% SETTINGS
 PARTICIPANT_ID = 'P01'
 GROUP          = 'speech'
-STIM_DIR   = f'stimuli_tapping/{PARTICIPANT_ID}_{GROUP}'
+STIM_DIR = f'tapping/stimuli_tapping/{PARTICIPANT_ID}_{GROUP}'
 PICK       = 'per_pattern'  # 'per_pattern' = one random trial of every jitter pattern (+ N_EXTRA random);
                             # 'random' = N_RANDOM random trials
 N_EXTRA    = 1

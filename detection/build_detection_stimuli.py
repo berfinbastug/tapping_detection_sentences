@@ -30,7 +30,11 @@ import numpy as np
 import pandas as pd
 import soundfile as sf
 
-REPO_DIR = '/Users/bastugb/Desktop/tapping_detection_sentences/'   # folder that CONTAINS the repo package
+import os                                                        # (if not already imported)
+PROJECT_DIR = '/Users/bastugb/Desktop/tapping_detection_sentences'
+os.chdir(PROJECT_DIR)
+
+REPO_DIR = PROJECT_DIR
 if REPO_DIR is not None:
     sys.path.insert(0, REPO_DIR)
 from repo import build_sequence, find_on_offset, load_audio

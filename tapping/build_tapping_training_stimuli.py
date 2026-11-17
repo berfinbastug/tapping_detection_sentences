@@ -29,19 +29,22 @@ import numpy as np
 import pandas as pd
 import soundfile as sf
 
-REPO_DIR = '/Users/bastugb/Desktop/tapping_detection_sentences/'   # folder that CONTAINS the repo package
+PROJECT_DIR = '/Users/bastugb/Desktop/tapping_detection_sentences'
+os.chdir(PROJECT_DIR)
+REPO_DIR = PROJECT_DIR
+
 if REPO_DIR is not None:
     sys.path.insert(0, REPO_DIR)
 from repo import build_sequence, find_on_offset, load_audio
 
 # %% SETTINGS
-DESIGN_CSV  = 'design_tables/tapping_training_design.csv'
-EVENTS_CSV  = 'design_tables/tapping_training_events.csv'
+DESIGN_CSV  = 'tapping/design_tables/tapping_training_design.csv'
+EVENTS_CSV  = 'tapping/design_tables/tapping_training_events.csv'
 ITEM_FILES  = ['sentence_lists/training_items_tapping.csv', 'sentence_lists/training_items.csv']
 WORDS_CSV   = 'sws_words/words.csv'
 SWS_INFO_CSV = 'sws_words/sws_info.csv'
 NOISE_DIR   = 'sws_words/noise_pool'
-OUT_DIR     = 'training_stimuli_tapping'
+OUT_DIR     = 'tapping/training_stimuli_tapping'
 
 LOWER_ITEM_INITIAL = True     # same rule as sentence_lists_to_tts.py (first word of an item lowercased)
 TOKEN_SEED = 2026             # noise token order (fixed: every participant hears the same training)

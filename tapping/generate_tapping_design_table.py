@@ -6,7 +6,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from pathlib import Path
 
-# after the imports (line 7, "from pathlib import Path"), add:
+
 import os
 PROJECT_DIR = '/Users/bastugb/Desktop/tapping_detection_sentences'
 os.chdir(PROJECT_DIR)        # relative paths below are inside the project folder

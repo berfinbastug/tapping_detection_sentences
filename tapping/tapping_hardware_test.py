@@ -41,6 +41,10 @@ from psychtoolbox import audio, PsychPortAudio, GetSecs, WaitSecs
 from psychopy import core, visual
 from psychopy.hardware import keyboard
 
+
+PROJECT_DIR = '/Users/bastugb/Desktop/tapping_detection_sentences'
+os.chdir(PROJECT_DIR)
+
 # %% SETTINGS
 DEVICE_NAME   = 'US-2x2'        # part of the TASCAM's name in the device list (printed when you run this)
 DEVICE_INDEX  = None            # if several devices match, put the right DeviceIndex here (see printout)
@@ -59,7 +63,8 @@ LOOPBACK_CHANNEL = None         # 0-based input index of a loopback cable (e.g. 
 
 STIMULUS   = 'clicks'           # 'clicks' or 'trial'
 N_CLICKS, IOI_MS, CLICK_MS, CLICK_HZ, CLICK_LEVEL = 30, 450, 10, 1000, 0.3
-STIM_DIR   = 'stimuli_tapping/P01_speech'   # only for STIMULUS = 'trial'
+STIM_DIR = 'tapping/stimuli_tapping/P01_speech'; 
+
 TRIAL      = 1                              # only for STIMULUS = 'trial': trial number in design_stim.csv
 LEAD_S, POST_S = 0.5, 1.5       # silence before the sound and after it (keeps recording for late taps)
 N_TEST_TRIALS  = 3
@@ -72,7 +77,7 @@ TAP_SMOOTH_MS     = 1
 # sound onsets in the loopback channel: same rule as the stimuli (-40 dB re each sound's own peak)
 ONSET_DB, SEG_DB, ENV_WIN_MS = -40, -30, 5
 
-OUT_DIR = 'tapping_test'
+OUT_DIR = 'tapping/tapping_test'
 
 
 # %% FUNCTIONS
