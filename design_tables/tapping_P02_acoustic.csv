@@ -1,0 +1,217 @@
+participant,group,seed,trial,block,sentence_type,sentence_id,exposure,role,n_jitters,jitter_pattern,A_jitter,A_interval,A_event,A_size_ms,A_direction,A_shift_ms,S2_jitter,S2_interval,S2_event,S2_size_ms,S2_direction,S2_shift_ms,B_jitter,B_interval,B_event,B_size_ms,B_direction,B_shift_ms,S2_critical,S2_with_noise,critical_with_noise,jitter_distance,clean_events_between,S2_boundary_status
+P02,acoustic,2221707473,1,1,3|3,S33_16,1,critical_I3,1,S2,False,,,,,0,True,I3,22.0,30.0,late,30,False,,,,,0,True,False,False,,,boundary
+P02,acoustic,2221707473,2,1,2|4,S24_04,1,critical_I3,2,A+S2,True,I1,14.0,15.0,early,-15,True,I3,22.0,15.0,late,15,False,,,,,0,True,True,True,8.0,7.0,within-phrase
+P02,acoustic,2221707473,3,1,2|4,S24_18,1,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical)
+P02,acoustic,2221707473,4,1,3|3,S33_05,1,critical_I2,1,S2,False,,,,,0,True,I2,21.0,50.0,early,-50,False,,,,,0,True,False,False,,,within-phrase
+P02,acoustic,2221707473,5,1,word list,WL_09,1,filler,1,S2,False,,,,,0,True,I1,20.0,30.0,late,30,False,,,,,0,False,False,False,,,(not critical)
+P02,acoustic,2221707473,6,1,3|3,S33_08,1,filler,2,A+S2,True,I2,15.0,30.0,late,30,True,I5,24.0,50.0,late,50,False,,,,,0,False,True,False,9.0,8.0,(not critical)
+P02,acoustic,2221707473,7,1,3|3,S33_06,1,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical)
+P02,acoustic,2221707473,8,1,2|4,S24_10,1,critical_I2,1,S2,False,,,,,0,True,I2,21.0,30.0,late,30,False,,,,,0,True,False,False,,,boundary
+P02,acoustic,2221707473,9,1,3|3,S33_15,1,critical_I3,1,S2,False,,,,,0,True,I3,22.0,30.0,late,30,False,,,,,0,True,False,False,,,boundary
+P02,acoustic,2221707473,10,1,word list,WL_01,1,critical_I2,1,S2,False,,,,,0,True,I2,21.0,30.0,late,30,False,,,,,0,True,False,False,,,no structure
+P02,acoustic,2221707473,11,1,3|3,S33_02,1,baseline,2,A+B,True,I2,15.0,15.0,early,-15,False,,,,,0,True,I2,27.0,30.0,early,-30,False,False,False,12.0,11.0,(not critical)
+P02,acoustic,2221707473,12,1,2|4,S24_02,1,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical)
+P02,acoustic,2221707473,13,1,3|3,S33_01,1,critical_I2,1,S2,False,,,,,0,True,I2,21.0,30.0,early,-30,False,,,,,0,True,False,False,,,within-phrase
+P02,acoustic,2221707473,14,1,2|4,S24_01,1,filler,1,S2,False,,,,,0,True,I4,23.0,50.0,late,50,False,,,,,0,False,False,False,,,(not critical)
+P02,acoustic,2221707473,15,1,2|4,S24_11,1,critical_I2,1,S2,False,,,,,0,True,I2,21.0,30.0,early,-30,False,,,,,0,True,False,False,,,boundary
+P02,acoustic,2221707473,16,1,word list,WL_14,1,critical_I2,1,S2,False,,,,,0,True,I2,21.0,30.0,late,30,False,,,,,0,True,False,False,,,no structure
+P02,acoustic,2221707473,17,1,word list,WL_08,1,critical_I3,1,S2,False,,,,,0,True,I3,22.0,15.0,late,15,False,,,,,0,True,False,False,,,no structure
+P02,acoustic,2221707473,18,1,2|4,S24_09,1,filler,1,S2,False,,,,,0,True,I4,23.0,15.0,early,-15,False,,,,,0,False,False,False,,,(not critical)
+P02,acoustic,2221707473,19,1,word list,WL_16,1,filler,1,S2,False,,,,,0,True,I1,20.0,15.0,early,-15,False,,,,,0,False,False,False,,,(not critical)
+P02,acoustic,2221707473,20,1,3|3,S33_14,1,filler,1,S2,False,,,,,0,True,I5,24.0,30.0,late,30,False,,,,,0,False,False,False,,,(not critical)
+P02,acoustic,2221707473,21,1,word list,WL_05,1,critical_I3,2,A+S2,True,I2,15.0,50.0,early,-50,True,I3,22.0,50.0,early,-50,False,,,,,0,True,True,True,7.0,6.0,no structure
+P02,acoustic,2221707473,22,1,word list,WL_10,1,baseline,2,A+B,True,I2,15.0,50.0,late,50,False,,,,,0,True,I1,26.0,15.0,early,-15,False,False,False,11.0,10.0,(not critical)
+P02,acoustic,2221707473,23,1,2|4,S24_16,1,critical_I3,1,S2,False,,,,,0,True,I3,22.0,15.0,late,15,False,,,,,0,True,False,False,,,within-phrase
+P02,acoustic,2221707473,24,1,word list,WL_04,1,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical)
+P02,acoustic,2221707473,25,2,word list,WL_10,2,critical_I2,1,S2,False,,,,,0,True,I2,21.0,50.0,early,-50,False,,,,,0,True,False,False,,,no structure
+P02,acoustic,2221707473,26,2,word list,WL_02,1,filler,1,S2,False,,,,,0,True,I1,20.0,15.0,late,15,False,,,,,0,False,False,False,,,(not critical)
+P02,acoustic,2221707473,27,2,word list,WL_18,1,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical)
+P02,acoustic,2221707473,28,2,2|4,S24_08,1,critical_I2,2,A+S2,True,I2,15.0,50.0,early,-50,True,I2,21.0,15.0,early,-15,False,,,,,0,True,True,True,6.0,5.0,boundary
+P02,acoustic,2221707473,29,2,word list,WL_17,1,critical_I3,1,S2,False,,,,,0,True,I3,22.0,50.0,late,50,False,,,,,0,True,False,False,,,no structure
+P02,acoustic,2221707473,30,2,2|4,S24_18,2,critical_I2,1,S2,False,,,,,0,True,I2,21.0,50.0,late,50,False,,,,,0,True,False,False,,,boundary
+P02,acoustic,2221707473,31,2,2|4,S24_01,2,critical_I3,1,S2,False,,,,,0,True,I3,22.0,15.0,early,-15,False,,,,,0,True,False,False,,,within-phrase
+P02,acoustic,2221707473,32,2,word list,WL_03,1,critical_I3,1,S2,False,,,,,0,True,I3,22.0,15.0,late,15,False,,,,,0,True,False,False,,,no structure
+P02,acoustic,2221707473,33,2,2|4,S24_13,1,filler,2,A+S2,True,I2,15.0,15.0,late,15,True,I5,24.0,15.0,early,-15,False,,,,,0,False,True,False,9.0,8.0,(not critical)
+P02,acoustic,2221707473,34,2,2|4,S24_17,1,critical_I3,1,S2,False,,,,,0,True,I3,22.0,50.0,late,50,False,,,,,0,True,False,False,,,within-phrase
+P02,acoustic,2221707473,35,2,3|3,S33_04,1,critical_I2,1,S2,False,,,,,0,True,I2,21.0,50.0,early,-50,False,,,,,0,True,False,False,,,within-phrase
+P02,acoustic,2221707473,36,2,2|4,S24_04,2,filler,1,S2,False,,,,,0,True,I5,24.0,15.0,late,15,False,,,,,0,False,False,False,,,(not critical)
+P02,acoustic,2221707473,37,2,word list,WL_05,2,filler,1,S2,False,,,,,0,True,I4,23.0,30.0,late,30,False,,,,,0,False,False,False,,,(not critical)
+P02,acoustic,2221707473,38,2,3|3,S33_12,1,critical_I3,2,A+S2,True,I1,14.0,50.0,late,50,True,I3,22.0,15.0,late,15,False,,,,,0,True,True,True,8.0,7.0,boundary
+P02,acoustic,2221707473,39,2,3|3,S33_07,1,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical)
+P02,acoustic,2221707473,40,2,3|3,S33_03,1,filler,1,S2,False,,,,,0,True,I1,20.0,50.0,early,-50,False,,,,,0,False,False,False,,,(not critical)
+P02,acoustic,2221707473,41,2,2|4,S24_14,1,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical)
+P02,acoustic,2221707473,42,2,3|3,S33_09,1,critical_I3,1,S2,False,,,,,0,True,I3,22.0,15.0,late,15,False,,,,,0,True,False,False,,,boundary
+P02,acoustic,2221707473,43,2,word list,WL_15,1,critical_I2,1,S2,False,,,,,0,True,I2,21.0,15.0,early,-15,False,,,,,0,True,False,False,,,no structure
+P02,acoustic,2221707473,44,2,3|3,S33_14,2,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical)
+P02,acoustic,2221707473,45,2,3|3,S33_15,2,filler,1,S2,False,,,,,0,True,I5,24.0,50.0,early,-50,False,,,,,0,False,False,False,,,(not critical)
+P02,acoustic,2221707473,46,2,3|3,S33_18,1,critical_I2,1,S2,False,,,,,0,True,I2,21.0,30.0,late,30,False,,,,,0,True,False,False,,,within-phrase
+P02,acoustic,2221707473,47,2,word list,WL_12,1,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical)
+P02,acoustic,2221707473,48,2,2|4,S24_03,1,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical)
+P02,acoustic,2221707473,49,3,3|3,S33_04,2,filler,2,A+S2,True,I2,15.0,15.0,late,15,True,I4,23.0,50.0,early,-50,False,,,,,0,False,True,False,8.0,7.0,(not critical)
+P02,acoustic,2221707473,50,3,3|3,S33_12,2,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical)
+P02,acoustic,2221707473,51,3,2|4,S24_06,1,filler,2,A+S2,True,I1,14.0,15.0,late,15,True,I1,20.0,50.0,early,-50,False,,,,,0,False,True,False,6.0,5.0,(not critical)
+P02,acoustic,2221707473,52,3,word list,WL_12,2,critical_I2,1,S2,False,,,,,0,True,I2,21.0,15.0,late,15,False,,,,,0,True,False,False,,,no structure
+P02,acoustic,2221707473,53,3,2|4,S24_09,2,critical_I3,1,S2,False,,,,,0,True,I3,22.0,50.0,early,-50,False,,,,,0,True,False,False,,,within-phrase
+P02,acoustic,2221707473,54,3,word list,WL_04,2,critical_I2,1,S2,False,,,,,0,True,I2,21.0,50.0,early,-50,False,,,,,0,True,False,False,,,no structure
+P02,acoustic,2221707473,55,3,word list,WL_07,1,critical_I3,1,S2,False,,,,,0,True,I3,22.0,15.0,early,-15,False,,,,,0,True,False,False,,,no structure
+P02,acoustic,2221707473,56,3,word list,WL_09,2,critical_I3,1,S2,False,,,,,0,True,I3,22.0,30.0,late,30,False,,,,,0,True,False,False,,,no structure
+P02,acoustic,2221707473,57,3,3|3,S33_18,2,filler,1,S2,False,,,,,0,True,I4,23.0,15.0,early,-15,False,,,,,0,False,False,False,,,(not critical)
+P02,acoustic,2221707473,58,3,word list,WL_03,2,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical)
+P02,acoustic,2221707473,59,3,3|3,S33_16,2,critical_I2,1,S2,False,,,,,0,True,I2,21.0,30.0,late,30,False,,,,,0,True,False,False,,,within-phrase
+P02,acoustic,2221707473,60,3,word list,WL_11,1,filler,2,A+S2,True,I1,14.0,15.0,late,15,True,I4,23.0,15.0,late,15,False,,,,,0,False,True,False,9.0,8.0,(not critical)
+P02,acoustic,2221707473,61,3,word list,WL_13,1,baseline,2,A+B,True,I1,14.0,30.0,late,30,False,,,,,0,True,I1,26.0,50.0,late,50,False,False,False,12.0,11.0,(not critical)
+P02,acoustic,2221707473,62,3,3|3,S33_11,1,critical_I3,1,S2,False,,,,,0,True,I3,22.0,50.0,late,50,False,,,,,0,True,False,False,,,boundary
+P02,acoustic,2221707473,63,3,2|4,S24_16,2,critical_I2,1,S2,False,,,,,0,True,I2,21.0,30.0,late,30,False,,,,,0,True,False,False,,,boundary
+P02,acoustic,2221707473,64,3,3|3,S33_17,1,critical_I3,1,S2,False,,,,,0,True,I3,22.0,15.0,early,-15,False,,,,,0,True,False,False,,,boundary
+P02,acoustic,2221707473,65,3,2|4,S24_18,3,critical_I3,1,S2,False,,,,,0,True,I3,22.0,15.0,early,-15,False,,,,,0,True,False,False,,,within-phrase
+P02,acoustic,2221707473,66,3,2|4,S24_17,2,critical_I2,2,S2+B,False,,,,,0,True,I2,21.0,30.0,early,-30,True,I2,27.0,30.0,early,-30,True,True,True,6.0,5.0,boundary
+P02,acoustic,2221707473,67,3,2|4,S24_07,1,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical)
+P02,acoustic,2221707473,68,3,word list,WL_14,2,filler,1,S2,False,,,,,0,True,I4,23.0,30.0,early,-30,False,,,,,0,False,False,False,,,(not critical)
+P02,acoustic,2221707473,69,3,3|3,S33_10,1,critical_I2,2,S2+B,False,,,,,0,True,I2,21.0,30.0,early,-30,True,I2,27.0,15.0,late,15,True,True,True,6.0,5.0,within-phrase
+P02,acoustic,2221707473,70,3,2|4,S24_01,3,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical)
+P02,acoustic,2221707473,71,3,2|4,S24_05,1,filler,1,S2,False,,,,,0,True,I5,24.0,50.0,early,-50,False,,,,,0,False,False,False,,,(not critical)
+P02,acoustic,2221707473,72,3,3|3,S33_13,1,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical)
+P02,acoustic,2221707473,73,4,2|4,S24_12,1,critical_I2,1,S2,False,,,,,0,True,I2,21.0,50.0,late,50,False,,,,,0,True,False,False,,,boundary
+P02,acoustic,2221707473,74,4,2|4,S24_16,3,baseline,2,A+B,True,I2,15.0,50.0,early,-50,False,,,,,0,True,I1,26.0,30.0,late,30,False,False,False,11.0,10.0,(not critical)
+P02,acoustic,2221707473,75,4,word list,WL_07,2,filler,2,A+S2,True,I1,14.0,15.0,early,-15,True,I1,20.0,50.0,late,50,False,,,,,0,False,True,False,6.0,5.0,(not critical)
+P02,acoustic,2221707473,76,4,2|4,S24_05,2,critical_I3,1,S2,False,,,,,0,True,I3,22.0,15.0,early,-15,False,,,,,0,True,False,False,,,within-phrase
+P02,acoustic,2221707473,77,4,2|4,S24_15,1,critical_I2,1,S2,False,,,,,0,True,I2,21.0,50.0,late,50,False,,,,,0,True,False,False,,,boundary
+P02,acoustic,2221707473,78,4,word list,WL_12,3,filler,1,S2,False,,,,,0,True,I4,23.0,50.0,early,-50,False,,,,,0,False,False,False,,,(not critical)
+P02,acoustic,2221707473,79,4,word list,WL_05,3,critical_I2,1,S2,False,,,,,0,True,I2,21.0,30.0,early,-30,False,,,,,0,True,False,False,,,no structure
+P02,acoustic,2221707473,80,4,word list,WL_10,3,critical_I3,1,S2,False,,,,,0,True,I3,22.0,50.0,late,50,False,,,,,0,True,False,False,,,no structure
+P02,acoustic,2221707473,81,4,2|4,S24_10,2,critical_I3,1,S2,False,,,,,0,True,I3,22.0,30.0,late,30,False,,,,,0,True,False,False,,,within-phrase
+P02,acoustic,2221707473,82,4,3|3,S33_17,2,filler,1,S2,False,,,,,0,True,I5,24.0,30.0,early,-30,False,,,,,0,False,False,False,,,(not critical)
+P02,acoustic,2221707473,83,4,3|3,S33_06,2,filler,1,S2,False,,,,,0,True,I1,20.0,30.0,late,30,False,,,,,0,False,False,False,,,(not critical)
+P02,acoustic,2221707473,84,4,word list,WL_11,2,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical)
+P02,acoustic,2221707473,85,4,3|3,S33_05,2,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical)
+P02,acoustic,2221707473,86,4,2|4,S24_02,2,filler,1,S2,False,,,,,0,True,I1,20.0,15.0,late,15,False,,,,,0,False,False,False,,,(not critical)
+P02,acoustic,2221707473,87,4,word list,WL_17,2,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical)
+P02,acoustic,2221707473,88,4,3|3,S33_18,3,critical_I3,1,S2,False,,,,,0,True,I3,22.0,15.0,early,-15,False,,,,,0,True,False,False,,,boundary
+P02,acoustic,2221707473,89,4,3|3,S33_07,2,critical_I3,1,S2,False,,,,,0,True,I3,22.0,50.0,late,50,False,,,,,0,True,False,False,,,boundary
+P02,acoustic,2221707473,90,4,3|3,S33_15,3,critical_I2,2,A+S2,True,I1,14.0,30.0,late,30,True,I2,21.0,15.0,early,-15,False,,,,,0,True,True,True,7.0,6.0,within-phrase
+P02,acoustic,2221707473,91,4,2|4,S24_18,4,filler,1,S2,False,,,,,0,True,I5,24.0,30.0,early,-30,False,,,,,0,False,False,False,,,(not critical)
+P02,acoustic,2221707473,92,4,word list,WL_08,2,critical_I2,1,S2,False,,,,,0,True,I2,21.0,30.0,early,-30,False,,,,,0,True,False,False,,,no structure
+P02,acoustic,2221707473,93,4,2|4,S24_13,2,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical)
+P02,acoustic,2221707473,94,4,3|3,S33_08,2,critical_I2,1,S2,False,,,,,0,True,I2,21.0,30.0,late,30,False,,,,,0,True,False,False,,,within-phrase
+P02,acoustic,2221707473,95,4,word list,WL_18,2,critical_I3,1,S2,False,,,,,0,True,I3,22.0,50.0,late,50,False,,,,,0,True,False,False,,,no structure
+P02,acoustic,2221707473,96,4,3|3,S33_01,2,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical)
+P02,acoustic,2221707473,97,5,3|3,S33_16,3,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical)
+P02,acoustic,2221707473,98,5,2|4,S24_06,2,critical_I3,1,S2,False,,,,,0,True,I3,22.0,30.0,late,30,False,,,,,0,True,False,False,,,within-phrase
+P02,acoustic,2221707473,99,5,3|3,S33_10,2,critical_I3,1,S2,False,,,,,0,True,I3,22.0,15.0,early,-15,False,,,,,0,True,False,False,,,boundary
+P02,acoustic,2221707473,100,5,2|4,S24_12,2,filler,1,S2,False,,,,,0,True,I4,23.0,30.0,late,30,False,,,,,0,False,False,False,,,(not critical)
+P02,acoustic,2221707473,101,5,word list,WL_08,3,filler,2,A+S2,True,I1,14.0,30.0,early,-30,True,I4,23.0,15.0,early,-15,False,,,,,0,False,True,False,9.0,8.0,(not critical)
+P02,acoustic,2221707473,102,5,word list,WL_06,1,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical)
+P02,acoustic,2221707473,103,5,3|3,S33_12,3,filler,1,S2,False,,,,,0,True,I1,20.0,50.0,late,50,False,,,,,0,False,False,False,,,(not critical)
+P02,acoustic,2221707473,104,5,word list,WL_13,2,critical_I3,1,S2,False,,,,,0,True,I3,22.0,50.0,early,-50,False,,,,,0,True,False,False,,,no structure
+P02,acoustic,2221707473,105,5,word list,WL_07,3,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical)
+P02,acoustic,2221707473,106,5,word list,WL_11,3,critical_I2,1,S2,False,,,,,0,True,I2,21.0,15.0,early,-15,False,,,,,0,True,False,False,,,no structure
+P02,acoustic,2221707473,107,5,3|3,S33_13,2,critical_I3,1,S2,False,,,,,0,True,I3,22.0,50.0,early,-50,False,,,,,0,True,False,False,,,boundary
+P02,acoustic,2221707473,108,5,2|4,S24_02,3,critical_I2,1,S2,False,,,,,0,True,I2,21.0,50.0,early,-50,False,,,,,0,True,False,False,,,boundary
+P02,acoustic,2221707473,109,5,3|3,S33_07,3,filler,1,S2,False,,,,,0,True,I4,23.0,15.0,late,15,False,,,,,0,False,False,False,,,(not critical)
+P02,acoustic,2221707473,110,5,word list,WL_12,4,critical_I3,1,S2,False,,,,,0,True,I3,22.0,30.0,early,-30,False,,,,,0,True,False,False,,,no structure
+P02,acoustic,2221707473,111,5,3|3,S33_18,4,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical)
+P02,acoustic,2221707473,112,5,2|4,S24_08,2,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical)
+P02,acoustic,2221707473,113,5,2|4,S24_11,2,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical)
+P02,acoustic,2221707473,114,5,word list,WL_01,2,filler,1,S2,False,,,,,0,True,I5,24.0,50.0,early,-50,False,,,,,0,False,False,False,,,(not critical)
+P02,acoustic,2221707473,115,5,2|4,S24_07,2,critical_I2,2,A+S2,True,I2,15.0,15.0,late,15,True,I2,21.0,50.0,early,-50,False,,,,,0,True,True,True,6.0,5.0,boundary
+P02,acoustic,2221707473,116,5,3|3,S33_02,2,critical_I2,1,S2,False,,,,,0,True,I2,21.0,15.0,late,15,False,,,,,0,True,False,False,,,within-phrase
+P02,acoustic,2221707473,117,5,3|3,S33_14,3,critical_I2,2,A+S2,True,I1,14.0,30.0,late,30,True,I2,21.0,50.0,early,-50,False,,,,,0,True,True,True,7.0,6.0,within-phrase
+P02,acoustic,2221707473,118,5,word list,WL_02,2,critical_I2,1,S2,False,,,,,0,True,I2,21.0,50.0,late,50,False,,,,,0,True,False,False,,,no structure
+P02,acoustic,2221707473,119,5,2|4,S24_03,2,filler,2,A+S2,True,I1,14.0,30.0,late,30,True,I4,23.0,15.0,late,15,False,,,,,0,False,True,False,9.0,8.0,(not critical)
+P02,acoustic,2221707473,120,5,2|4,S24_15,2,critical_I3,1,S2,False,,,,,0,True,I3,22.0,50.0,early,-50,False,,,,,0,True,False,False,,,within-phrase
+P02,acoustic,2221707473,121,6,2|4,S24_13,3,critical_I3,1,S2,False,,,,,0,True,I3,22.0,30.0,early,-30,False,,,,,0,True,False,False,,,within-phrase
+P02,acoustic,2221707473,122,6,2|4,S24_14,2,filler,1,S2,False,,,,,0,True,I1,20.0,15.0,early,-15,False,,,,,0,False,False,False,,,(not critical)
+P02,acoustic,2221707473,123,6,word list,WL_16,2,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical)
+P02,acoustic,2221707473,124,6,word list,WL_14,3,critical_I3,1,S2,False,,,,,0,True,I3,22.0,50.0,early,-50,False,,,,,0,True,False,False,,,no structure
+P02,acoustic,2221707473,125,6,2|4,S24_16,4,filler,2,S2+B,False,,,,,0,True,I1,20.0,30.0,late,30,True,I1,26.0,50.0,late,50,False,True,False,6.0,5.0,(not critical)
+P02,acoustic,2221707473,126,6,word list,WL_07,4,critical_I2,1,S2,False,,,,,0,True,I2,21.0,50.0,late,50,False,,,,,0,True,False,False,,,no structure
+P02,acoustic,2221707473,127,6,2|4,S24_06,3,critical_I2,1,S2,False,,,,,0,True,I2,21.0,50.0,early,-50,False,,,,,0,True,False,False,,,boundary
+P02,acoustic,2221707473,128,6,2|4,S24_10,3,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical)
+P02,acoustic,2221707473,129,6,2|4,S24_09,3,critical_I2,1,S2,False,,,,,0,True,I2,21.0,15.0,early,-15,False,,,,,0,True,False,False,,,boundary
+P02,acoustic,2221707473,130,6,2|4,S24_08,3,critical_I3,1,S2,False,,,,,0,True,I3,22.0,30.0,early,-30,False,,,,,0,True,False,False,,,within-phrase
+P02,acoustic,2221707473,131,6,3|3,S33_05,3,filler,1,S2,False,,,,,0,True,I1,20.0,15.0,early,-15,False,,,,,0,False,False,False,,,(not critical)
+P02,acoustic,2221707473,132,6,word list,WL_17,3,critical_I2,2,A+S2,True,I1,14.0,50.0,late,50,True,I2,21.0,50.0,late,50,False,,,,,0,True,True,True,7.0,6.0,no structure
+P02,acoustic,2221707473,133,6,3|3,S33_03,2,critical_I3,2,A+S2,True,I1,14.0,50.0,late,50,True,I3,22.0,30.0,late,30,False,,,,,0,True,True,True,8.0,7.0,boundary
+P02,acoustic,2221707473,134,6,3|3,S33_11,2,filler,1,S2,False,,,,,0,True,I5,24.0,15.0,late,15,False,,,,,0,False,False,False,,,(not critical)
+P02,acoustic,2221707473,135,6,3|3,S33_04,3,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical)
+P02,acoustic,2221707473,136,6,3|3,S33_06,3,critical_I3,1,S2,False,,,,,0,True,I3,22.0,50.0,early,-50,False,,,,,0,True,False,False,,,boundary
+P02,acoustic,2221707473,137,6,word list,WL_01,3,baseline,2,A+B,True,I2,15.0,15.0,early,-15,False,,,,,0,True,I1,26.0,30.0,late,30,False,False,False,11.0,10.0,(not critical)
+P02,acoustic,2221707473,138,6,word list,WL_02,3,critical_I3,1,S2,False,,,,,0,True,I3,22.0,15.0,early,-15,False,,,,,0,True,False,False,,,no structure
+P02,acoustic,2221707473,139,6,word list,WL_06,2,filler,1,S2,False,,,,,0,True,I4,23.0,50.0,late,50,False,,,,,0,False,False,False,,,(not critical)
+P02,acoustic,2221707473,140,6,3|3,S33_12,4,critical_I2,1,S2,False,,,,,0,True,I2,21.0,50.0,late,50,False,,,,,0,True,False,False,,,within-phrase
+P02,acoustic,2221707473,141,6,3|3,S33_15,4,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical)
+P02,acoustic,2221707473,142,6,2|4,S24_15,3,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical)
+P02,acoustic,2221707473,143,6,3|3,S33_09,2,critical_I2,1,S2,False,,,,,0,True,I2,21.0,15.0,early,-15,False,,,,,0,True,False,False,,,within-phrase
+P02,acoustic,2221707473,144,6,word list,WL_15,2,filler,2,A+S2,True,I1,14.0,15.0,late,15,True,I5,24.0,30.0,early,-30,False,,,,,0,False,True,False,10.0,9.0,(not critical)
+P02,acoustic,2221707473,145,7,3|3,S33_05,4,critical_I3,1,S2,False,,,,,0,True,I3,22.0,30.0,early,-30,False,,,,,0,True,False,False,,,boundary
+P02,acoustic,2221707473,146,7,3|3,S33_11,3,critical_I2,1,S2,False,,,,,0,True,I2,21.0,15.0,early,-15,False,,,,,0,True,False,False,,,within-phrase
+P02,acoustic,2221707473,147,7,2|4,S24_05,3,critical_I2,1,S2,False,,,,,0,True,I2,21.0,15.0,early,-15,False,,,,,0,True,False,False,,,boundary
+P02,acoustic,2221707473,148,7,3|3,S33_02,3,filler,2,A+S2,True,I1,14.0,15.0,late,15,True,I5,24.0,15.0,early,-15,False,,,,,0,False,True,False,10.0,9.0,(not critical)
+P02,acoustic,2221707473,149,7,word list,WL_01,4,critical_I3,1,S2,False,,,,,0,True,I3,22.0,30.0,late,30,False,,,,,0,True,False,False,,,no structure
+P02,acoustic,2221707473,150,7,2|4,S24_02,4,critical_I3,1,S2,False,,,,,0,True,I3,22.0,15.0,late,15,False,,,,,0,True,False,False,,,within-phrase
+P02,acoustic,2221707473,151,7,3|3,S33_01,3,critical_I3,1,S2,False,,,,,0,True,I3,22.0,15.0,late,15,False,,,,,0,True,False,False,,,boundary
+P02,acoustic,2221707473,152,7,3|3,S33_10,3,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical)
+P02,acoustic,2221707473,153,7,3|3,S33_08,3,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical)
+P02,acoustic,2221707473,154,7,2|4,S24_07,3,filler,1,S2,False,,,,,0,True,I4,23.0,50.0,early,-50,False,,,,,0,False,False,False,,,(not critical)
+P02,acoustic,2221707473,155,7,word list,WL_13,3,critical_I2,1,S2,False,,,,,0,True,I2,21.0,50.0,early,-50,False,,,,,0,True,False,False,,,no structure
+P02,acoustic,2221707473,156,7,word list,WL_04,3,critical_I3,2,A+S2,True,I1,14.0,15.0,late,15,True,I3,22.0,15.0,late,15,False,,,,,0,True,True,True,8.0,7.0,no structure
+P02,acoustic,2221707473,157,7,2|4,S24_12,3,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical)
+P02,acoustic,2221707473,158,7,word list,WL_06,3,critical_I2,2,A+S2,True,I2,15.0,50.0,early,-50,True,I2,21.0,30.0,late,30,False,,,,,0,True,True,True,6.0,5.0,no structure
+P02,acoustic,2221707473,159,7,word list,WL_17,4,filler,1,S2,False,,,,,0,True,I1,20.0,30.0,early,-30,False,,,,,0,False,False,False,,,(not critical)
+P02,acoustic,2221707473,160,7,word list,WL_15,3,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical)
+P02,acoustic,2221707473,161,7,word list,WL_09,3,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical)
+P02,acoustic,2221707473,162,7,2|4,S24_08,4,filler,2,A+S2,True,I1,14.0,30.0,early,-30,True,I4,23.0,30.0,early,-30,False,,,,,0,False,True,False,9.0,8.0,(not critical)
+P02,acoustic,2221707473,163,7,2|4,S24_04,3,baseline,2,A+B,True,I1,14.0,30.0,late,30,False,,,,,0,True,I2,27.0,30.0,early,-30,False,False,False,13.0,12.0,(not critical)
+P02,acoustic,2221707473,164,7,2|4,S24_03,3,critical_I3,1,S2,False,,,,,0,True,I3,22.0,30.0,early,-30,False,,,,,0,True,False,False,,,within-phrase
+P02,acoustic,2221707473,165,7,2|4,S24_01,4,critical_I2,1,S2,False,,,,,0,True,I2,21.0,15.0,late,15,False,,,,,0,True,False,False,,,boundary
+P02,acoustic,2221707473,166,7,3|3,S33_07,4,critical_I2,1,S2,False,,,,,0,True,I2,21.0,50.0,late,50,False,,,,,0,True,False,False,,,within-phrase
+P02,acoustic,2221707473,167,7,word list,WL_18,3,filler,1,S2,False,,,,,0,True,I5,24.0,15.0,early,-15,False,,,,,0,False,False,False,,,(not critical)
+P02,acoustic,2221707473,168,7,3|3,S33_09,3,filler,2,A+S2,True,I1,14.0,50.0,early,-50,True,I4,23.0,30.0,late,30,False,,,,,0,False,True,False,9.0,8.0,(not critical)
+P02,acoustic,2221707473,169,8,2|4,S24_14,3,critical_I2,1,S2,False,,,,,0,True,I2,21.0,30.0,early,-30,False,,,,,0,True,False,False,,,boundary
+P02,acoustic,2221707473,170,8,2|4,S24_09,4,baseline,2,A+B,True,I2,15.0,50.0,late,50,False,,,,,0,True,I1,26.0,50.0,early,-50,False,False,False,11.0,10.0,(not critical)
+P02,acoustic,2221707473,171,8,word list,WL_04,4,filler,1,S2,False,,,,,0,True,I5,24.0,50.0,late,50,False,,,,,0,False,False,False,,,(not critical)
+P02,acoustic,2221707473,172,8,2|4,S24_10,4,filler,1,S2,False,,,,,0,True,I1,20.0,30.0,early,-30,False,,,,,0,False,False,False,,,(not critical)
+P02,acoustic,2221707473,173,8,word list,WL_13,4,filler,2,S2+B,False,,,,,0,True,I1,20.0,50.0,early,-50,True,I1,26.0,30.0,early,-30,False,True,False,6.0,5.0,(not critical)
+P02,acoustic,2221707473,174,8,3|3,S33_03,3,critical_I2,1,S2,False,,,,,0,True,I2,21.0,30.0,early,-30,False,,,,,0,True,False,False,,,within-phrase
+P02,acoustic,2221707473,175,8,3|3,S33_17,3,baseline,2,A+B,True,I1,14.0,30.0,early,-30,False,,,,,0,True,I1,26.0,50.0,early,-50,False,False,False,12.0,11.0,(not critical)
+P02,acoustic,2221707473,176,8,3|3,S33_10,4,filler,1,S2,False,,,,,0,True,I4,23.0,50.0,late,50,False,,,,,0,False,False,False,,,(not critical)
+P02,acoustic,2221707473,177,8,2|4,S24_07,4,critical_I3,1,S2,False,,,,,0,True,I3,22.0,50.0,late,50,False,,,,,0,True,False,False,,,within-phrase
+P02,acoustic,2221707473,178,8,2|4,S24_13,4,critical_I2,1,S2,False,,,,,0,True,I2,21.0,15.0,late,15,False,,,,,0,True,False,False,,,boundary
+P02,acoustic,2221707473,179,8,word list,WL_16,3,critical_I3,1,S2,False,,,,,0,True,I3,22.0,30.0,late,30,False,,,,,0,True,False,False,,,no structure
+P02,acoustic,2221707473,180,8,word list,WL_18,4,critical_I2,1,S2,False,,,,,0,True,I2,21.0,30.0,early,-30,False,,,,,0,True,False,False,,,no structure
+P02,acoustic,2221707473,181,8,3|3,S33_02,4,critical_I3,1,S2,False,,,,,0,True,I3,22.0,50.0,early,-50,False,,,,,0,True,False,False,,,boundary
+P02,acoustic,2221707473,182,8,3|3,S33_09,4,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical)
+P02,acoustic,2221707473,183,8,3|3,S33_13,3,critical_I2,1,S2,False,,,,,0,True,I2,21.0,15.0,late,15,False,,,,,0,True,False,False,,,within-phrase
+P02,acoustic,2221707473,184,8,word list,WL_05,4,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical)
+P02,acoustic,2221707473,185,8,word list,WL_03,3,critical_I2,2,S2+B,False,,,,,0,True,I2,21.0,15.0,early,-15,True,I2,27.0,50.0,early,-50,True,True,True,6.0,5.0,no structure
+P02,acoustic,2221707473,186,8,word list,WL_14,4,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical)
+P02,acoustic,2221707473,187,8,2|4,S24_06,4,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical)
+P02,acoustic,2221707473,188,8,3|3,S33_08,4,critical_I3,1,S2,False,,,,,0,True,I3,22.0,30.0,early,-30,False,,,,,0,True,False,False,,,boundary
+P02,acoustic,2221707473,189,8,2|4,S24_17,3,filler,2,A+S2,True,I2,15.0,15.0,early,-15,True,I5,24.0,50.0,late,50,False,,,,,0,False,True,False,9.0,8.0,(not critical)
+P02,acoustic,2221707473,190,8,2|4,S24_11,3,critical_I3,2,A+S2,True,I1,14.0,15.0,early,-15,True,I3,22.0,30.0,late,30,False,,,,,0,True,True,True,8.0,7.0,within-phrase
+P02,acoustic,2221707473,191,8,3|3,S33_01,4,filler,2,S2+B,False,,,,,0,True,I1,20.0,30.0,early,-30,True,I2,27.0,50.0,early,-50,False,True,False,7.0,6.0,(not critical)
+P02,acoustic,2221707473,192,8,word list,WL_06,4,critical_I3,1,S2,False,,,,,0,True,I3,22.0,30.0,early,-30,False,,,,,0,True,False,False,,,no structure
+P02,acoustic,2221707473,193,9,2|4,S24_12,4,critical_I3,2,A+S2,True,I1,14.0,50.0,late,50,True,I3,22.0,50.0,late,50,False,,,,,0,True,True,True,8.0,7.0,within-phrase
+P02,acoustic,2221707473,194,9,word list,WL_08,4,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical)
+P02,acoustic,2221707473,195,9,word list,WL_10,4,filler,2,A+S2,True,I2,15.0,30.0,early,-30,True,I5,24.0,30.0,late,30,False,,,,,0,False,True,False,9.0,8.0,(not critical)
+P02,acoustic,2221707473,196,9,2|4,S24_14,4,critical_I3,1,S2,False,,,,,0,True,I3,22.0,50.0,early,-50,False,,,,,0,True,False,False,,,within-phrase
+P02,acoustic,2221707473,197,9,3|3,S33_17,4,critical_I2,1,S2,False,,,,,0,True,I2,21.0,50.0,late,50,False,,,,,0,True,False,False,,,within-phrase
+P02,acoustic,2221707473,198,9,2|4,S24_05,4,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical)
+P02,acoustic,2221707473,199,9,2|4,S24_03,4,critical_I2,1,S2,False,,,,,0,True,I2,21.0,30.0,late,30,False,,,,,0,True,False,False,,,boundary
+P02,acoustic,2221707473,200,9,word list,WL_11,4,critical_I3,2,A+S2,True,I1,14.0,30.0,late,30,True,I3,22.0,30.0,early,-30,False,,,,,0,True,True,True,8.0,7.0,no structure
+P02,acoustic,2221707473,201,9,2|4,S24_04,4,critical_I2,1,S2,False,,,,,0,True,I2,21.0,15.0,late,15,False,,,,,0,True,False,False,,,boundary
+P02,acoustic,2221707473,202,9,3|3,S33_13,4,filler,2,A+S2,True,I1,14.0,15.0,early,-15,True,I1,20.0,15.0,late,15,False,,,,,0,False,True,False,6.0,5.0,(not critical)
+P02,acoustic,2221707473,203,9,3|3,S33_11,4,baseline,2,A+B,True,I2,15.0,30.0,early,-30,False,,,,,0,True,I2,27.0,15.0,early,-15,False,False,False,12.0,11.0,(not critical)
+P02,acoustic,2221707473,204,9,3|3,S33_16,4,filler,1,S2,False,,,,,0,True,I4,23.0,30.0,early,-30,False,,,,,0,False,False,False,,,(not critical)
+P02,acoustic,2221707473,205,9,3|3,S33_04,4,critical_I3,1,S2,False,,,,,0,True,I3,22.0,30.0,early,-30,False,,,,,0,True,False,False,,,boundary
+P02,acoustic,2221707473,206,9,2|4,S24_17,4,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical)
+P02,acoustic,2221707473,207,9,2|4,S24_15,4,filler,1,S2,False,,,,,0,True,I5,24.0,30.0,late,30,False,,,,,0,False,False,False,,,(not critical)
+P02,acoustic,2221707473,208,9,word list,WL_02,4,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical)
+P02,acoustic,2221707473,209,9,3|3,S33_14,4,critical_I3,2,A+S2,True,I1,14.0,50.0,late,50,True,I3,22.0,50.0,late,50,False,,,,,0,True,True,True,8.0,7.0,boundary
+P02,acoustic,2221707473,210,9,3|3,S33_06,4,critical_I2,1,S2,False,,,,,0,True,I2,21.0,15.0,late,15,False,,,,,0,True,False,False,,,within-phrase
+P02,acoustic,2221707473,211,9,word list,WL_15,4,critical_I3,1,S2,False,,,,,0,True,I3,22.0,15.0,early,-15,False,,,,,0,True,False,False,,,no structure
+P02,acoustic,2221707473,212,9,word list,WL_03,4,filler,1,S2,False,,,,,0,True,I5,24.0,15.0,late,15,False,,,,,0,False,False,False,,,(not critical)
+P02,acoustic,2221707473,213,9,2|4,S24_11,4,filler,1,S2,False,,,,,0,True,I1,20.0,50.0,late,50,False,,,,,0,False,False,False,,,(not critical)
+P02,acoustic,2221707473,214,9,word list,WL_16,4,critical_I2,1,S2,False,,,,,0,True,I2,21.0,15.0,late,15,False,,,,,0,True,False,False,,,no structure
+P02,acoustic,2221707473,215,9,word list,WL_09,4,critical_I2,1,S2,False,,,,,0,True,I2,21.0,15.0,late,15,False,,,,,0,True,False,False,,,no structure
+P02,acoustic,2221707473,216,9,3|3,S33_03,4,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical)

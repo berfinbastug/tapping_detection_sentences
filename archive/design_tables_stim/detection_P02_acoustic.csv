@@ -1,0 +1,163 @@
+participant,group,seed,trial,block,sentence_type,sentence_id,exposure,role,jittered,interval,moved_word,size_ms,direction,shift_ms,correct_response,boundary_status,stim_id,stim_row,n_samples
+P02,acoustic,2221707473,1,1,3|3,S33_12,1,critical_I3,True,I3,4.0,15.0,early,-15,irregular,boundary,S33_12_I3_m15,912,118192
+P02,acoustic,2221707473,2,1,3|3,S33_17,1,critical_I2,True,I2,3.0,30.0,early,-30,irregular,within-phrase,S33_17_I2_m30,1063,117608
+P02,acoustic,2221707473,3,1,word list,WL_17,1,critical_I2,True,I2,3.0,30.0,late,30,irregular,no structure,WL_17_I2_p30,1622,120254
+P02,acoustic,2221707473,4,1,3|3,S33_16,1,catch,False,,,,,0,regular,(not critical),S33_16_none,1023,117896
+P02,acoustic,2221707473,5,1,3|3,S33_03,1,critical_I2,True,I2,3.0,15.0,early,-15,irregular,within-phrase,S33_03_I2_m15,627,118328
+P02,acoustic,2221707473,6,1,word list,WL_10,1,critical_I3,True,I3,4.0,15.0,early,-15,irregular,no structure,WL_10_I3_m15,1408,118281
+P02,acoustic,2221707473,7,1,word list,WL_05,1,catch,False,,,,,0,regular,(not critical),WL_05_none,1240,117894
+P02,acoustic,2221707473,8,1,word list,WL_14,1,filler,True,I4,5.0,50.0,late,50,irregular,(not critical),WL_14_I4_p50,1543,121073
+P02,acoustic,2221707473,9,1,3|3,S33_09,1,catch,False,,,,,0,regular,(not critical),S33_09_none,806,118904
+P02,acoustic,2221707473,10,1,3|3,S33_06,1,critical_I3,True,I3,4.0,50.0,early,-50,irregular,boundary,S33_06_I3_m50,730,116746
+P02,acoustic,2221707473,11,1,2|4,S24_03,1,critical_I3,True,I3,4.0,15.0,early,-15,irregular,within-phrase,S24_03_I3_m15,75,118250
+P02,acoustic,2221707473,12,1,word list,WL_07,1,critical_I3,True,I3,4.0,30.0,late,30,irregular,no structure,WL_07_I3_p30,1318,120256
+P02,acoustic,2221707473,13,1,3|3,S33_04,1,critical_I2,True,I2,3.0,50.0,early,-50,irregular,within-phrase,S33_04_I2_m50,662,116750
+P02,acoustic,2221707473,14,1,2|4,S24_13,1,critical_I3,True,I3,4.0,30.0,early,-30,irregular,within-phrase,S24_13_I3_m30,387,117633
+P02,acoustic,2221707473,15,1,2|4,S24_17,1,catch,False,,,,,0,regular,(not critical),S24_17_none,496,118937
+P02,acoustic,2221707473,16,1,2|4,S24_07,1,catch,False,,,,,0,regular,(not critical),S24_07_none,186,118821
+P02,acoustic,2221707473,17,1,word list,WL_11,1,critical_I3,True,I3,4.0,15.0,late,15,irregular,no structure,WL_11_I3_p15,1440,119550
+P02,acoustic,2221707473,18,1,word list,WL_12,1,critical_I2,True,I2,3.0,15.0,late,15,irregular,no structure,WL_12_I2_p15,1465,119516
+P02,acoustic,2221707473,19,1,word list,WL_06,1,critical_I2,True,I2,3.0,15.0,early,-15,irregular,no structure,WL_06_I2_m15,1278,118289
+P02,acoustic,2221707473,20,1,2|4,S24_08,1,filler,True,I5,6.0,30.0,late,30,irregular,(not critical),S24_08_I5_p30,245,120235
+P02,acoustic,2221707473,21,1,word list,WL_13,1,critical_I3,True,I3,4.0,50.0,early,-50,irregular,no structure,WL_13_I3_m50,1505,116709
+P02,acoustic,2221707473,22,1,3|3,S33_15,1,critical_I3,True,I3,4.0,15.0,late,15,irregular,boundary,S33_15_I3_p15,1006,119599
+P02,acoustic,2221707473,23,1,3|3,S33_18,1,critical_I2,True,I2,3.0,30.0,late,30,irregular,within-phrase,S33_18_I2_p30,1095,120238
+P02,acoustic,2221707473,24,1,2|4,S24_11,1,catch,False,,,,,0,regular,(not critical),S24_11_none,310,118957
+P02,acoustic,2221707473,25,1,2|4,S24_09,1,critical_I2,True,I2,3.0,15.0,late,15,irregular,boundary,S24_09_I2_p15,256,119599
+P02,acoustic,2221707473,26,1,3|3,S33_14,1,critical_I2,True,I2,3.0,50.0,late,50,irregular,within-phrase,S33_14_I2_p50,973,121073
+P02,acoustic,2221707473,27,1,2|4,S24_04,1,critical_I3,True,I3,4.0,50.0,early,-50,irregular,within-phrase,S24_04_I3_m50,110,116739
+P02,acoustic,2221707473,28,1,3|3,S33_02,1,critical_I2,True,I2,3.0,15.0,late,15,irregular,within-phrase,S33_02_I2_p15,597,119617
+P02,acoustic,2221707473,29,1,2|4,S24_10,1,critical_I3,True,I3,4.0,30.0,late,30,irregular,within-phrase,S24_10_I3_p30,295,120213
+P02,acoustic,2221707473,30,1,word list,WL_02,1,critical_I3,True,I3,4.0,30.0,early,-30,irregular,no structure,WL_02_I3_m30,1162,117632
+P02,acoustic,2221707473,31,1,word list,WL_08,1,critical_I3,True,I3,4.0,50.0,late,50,irregular,no structure,WL_08_I3_p50,1351,121002
+P02,acoustic,2221707473,32,1,word list,WL_15,1,catch,False,,,,,0,regular,(not critical),WL_15_none,1550,118937
+P02,acoustic,2221707473,33,1,3|3,S33_13,1,critical_I3,True,I3,4.0,30.0,early,-30,irregular,boundary,S33_13_I3_m30,945,117591
+P02,acoustic,2221707473,34,1,word list,WL_18,1,critical_I2,True,I2,3.0,50.0,early,-50,irregular,no structure,WL_18_I2_m50,1654,116710
+P02,acoustic,2221707473,35,1,2|4,S24_15,1,critical_I2,True,I2,3.0,30.0,early,-30,irregular,boundary,S24_15_I2_m30,443,117592
+P02,acoustic,2221707473,36,1,3|3,S33_01,1,critical_I3,True,I3,4.0,50.0,late,50,irregular,boundary,S33_01_I3_p50,576,121140
+P02,acoustic,2221707473,37,1,2|4,S24_01,1,critical_I2,True,I2,3.0,50.0,late,50,irregular,boundary,S24_01_I2_p50,12,121120
+P02,acoustic,2221707473,38,1,2|4,S24_06,1,critical_I2,True,I2,3.0,15.0,early,-15,irregular,boundary,S24_06_I2_m15,162,118280
+P02,acoustic,2221707473,39,1,word list,WL_16,1,catch,False,,,,,0,regular,(not critical),WL_16_none,1581,117896
+P02,acoustic,2221707473,40,1,2|4,S24_14,1,critical_I3,True,I3,4.0,50.0,late,50,irregular,within-phrase,S24_14_I3_p50,421,121181
+P02,acoustic,2221707473,41,1,2|4,S24_18,1,critical_I3,True,I3,4.0,15.0,late,15,irregular,within-phrase,S24_18_I3_p15,541,119604
+P02,acoustic,2221707473,42,1,word list,WL_01,1,critical_I2,True,I2,3.0,30.0,early,-30,irregular,no structure,WL_01_I2_m30,1125,117612
+P02,acoustic,2221707473,43,1,2|4,S24_02,1,critical_I2,True,I2,3.0,50.0,early,-50,irregular,boundary,S24_02_I2_m50,42,116751
+P02,acoustic,2221707473,44,1,3|3,S33_11,1,filler,True,I4,5.0,50.0,early,-50,irregular,(not critical),S33_11_I4_m50,891,116683
+P02,acoustic,2221707473,45,1,3|3,S33_07,1,catch,False,,,,,0,regular,(not critical),S33_07_none,744,118933
+P02,acoustic,2221707473,46,1,word list,WL_09,1,critical_I2,True,I2,3.0,50.0,late,50,irregular,no structure,WL_09_I2_p50,1376,121109
+P02,acoustic,2221707473,47,1,word list,WL_04,1,filler,True,I5,6.0,30.0,early,-30,irregular,(not critical),WL_04_I5_m30,1236,117632
+P02,acoustic,2221707473,48,1,2|4,S24_05,1,critical_I2,True,I2,3.0,30.0,late,30,irregular,boundary,S24_05_I2_p30,134,120260
+P02,acoustic,2221707473,49,1,3|3,S33_05,1,filler,True,I5,6.0,15.0,early,-15,irregular,(not critical),S33_05_I5_m15,707,117232
+P02,acoustic,2221707473,50,1,word list,WL_03,1,catch,False,,,,,0,regular,(not critical),WL_03_none,1178,118990
+P02,acoustic,2221707473,51,1,2|4,S24_12,1,catch,False,,,,,0,regular,(not critical),S24_12_none,341,118912
+P02,acoustic,2221707473,52,1,3|3,S33_10,1,critical_I3,True,I3,4.0,30.0,late,30,irregular,boundary,S33_10_I3_p30,853,120266
+P02,acoustic,2221707473,53,1,3|3,S33_08,1,catch,False,,,,,0,regular,(not critical),S33_08_none,775,118797
+P02,acoustic,2221707473,54,1,2|4,S24_16,1,filler,True,I1,2.0,15.0,late,15,irregular,(not critical),S24_16_I1_p15,467,119606
+P02,acoustic,2221707473,55,2,2|4,S24_06,2,critical_I3,True,I3,4.0,15.0,early,-15,irregular,within-phrase,S24_06_I3_m15,168,118280
+P02,acoustic,2221707473,56,2,2|4,S24_05,2,critical_I3,True,I3,4.0,50.0,late,50,irregular,within-phrase,S24_05_I3_p50,142,121142
+P02,acoustic,2221707473,57,2,3|3,S33_10,2,filler,True,I4,5.0,15.0,late,15,irregular,(not critical),S33_10_I4_p15,857,119605
+P02,acoustic,2221707473,58,2,word list,WL_08,2,filler,True,I1,2.0,50.0,early,-50,irregular,(not critical),WL_08_I1_m50,1338,116592
+P02,acoustic,2221707473,59,2,2|4,S24_07,2,critical_I2,True,I2,3.0,50.0,late,50,irregular,boundary,S24_07_I2_p50,198,121026
+P02,acoustic,2221707473,60,2,word list,WL_18,2,critical_I3,True,I3,4.0,15.0,late,15,irregular,no structure,WL_18_I3_p15,1657,119577
+P02,acoustic,2221707473,61,2,3|3,S33_07,2,critical_I2,True,I2,3.0,50.0,late,50,irregular,within-phrase,S33_07_I2_p50,756,121138
+P02,acoustic,2221707473,62,2,word list,WL_15,2,critical_I2,True,I2,3.0,15.0,late,15,irregular,no structure,WL_15_I2_p15,1558,119599
+P02,acoustic,2221707473,63,2,word list,WL_17,2,critical_I3,True,I3,4.0,50.0,late,50,irregular,no structure,WL_17_I3_p50,1630,121136
+P02,acoustic,2221707473,64,2,2|4,S24_02,2,critical_I3,True,I3,4.0,30.0,early,-30,irregular,within-phrase,S24_02_I3_m30,46,117633
+P02,acoustic,2221707473,65,2,2|4,S24_13,2,catch,False,,,,,0,regular,(not critical),S24_13_none,372,118956
+P02,acoustic,2221707473,66,2,2|4,S24_11,2,critical_I2,True,I2,3.0,50.0,early,-50,irregular,boundary,S24_11_I2_m50,321,116752
+P02,acoustic,2221707473,67,2,3|3,S33_18,2,critical_I3,True,I3,4.0,15.0,early,-15,irregular,boundary,S33_18_I3_m15,1098,118253
+P02,acoustic,2221707473,68,2,2|4,S24_12,2,critical_I2,True,I2,3.0,15.0,late,15,irregular,boundary,S24_12_I2_p15,349,119574
+P02,acoustic,2221707473,69,2,2|4,S24_09,2,critical_I3,True,I3,4.0,50.0,early,-50,irregular,within-phrase,S24_09_I3_m50,265,116732
+P02,acoustic,2221707473,70,2,word list,WL_01,2,critical_I3,True,I3,4.0,30.0,late,30,irregular,no structure,WL_01_I3_p30,1132,120258
+P02,acoustic,2221707473,71,2,3|3,S33_12,2,catch,False,,,,,0,regular,(not critical),S33_12_none,899,118854
+P02,acoustic,2221707473,72,2,2|4,S24_15,2,critical_I3,True,I3,4.0,30.0,late,30,irregular,within-phrase,S24_15_I3_p30,450,120238
+P02,acoustic,2221707473,73,2,word list,WL_16,2,critical_I2,True,I2,3.0,50.0,late,50,irregular,no structure,WL_16_I2_p50,1593,120101
+P02,acoustic,2221707473,74,2,2|4,S24_18,2,catch,False,,,,,0,regular,(not critical),S24_18_none,527,118942
+P02,acoustic,2221707473,75,2,3|3,S33_02,2,critical_I3,True,I3,4.0,15.0,late,15,irregular,boundary,S33_02_I3_p15,603,119617
+P02,acoustic,2221707473,76,2,3|3,S33_04,2,critical_I3,True,I3,4.0,30.0,late,30,irregular,boundary,S33_04_I3_p30,667,120278
+P02,acoustic,2221707473,77,2,3|3,S33_03,2,critical_I3,True,I3,4.0,50.0,late,50,irregular,boundary,S33_03_I3_p50,638,121195
+P02,acoustic,2221707473,78,2,word list,WL_04,2,critical_I2,True,I2,3.0,15.0,early,-15,irregular,no structure,WL_04_I2_m15,1216,118293
+P02,acoustic,2221707473,79,2,3|3,S33_01,2,catch,False,,,,,0,regular,(not critical),S33_01_none,558,118935
+P02,acoustic,2221707473,80,2,2|4,S24_14,2,catch,False,,,,,0,regular,(not critical),S24_14_none,403,118976
+P02,acoustic,2221707473,81,2,2|4,S24_17,2,critical_I2,True,I2,3.0,30.0,late,30,irregular,boundary,S24_17_I2_p30,506,120260
+P02,acoustic,2221707473,82,2,3|3,S33_14,2,critical_I3,True,I3,4.0,30.0,early,-30,irregular,boundary,S33_14_I3_m30,976,117545
+P02,acoustic,2221707473,83,2,3|3,S33_08,2,critical_I2,True,I2,3.0,30.0,early,-30,irregular,within-phrase,S33_08_I2_m30,784,117474
+P02,acoustic,2221707473,84,2,2|4,S24_04,2,catch,False,,,,,0,regular,(not critical),S24_04_none,93,118944
+P02,acoustic,2221707473,85,2,3|3,S33_11,2,critical_I2,True,I2,3.0,15.0,early,-15,irregular,within-phrase,S33_11_I2_m15,875,118226
+P02,acoustic,2221707473,86,2,3|3,S33_17,2,critical_I3,True,I3,4.0,50.0,early,-50,irregular,boundary,S33_17_I3_m50,1071,116726
+P02,acoustic,2221707473,87,2,word list,WL_09,2,critical_I3,True,I3,4.0,15.0,early,-15,irregular,no structure,WL_09_I3_m15,1377,118242
+P02,acoustic,2221707473,88,2,2|4,S24_08,2,critical_I2,True,I2,3.0,30.0,early,-30,irregular,boundary,S24_08_I2_m30,226,117589
+P02,acoustic,2221707473,89,2,word list,WL_02,2,catch,False,,,,,0,regular,(not critical),WL_02_none,1147,118955
+P02,acoustic,2221707473,90,2,word list,WL_07,2,filler,True,I4,5.0,15.0,early,-15,irregular,(not critical),WL_07_I4_m15,1321,118271
+P02,acoustic,2221707473,91,2,2|4,S24_01,2,critical_I3,True,I3,4.0,15.0,late,15,irregular,within-phrase,S24_01_I3_p15,14,119577
+P02,acoustic,2221707473,92,2,3|3,S33_05,2,critical_I2,True,I2,3.0,15.0,late,15,irregular,within-phrase,S33_05_I2_p15,690,118556
+P02,acoustic,2221707473,93,2,3|3,S33_06,2,catch,False,,,,,0,regular,(not critical),S33_06_none,713,118951
+P02,acoustic,2221707473,94,2,word list,WL_14,2,critical_I2,True,I2,3.0,30.0,late,30,irregular,no structure,WL_14_I2_p30,1529,120191
+P02,acoustic,2221707473,95,2,3|3,S33_09,2,critical_I2,True,I2,3.0,30.0,late,30,irregular,within-phrase,S33_09_I2_p30,816,120227
+P02,acoustic,2221707473,96,2,3|3,S33_16,2,critical_I2,True,I2,3.0,50.0,early,-50,irregular,within-phrase,S33_16_I2_m50,1034,115691
+P02,acoustic,2221707473,97,2,2|4,S24_10,2,filler,True,I5,6.0,50.0,early,-50,irregular,(not critical),S24_10_I5_m50,308,116685
+P02,acoustic,2221707473,98,2,2|4,S24_16,2,critical_I2,True,I2,3.0,15.0,early,-15,irregular,boundary,S24_16_I2_m15,472,118282
+P02,acoustic,2221707473,99,2,word list,WL_10,2,catch,False,,,,,0,regular,(not critical),WL_10_none,1395,118943
+P02,acoustic,2221707473,100,2,word list,WL_11,2,catch,False,,,,,0,regular,(not critical),WL_11_none,1426,118888
+P02,acoustic,2221707473,101,2,word list,WL_06,2,critical_I3,True,I3,4.0,50.0,early,-50,irregular,no structure,WL_06_I3_m50,1288,116746
+P02,acoustic,2221707473,102,2,word list,WL_05,2,critical_I2,True,I2,3.0,50.0,early,-50,irregular,no structure,WL_05_I2_m50,1251,115689
+P02,acoustic,2221707473,103,2,2|4,S24_03,2,filler,True,I4,5.0,50.0,late,50,irregular,(not critical),S24_03_I4_p50,86,121117
+P02,acoustic,2221707473,104,2,word list,WL_12,2,critical_I3,True,I3,4.0,30.0,early,-30,irregular,no structure,WL_12_I3_m30,1472,117531
+P02,acoustic,2221707473,105,2,word list,WL_13,2,catch,False,,,,,0,regular,(not critical),WL_13_none,1488,118914
+P02,acoustic,2221707473,106,2,3|3,S33_13,2,catch,False,,,,,0,regular,(not critical),S33_13_none,930,118914
+P02,acoustic,2221707473,107,2,3|3,S33_15,2,filler,True,I1,2.0,30.0,early,-30,irregular,(not critical),S33_15_I1_m30,995,117614
+P02,acoustic,2221707473,108,2,word list,WL_03,2,critical_I2,True,I2,3.0,30.0,early,-30,irregular,no structure,WL_03_I2_m30,1187,117667
+P02,acoustic,2221707473,109,3,2|4,S24_01,3,catch,False,,,,,0,regular,(not critical),S24_01_none,0,118915
+P02,acoustic,2221707473,110,3,3|3,S33_09,3,critical_I3,True,I3,4.0,50.0,early,-50,irregular,boundary,S33_09_I3_m50,823,116699
+P02,acoustic,2221707473,111,3,word list,WL_16,3,critical_I3,True,I3,4.0,50.0,early,-50,irregular,no structure,WL_16_I3_m50,1598,115691
+P02,acoustic,2221707473,112,3,3|3,S33_07,3,critical_I3,True,I3,4.0,30.0,early,-30,irregular,boundary,S33_07_I3_m30,759,117610
+P02,acoustic,2221707473,113,3,2|4,S24_05,3,filler,True,I4,5.0,15.0,early,-15,irregular,(not critical),S24_05_I4_m15,143,118275
+P02,acoustic,2221707473,114,3,3|3,S33_05,3,critical_I3,True,I3,4.0,30.0,late,30,irregular,boundary,S33_05_I3_p30,698,119217
+P02,acoustic,2221707473,115,3,3|3,S33_15,3,critical_I2,True,I2,3.0,50.0,late,50,irregular,within-phrase,S33_15_I2_p50,1004,121142
+P02,acoustic,2221707473,116,3,word list,WL_04,3,critical_I3,True,I3,4.0,15.0,early,-15,irregular,no structure,WL_04_I3_m15,1222,118293
+P02,acoustic,2221707473,117,3,2|4,S24_15,3,catch,False,,,,,0,regular,(not critical),S24_15_none,434,118915
+P02,acoustic,2221707473,118,3,2|4,S24_17,3,critical_I3,True,I3,4.0,50.0,early,-50,irregular,within-phrase,S24_17_I3_m50,513,116732
+P02,acoustic,2221707473,119,3,2|4,S24_18,3,critical_I2,True,I2,3.0,50.0,late,50,irregular,boundary,S24_18_I2_p50,539,121147
+P02,acoustic,2221707473,120,3,3|3,S33_02,3,catch,False,,,,,0,regular,(not critical),S33_02_none,589,118955
+P02,acoustic,2221707473,121,3,word list,WL_14,3,critical_I3,True,I3,4.0,50.0,late,50,irregular,no structure,WL_14_I3_p50,1537,121073
+P02,acoustic,2221707473,122,3,3|3,S33_16,3,critical_I3,True,I3,4.0,15.0,early,-15,irregular,boundary,S33_16_I3_m15,1036,117234
+P02,acoustic,2221707473,123,3,3|3,S33_01,3,critical_I2,True,I2,3.0,50.0,early,-50,irregular,within-phrase,S33_01_I2_m50,569,116730
+P02,acoustic,2221707473,124,3,word list,WL_07,3,critical_I2,True,I2,3.0,15.0,late,15,irregular,no structure,WL_07_I2_p15,1310,119595
+P02,acoustic,2221707473,125,3,3|3,S33_11,3,critical_I3,True,I3,4.0,15.0,late,15,irregular,boundary,S33_11_I3_p15,882,119550
+P02,acoustic,2221707473,126,3,word list,WL_17,3,catch,False,,,,,0,regular,(not critical),WL_17_none,1612,118931
+P02,acoustic,2221707473,127,3,2|4,S24_03,3,critical_I2,True,I2,3.0,30.0,late,30,irregular,boundary,S24_03_I2_p30,72,120235
+P02,acoustic,2221707473,128,3,word list,WL_15,3,critical_I3,True,I3,4.0,15.0,late,15,irregular,no structure,WL_15_I3_p15,1564,119599
+P02,acoustic,2221707473,129,3,2|4,S24_14,3,critical_I2,True,I2,3.0,15.0,early,-15,irregular,boundary,S24_14_I2_m15,410,118314
+P02,acoustic,2221707473,130,3,2|4,S24_08,3,critical_I3,True,I3,4.0,15.0,early,-15,irregular,within-phrase,S24_08_I3_m15,230,118250
+P02,acoustic,2221707473,131,3,word list,WL_01,3,filler,True,I5,6.0,15.0,late,15,irregular,(not critical),WL_01_I5_p15,1142,119597
+P02,acoustic,2221707473,132,3,word list,WL_08,3,critical_I2,True,I2,3.0,50.0,late,50,irregular,no structure,WL_08_I2_p50,1345,121002
+P02,acoustic,2221707473,133,3,word list,WL_09,3,catch,False,,,,,0,regular,(not critical),WL_09_none,1364,118904
+P02,acoustic,2221707473,134,3,word list,WL_12,3,catch,False,,,,,0,regular,(not critical),WL_12_none,1457,118854
+P02,acoustic,2221707473,135,3,3|3,S33_06,3,critical_I2,True,I2,3.0,30.0,late,30,irregular,within-phrase,S33_06_I2_p30,723,120274
+P02,acoustic,2221707473,136,3,word list,WL_11,3,critical_I2,True,I2,3.0,30.0,late,30,irregular,no structure,WL_11_I2_p30,1436,120211
+P02,acoustic,2221707473,137,3,3|3,S33_18,3,catch,False,,,,,0,regular,(not critical),S33_18_none,1085,118915
+P02,acoustic,2221707473,138,3,3|3,S33_08,3,critical_I3,True,I3,4.0,50.0,late,50,irregular,boundary,S33_08_I3_p50,793,121002
+P02,acoustic,2221707473,139,3,word list,WL_13,3,critical_I2,True,I2,3.0,50.0,early,-50,irregular,no structure,WL_13_I2_m50,1499,116709
+P02,acoustic,2221707473,140,3,3|3,S33_17,3,catch,False,,,,,0,regular,(not critical),S33_17_none,1054,118931
+P02,acoustic,2221707473,141,3,3|3,S33_03,3,filler,True,I1,2.0,30.0,late,30,irregular,(not critical),S33_03_I1_p30,624,120313
+P02,acoustic,2221707473,142,3,word list,WL_18,3,filler,True,I1,2.0,30.0,late,30,irregular,(not critical),WL_18_I1_p30,1647,120238
+P02,acoustic,2221707473,143,3,2|4,S24_07,3,critical_I3,True,I3,4.0,30.0,late,30,irregular,within-phrase,S24_07_I3_p30,202,120144
+P02,acoustic,2221707473,144,3,word list,WL_03,3,critical_I3,True,I3,4.0,30.0,early,-30,irregular,no structure,WL_03_I3_m30,1193,117667
+P02,acoustic,2221707473,145,3,2|4,S24_02,3,catch,False,,,,,0,regular,(not critical),S24_02_none,31,118956
+P02,acoustic,2221707473,146,3,2|4,S24_16,3,critical_I3,True,I3,4.0,30.0,early,-30,irregular,within-phrase,S24_16_I3_m30,480,117621
+P02,acoustic,2221707473,147,3,word list,WL_06,3,catch,False,,,,,0,regular,(not critical),WL_06_none,1271,118951
+P02,acoustic,2221707473,148,3,word list,WL_05,3,critical_I3,True,I3,4.0,30.0,late,30,irregular,no structure,WL_05_I3_p30,1256,119217
+P02,acoustic,2221707473,149,3,3|3,S33_12,3,critical_I2,True,I2,3.0,30.0,early,-30,irregular,within-phrase,S33_12_I2_m30,908,117531
+P02,acoustic,2221707473,150,3,word list,WL_02,3,critical_I2,True,I2,3.0,30.0,early,-30,irregular,no structure,WL_02_I2_m30,1156,117632
+P02,acoustic,2221707473,151,3,2|4,S24_04,3,critical_I2,True,I2,3.0,50.0,early,-50,irregular,boundary,S24_04_I2_m50,104,116739
+P02,acoustic,2221707473,152,3,2|4,S24_13,3,critical_I2,True,I2,3.0,30.0,early,-30,irregular,boundary,S24_13_I2_m30,381,117633
+P02,acoustic,2221707473,153,3,2|4,S24_11,3,critical_I3,True,I3,4.0,15.0,late,15,irregular,within-phrase,S24_11_I3_p15,324,119619
+P02,acoustic,2221707473,154,3,3|3,S33_14,3,catch,False,,,,,0,regular,(not critical),S33_14_none,961,118868
+P02,acoustic,2221707473,155,3,3|3,S33_13,3,critical_I2,True,I2,3.0,15.0,early,-15,irregular,within-phrase,S33_13_I2_m15,937,118252
+P02,acoustic,2221707473,156,3,2|4,S24_10,3,critical_I2,True,I2,3.0,15.0,late,15,irregular,boundary,S24_10_I2_p15,287,119552
+P02,acoustic,2221707473,157,3,2|4,S24_09,3,filler,True,I1,2.0,30.0,early,-30,irregular,(not critical),S24_09_I1_m30,251,117614
+P02,acoustic,2221707473,158,3,3|3,S33_10,3,critical_I2,True,I2,3.0,15.0,late,15,irregular,within-phrase,S33_10_I2_p15,845,119605
+P02,acoustic,2221707473,159,3,2|4,S24_12,3,critical_I3,True,I3,4.0,50.0,late,50,irregular,within-phrase,S24_12_I3_p50,359,121117
+P02,acoustic,2221707473,160,3,3|3,S33_04,3,filler,True,I5,6.0,50.0,late,50,irregular,(not critical),S33_04_I5_p50,681,121160
+P02,acoustic,2221707473,161,3,2|4,S24_06,3,catch,False,,,,,0,regular,(not critical),S24_06_none,155,118942
+P02,acoustic,2221707473,162,3,word list,WL_10,3,critical_I2,True,I2,3.0,15.0,early,-15,irregular,no structure,WL_10_I2_m15,1402,118281

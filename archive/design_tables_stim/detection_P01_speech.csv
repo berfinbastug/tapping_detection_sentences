@@ -1,0 +1,163 @@
+participant,group,seed,trial,block,sentence_type,sentence_id,exposure,role,jittered,interval,moved_word,size_ms,direction,shift_ms,correct_response,boundary_status,stim_id,stim_row,n_samples
+P01,speech,493207915,1,1,3|3,S33_02,1,critical_I2,True,I2,3.0,30.0,early,-30,irregular,within-phrase,S33_02_I2_m30,598,117632
+P01,speech,493207915,2,1,3|3,S33_13,1,critical_I2,True,I2,3.0,15.0,early,-15,irregular,within-phrase,S33_13_I2_m15,937,118252
+P01,speech,493207915,3,1,word list,WL_08,1,critical_I2,True,I2,3.0,30.0,early,-30,irregular,no structure,WL_08_I2_m30,1342,117474
+P01,speech,493207915,4,1,word list,WL_04,1,critical_I3,True,I3,4.0,30.0,late,30,irregular,no structure,WL_04_I3_p30,1225,120278
+P01,speech,493207915,5,1,word list,WL_06,1,critical_I2,True,I2,3.0,50.0,late,50,irregular,no structure,WL_06_I2_p50,1283,121156
+P01,speech,493207915,6,1,3|3,S33_12,1,critical_I3,True,I3,4.0,15.0,early,-15,irregular,boundary,S33_12_I3_m15,912,118192
+P01,speech,493207915,7,1,3|3,S33_16,1,critical_I3,True,I3,4.0,15.0,late,15,irregular,boundary,S33_16_I3_p15,1037,118558
+P01,speech,493207915,8,1,2|4,S24_14,1,critical_I2,True,I2,3.0,15.0,late,15,irregular,boundary,S24_14_I2_p15,411,119638
+P01,speech,493207915,9,1,word list,WL_17,1,critical_I3,True,I3,4.0,15.0,early,-15,irregular,no structure,WL_17_I3_m15,1625,118269
+P01,speech,493207915,10,1,2|4,S24_06,1,critical_I3,True,I3,4.0,30.0,late,30,irregular,within-phrase,S24_06_I3_p30,171,120265
+P01,speech,493207915,11,1,2|4,S24_07,1,critical_I3,True,I3,4.0,30.0,early,-30,irregular,within-phrase,S24_07_I3_m30,201,117498
+P01,speech,493207915,12,1,2|4,S24_02,1,critical_I3,True,I3,4.0,15.0,early,-15,irregular,within-phrase,S24_02_I3_m15,44,118294
+P01,speech,493207915,13,1,3|3,S33_17,1,critical_I2,True,I2,3.0,50.0,late,50,irregular,within-phrase,S33_17_I2_p50,1066,121136
+P01,speech,493207915,14,1,word list,WL_18,1,critical_I2,True,I2,3.0,15.0,late,15,irregular,no structure,WL_18_I2_p15,1651,119577
+P01,speech,493207915,15,1,2|4,S24_04,1,filler,True,I4,5.0,50.0,early,-50,irregular,(not critical),S24_04_I4_m50,116,116739
+P01,speech,493207915,16,1,2|4,S24_01,1,catch,False,,,,,0,regular,(not critical),S24_01_none,0,118915
+P01,speech,493207915,17,1,3|3,S33_09,1,critical_I3,True,I3,4.0,50.0,late,50,irregular,boundary,S33_09_I3_p50,824,121109
+P01,speech,493207915,18,1,3|3,S33_14,1,filler,True,I4,5.0,50.0,early,-50,irregular,(not critical),S33_14_I4_m50,984,116663
+P01,speech,493207915,19,1,2|4,S24_17,1,catch,False,,,,,0,regular,(not critical),S24_17_none,496,118937
+P01,speech,493207915,20,1,3|3,S33_06,1,critical_I3,True,I3,4.0,30.0,late,30,irregular,boundary,S33_06_I3_p30,729,120274
+P01,speech,493207915,21,1,2|4,S24_10,1,critical_I3,True,I3,4.0,15.0,late,15,irregular,within-phrase,S24_10_I3_p15,293,119552
+P01,speech,493207915,22,1,3|3,S33_01,1,critical_I2,True,I2,3.0,15.0,late,15,irregular,within-phrase,S33_01_I2_p15,566,119597
+P01,speech,493207915,23,1,3|3,S33_05,1,catch,False,,,,,0,regular,(not critical),S33_05_none,682,117894
+P01,speech,493207915,24,1,word list,WL_02,1,critical_I3,True,I3,4.0,30.0,early,-30,irregular,no structure,WL_02_I3_m30,1162,117632
+P01,speech,493207915,25,1,word list,WL_05,1,critical_I2,True,I2,3.0,15.0,early,-15,irregular,no structure,WL_05_I2_m15,1247,117232
+P01,speech,493207915,26,1,word list,WL_10,1,critical_I2,True,I2,3.0,30.0,late,30,irregular,no structure,WL_10_I2_p30,1405,120266
+P01,speech,493207915,27,1,2|4,S24_13,1,critical_I2,True,I2,3.0,15.0,early,-15,irregular,boundary,S24_13_I2_m15,379,118294
+P01,speech,493207915,28,1,2|4,S24_18,1,catch,False,,,,,0,regular,(not critical),S24_18_none,527,118942
+P01,speech,493207915,29,1,3|3,S33_11,1,catch,False,,,,,0,regular,(not critical),S33_11_none,868,118888
+P01,speech,493207915,30,1,3|3,S33_18,1,critical_I3,True,I3,4.0,30.0,early,-30,irregular,boundary,S33_18_I3_m30,1100,117592
+P01,speech,493207915,31,1,3|3,S33_08,1,critical_I2,True,I2,3.0,30.0,late,30,irregular,within-phrase,S33_08_I2_p30,785,120120
+P01,speech,493207915,32,1,2|4,S24_15,1,critical_I2,True,I2,3.0,50.0,early,-50,irregular,boundary,S24_15_I2_m50,445,116710
+P01,speech,493207915,33,1,3|3,S33_03,1,filler,True,I4,5.0,15.0,late,15,irregular,(not critical),S33_03_I4_p15,640,119652
+P01,speech,493207915,34,1,word list,WL_07,1,critical_I3,True,I3,4.0,15.0,late,15,irregular,no structure,WL_07_I3_p15,1316,119595
+P01,speech,493207915,35,1,2|4,S24_05,1,critical_I2,True,I2,3.0,30.0,early,-30,irregular,boundary,S24_05_I2_m30,133,117614
+P01,speech,493207915,36,1,word list,WL_13,1,critical_I3,True,I3,4.0,50.0,early,-50,irregular,no structure,WL_13_I3_m50,1505,116709
+P01,speech,493207915,37,1,word list,WL_11,1,catch,False,,,,,0,regular,(not critical),WL_11_none,1426,118888
+P01,speech,493207915,38,1,3|3,S33_04,1,critical_I3,True,I3,4.0,50.0,early,-50,irregular,boundary,S33_04_I3_m50,668,116750
+P01,speech,493207915,39,1,word list,WL_12,1,filler,True,I1,2.0,50.0,late,50,irregular,(not critical),WL_12_I1_p50,1463,121059
+P01,speech,493207915,40,1,3|3,S33_15,1,catch,False,,,,,0,regular,(not critical),S33_15_none,992,118937
+P01,speech,493207915,41,1,2|4,S24_11,1,critical_I3,True,I3,4.0,50.0,early,-50,irregular,within-phrase,S24_11_I3_m50,327,116752
+P01,speech,493207915,42,1,2|4,S24_03,1,catch,False,,,,,0,regular,(not critical),S24_03_none,62,118912
+P01,speech,493207915,43,1,word list,WL_09,1,catch,False,,,,,0,regular,(not critical),WL_09_none,1364,118904
+P01,speech,493207915,44,1,2|4,S24_09,1,critical_I3,True,I3,4.0,50.0,late,50,irregular,within-phrase,S24_09_I3_p50,266,121142
+P01,speech,493207915,45,1,word list,WL_15,1,critical_I3,True,I3,4.0,50.0,late,50,irregular,no structure,WL_15_I3_p50,1568,121142
+P01,speech,493207915,46,1,word list,WL_16,1,filler,True,I1,2.0,30.0,early,-30,irregular,(not critical),WL_16_I1_m30,1584,116573
+P01,speech,493207915,47,1,word list,WL_03,1,catch,False,,,,,0,regular,(not critical),WL_03_none,1178,118990
+P01,speech,493207915,48,1,2|4,S24_16,1,critical_I2,True,I2,3.0,30.0,late,30,irregular,boundary,S24_16_I2_p30,475,120267
+P01,speech,493207915,49,1,word list,WL_01,1,catch,False,,,,,0,regular,(not critical),WL_01_none,1116,118935
+P01,speech,493207915,50,1,word list,WL_14,1,critical_I2,True,I2,3.0,50.0,early,-50,irregular,no structure,WL_14_I2_m50,1530,116663
+P01,speech,493207915,51,1,3|3,S33_10,1,catch,False,,,,,0,regular,(not critical),S33_10_none,837,118943
+P01,speech,493207915,52,1,2|4,S24_12,1,filler,True,I5,6.0,50.0,late,50,irregular,(not critical),S24_12_I5_p50,371,121117
+P01,speech,493207915,53,1,3|3,S33_07,1,critical_I2,True,I2,3.0,50.0,early,-50,irregular,within-phrase,S33_07_I2_m50,755,116728
+P01,speech,493207915,54,1,2|4,S24_08,1,critical_I2,True,I2,3.0,50.0,late,50,irregular,boundary,S24_08_I2_p50,229,121117
+P01,speech,493207915,55,2,3|3,S33_15,2,critical_I2,True,I2,3.0,50.0,early,-50,irregular,within-phrase,S33_15_I2_m50,1003,116732
+P01,speech,493207915,56,2,3|3,S33_01,2,critical_I3,True,I3,4.0,15.0,late,15,irregular,boundary,S33_01_I3_p15,572,119597
+P01,speech,493207915,57,2,3|3,S33_18,2,filler,True,I5,6.0,30.0,late,30,irregular,(not critical),S33_18_I5_p30,1113,120238
+P01,speech,493207915,58,2,3|3,S33_05,2,critical_I2,True,I2,3.0,15.0,late,15,irregular,within-phrase,S33_05_I2_p15,690,118556
+P01,speech,493207915,59,2,word list,WL_13,2,filler,True,I4,5.0,15.0,late,15,irregular,(not critical),WL_13_I4_p15,1508,119576
+P01,speech,493207915,60,2,3|3,S33_04,2,catch,False,,,,,0,regular,(not critical),S33_04_none,651,118955
+P01,speech,493207915,61,2,2|4,S24_01,2,critical_I2,True,I2,3.0,30.0,early,-30,irregular,boundary,S24_01_I2_m30,9,117592
+P01,speech,493207915,62,2,2|4,S24_06,2,filler,True,I1,2.0,15.0,late,15,irregular,(not critical),S24_06_I1_p15,157,119604
+P01,speech,493207915,63,2,3|3,S33_10,2,critical_I2,True,I2,3.0,30.0,early,-30,irregular,within-phrase,S33_10_I2_m30,846,117620
+P01,speech,493207915,64,2,2|4,S24_14,2,critical_I3,True,I3,4.0,30.0,early,-30,irregular,within-phrase,S24_14_I3_m30,418,117653
+P01,speech,493207915,65,2,word list,WL_18,2,critical_I3,True,I3,4.0,50.0,late,50,irregular,no structure,WL_18_I3_p50,1661,121120
+P01,speech,493207915,66,2,2|4,S24_09,2,catch,False,,,,,0,regular,(not critical),S24_09_none,248,118937
+P01,speech,493207915,67,2,word list,WL_10,2,critical_I3,True,I3,4.0,15.0,early,-15,irregular,no structure,WL_10_I3_m15,1408,118281
+P01,speech,493207915,68,2,word list,WL_02,2,catch,False,,,,,0,regular,(not critical),WL_02_none,1147,118955
+P01,speech,493207915,69,2,3|3,S33_17,2,critical_I3,True,I3,4.0,30.0,late,30,irregular,boundary,S33_17_I3_p30,1070,120254
+P01,speech,493207915,70,2,word list,WL_12,2,critical_I2,True,I2,3.0,15.0,late,15,irregular,no structure,WL_12_I2_p15,1465,119516
+P01,speech,493207915,71,2,word list,WL_15,2,catch,False,,,,,0,regular,(not critical),WL_15_none,1550,118937
+P01,speech,493207915,72,2,2|4,S24_16,2,critical_I3,True,I3,4.0,15.0,early,-15,irregular,within-phrase,S24_16_I3_m15,478,118282
+P01,speech,493207915,73,2,3|3,S33_06,2,catch,False,,,,,0,regular,(not critical),S33_06_none,713,118951
+P01,speech,493207915,74,2,2|4,S24_10,2,catch,False,,,,,0,regular,(not critical),S24_10_none,279,118890
+P01,speech,493207915,75,2,word list,WL_04,2,catch,False,,,,,0,regular,(not critical),WL_04_none,1209,118955
+P01,speech,493207915,76,2,2|4,S24_13,2,critical_I3,True,I3,4.0,30.0,late,30,irregular,within-phrase,S24_13_I3_p30,388,120279
+P01,speech,493207915,77,2,2|4,S24_18,2,critical_I2,True,I2,3.0,15.0,late,15,irregular,boundary,S24_18_I2_p15,535,119604
+P01,speech,493207915,78,2,2|4,S24_02,2,filler,True,I5,6.0,15.0,early,-15,irregular,(not critical),S24_02_I5_m15,56,118294
+P01,speech,493207915,79,2,2|4,S24_03,2,critical_I2,True,I2,3.0,15.0,early,-15,irregular,boundary,S24_03_I2_m15,69,118250
+P01,speech,493207915,80,2,3|3,S33_02,2,critical_I3,True,I3,4.0,15.0,early,-15,irregular,boundary,S33_02_I3_m15,602,118293
+P01,speech,493207915,81,2,2|4,S24_12,2,critical_I2,True,I2,3.0,50.0,early,-50,irregular,boundary,S24_12_I2_m50,352,116707
+P01,speech,493207915,82,2,2|4,S24_11,2,catch,False,,,,,0,regular,(not critical),S24_11_none,310,118957
+P01,speech,493207915,83,2,2|4,S24_08,2,critical_I3,True,I3,4.0,50.0,late,50,irregular,within-phrase,S24_08_I3_p50,235,121117
+P01,speech,493207915,84,2,3|3,S33_07,2,critical_I3,True,I3,4.0,30.0,early,-30,irregular,boundary,S33_07_I3_m30,759,117610
+P01,speech,493207915,85,2,word list,WL_01,2,critical_I2,True,I2,3.0,30.0,early,-30,irregular,no structure,WL_01_I2_m30,1125,117612
+P01,speech,493207915,86,2,3|3,S33_14,2,critical_I2,True,I2,3.0,50.0,late,50,irregular,within-phrase,S33_14_I2_p50,973,121073
+P01,speech,493207915,87,2,3|3,S33_13,2,critical_I3,True,I3,4.0,50.0,late,50,irregular,boundary,S33_13_I3_p50,948,121119
+P01,speech,493207915,88,2,2|4,S24_07,2,catch,False,,,,,0,regular,(not critical),S24_07_none,186,118821
+P01,speech,493207915,89,2,3|3,S33_08,2,critical_I3,True,I3,4.0,50.0,early,-50,irregular,boundary,S33_08_I3_m50,792,116592
+P01,speech,493207915,90,2,word list,WL_11,2,critical_I2,True,I2,3.0,50.0,early,-50,irregular,no structure,WL_11_I2_m50,1437,116683
+P01,speech,493207915,91,2,word list,WL_09,2,critical_I2,True,I2,3.0,15.0,early,-15,irregular,no structure,WL_09_I2_m15,1371,118242
+P01,speech,493207915,92,2,2|4,S24_04,2,critical_I2,True,I2,3.0,30.0,late,30,irregular,boundary,S24_04_I2_p30,103,120267
+P01,speech,493207915,93,2,word list,WL_16,2,critical_I2,True,I2,3.0,30.0,late,30,irregular,no structure,WL_16_I2_p30,1591,119219
+P01,speech,493207915,94,2,word list,WL_08,2,critical_I3,True,I3,4.0,50.0,early,-50,irregular,no structure,WL_08_I3_m50,1350,116592
+P01,speech,493207915,95,2,3|3,S33_09,2,catch,False,,,,,0,regular,(not critical),S33_09_none,806,118904
+P01,speech,493207915,96,2,2|4,S24_05,2,critical_I3,True,I3,4.0,50.0,early,-50,irregular,within-phrase,S24_05_I3_m50,141,116732
+P01,speech,493207915,97,2,2|4,S24_15,2,critical_I3,True,I3,4.0,15.0,late,15,irregular,within-phrase,S24_15_I3_p15,448,119577
+P01,speech,493207915,98,2,3|3,S33_12,2,filler,True,I5,6.0,15.0,early,-15,irregular,(not critical),S33_12_I5_m15,924,118192
+P01,speech,493207915,99,2,3|3,S33_11,2,critical_I2,True,I2,3.0,30.0,late,30,irregular,within-phrase,S33_11_I2_p30,878,120211
+P01,speech,493207915,100,2,word list,WL_17,2,catch,False,,,,,0,regular,(not critical),WL_17_none,1612,118931
+P01,speech,493207915,101,2,word list,WL_03,2,critical_I2,True,I2,3.0,50.0,late,50,irregular,no structure,WL_03_I2_p50,1190,121195
+P01,speech,493207915,102,2,word list,WL_07,2,filler,True,I5,6.0,30.0,late,30,irregular,(not critical),WL_07_I5_p30,1330,120256
+P01,speech,493207915,103,2,2|4,S24_17,2,critical_I2,True,I2,3.0,50.0,late,50,irregular,boundary,S24_17_I2_p50,508,121142
+P01,speech,493207915,104,2,word list,WL_06,2,critical_I3,True,I3,4.0,30.0,early,-30,irregular,no structure,WL_06_I3_m30,1286,117628
+P01,speech,493207915,105,2,word list,WL_14,2,critical_I3,True,I3,4.0,30.0,late,30,irregular,no structure,WL_14_I3_p30,1535,120191
+P01,speech,493207915,106,2,3|3,S33_16,2,catch,False,,,,,0,regular,(not critical),S33_16_none,1023,117896
+P01,speech,493207915,107,2,3|3,S33_03,2,critical_I2,True,I2,3.0,15.0,early,-15,irregular,within-phrase,S33_03_I2_m15,627,118328
+P01,speech,493207915,108,2,word list,WL_05,2,critical_I3,True,I3,4.0,15.0,late,15,irregular,no structure,WL_05_I3_p15,1254,118556
+P01,speech,493207915,109,3,word list,WL_15,3,critical_I2,True,I2,3.0,15.0,late,15,irregular,no structure,WL_15_I2_p15,1558,119599
+P01,speech,493207915,110,3,2|4,S24_06,3,critical_I2,True,I2,3.0,15.0,late,15,irregular,boundary,S24_06_I2_p15,163,119604
+P01,speech,493207915,111,3,2|4,S24_14,3,filler,True,I1,2.0,30.0,early,-30,irregular,(not critical),S24_14_I1_m30,406,117653
+P01,speech,493207915,112,3,2|4,S24_03,3,critical_I3,True,I3,4.0,15.0,early,-15,irregular,within-phrase,S24_03_I3_m15,75,118250
+P01,speech,493207915,113,3,word list,WL_06,3,catch,False,,,,,0,regular,(not critical),WL_06_none,1271,118951
+P01,speech,493207915,114,3,word list,WL_11,3,critical_I3,True,I3,4.0,50.0,early,-50,irregular,no structure,WL_11_I3_m50,1443,116683
+P01,speech,493207915,115,3,word list,WL_16,3,critical_I3,True,I3,4.0,15.0,early,-15,irregular,no structure,WL_16_I3_m15,1594,117234
+P01,speech,493207915,116,3,word list,WL_04,3,critical_I2,True,I2,3.0,15.0,early,-15,irregular,no structure,WL_04_I2_m15,1216,118293
+P01,speech,493207915,117,3,3|3,S33_13,3,catch,False,,,,,0,regular,(not critical),S33_13_none,930,118914
+P01,speech,493207915,118,3,2|4,S24_13,3,catch,False,,,,,0,regular,(not critical),S24_13_none,372,118956
+P01,speech,493207915,119,3,2|4,S24_02,3,critical_I2,True,I2,3.0,15.0,early,-15,irregular,boundary,S24_02_I2_m15,38,118294
+P01,speech,493207915,120,3,2|4,S24_16,3,catch,False,,,,,0,regular,(not critical),S24_16_none,465,118944
+P01,speech,493207915,121,3,3|3,S33_08,3,filler,True,I1,2.0,30.0,early,-30,irregular,(not critical),S33_08_I1_m30,778,117474
+P01,speech,493207915,122,3,3|3,S33_11,3,critical_I3,True,I3,4.0,15.0,late,15,irregular,boundary,S33_11_I3_p15,882,119550
+P01,speech,493207915,123,3,3|3,S33_02,3,catch,False,,,,,0,regular,(not critical),S33_02_none,589,118955
+P01,speech,493207915,124,3,3|3,S33_16,3,critical_I2,True,I2,3.0,15.0,early,-15,irregular,within-phrase,S33_16_I2_m15,1030,117234
+P01,speech,493207915,125,3,3|3,S33_17,3,catch,False,,,,,0,regular,(not critical),S33_17_none,1054,118931
+P01,speech,493207915,126,3,word list,WL_10,3,catch,False,,,,,0,regular,(not critical),WL_10_none,1395,118943
+P01,speech,493207915,127,3,3|3,S33_07,3,catch,False,,,,,0,regular,(not critical),S33_07_none,744,118933
+P01,speech,493207915,128,3,3|3,S33_04,3,critical_I2,True,I2,3.0,30.0,late,30,irregular,within-phrase,S33_04_I2_p30,661,120278
+P01,speech,493207915,129,3,word list,WL_02,3,critical_I2,True,I2,3.0,30.0,late,30,irregular,no structure,WL_02_I2_p30,1157,120278
+P01,speech,493207915,130,3,3|3,S33_10,3,critical_I3,True,I3,4.0,50.0,early,-50,irregular,boundary,S33_10_I3_m50,854,116738
+P01,speech,493207915,131,3,2|4,S24_07,3,critical_I2,True,I2,3.0,50.0,late,50,irregular,boundary,S24_07_I2_p50,198,121026
+P01,speech,493207915,132,3,3|3,S33_14,3,critical_I3,True,I3,4.0,30.0,late,30,irregular,boundary,S33_14_I3_p30,977,120191
+P01,speech,493207915,133,3,word list,WL_18,3,catch,False,,,,,0,regular,(not critical),WL_18_none,1643,118915
+P01,speech,493207915,134,3,3|3,S33_06,3,critical_I2,True,I2,3.0,15.0,late,15,irregular,within-phrase,S33_06_I2_p15,721,119613
+P01,speech,493207915,135,3,2|4,S24_10,3,critical_I2,True,I2,3.0,50.0,early,-50,irregular,boundary,S24_10_I2_m50,290,116685
+P01,speech,493207915,136,3,word list,WL_09,3,critical_I3,True,I3,4.0,30.0,early,-30,irregular,no structure,WL_09_I3_m30,1379,117581
+P01,speech,493207915,137,3,word list,WL_07,3,critical_I2,True,I2,3.0,30.0,early,-30,irregular,no structure,WL_07_I2_m30,1311,117610
+P01,speech,493207915,138,3,word list,WL_03,3,critical_I3,True,I3,4.0,15.0,late,15,irregular,no structure,WL_03_I3_p15,1192,119652
+P01,speech,493207915,139,3,2|4,S24_04,3,critical_I3,True,I3,4.0,30.0,early,-30,irregular,within-phrase,S24_04_I3_m30,108,117621
+P01,speech,493207915,140,3,word list,WL_17,3,critical_I2,True,I2,3.0,50.0,late,50,irregular,no structure,WL_17_I2_p50,1624,121136
+P01,speech,493207915,141,3,2|4,S24_08,3,catch,False,,,,,0,regular,(not critical),S24_08_none,217,118912
+P01,speech,493207915,142,3,3|3,S33_09,3,critical_I2,True,I2,3.0,50.0,early,-50,irregular,within-phrase,S33_09_I2_m50,817,116699
+P01,speech,493207915,143,3,2|4,S24_09,3,critical_I2,True,I2,3.0,30.0,late,30,irregular,boundary,S24_09_I2_p30,258,120260
+P01,speech,493207915,144,3,3|3,S33_03,3,critical_I3,True,I3,4.0,30.0,early,-30,irregular,boundary,S33_03_I3_m30,635,117667
+P01,speech,493207915,145,3,word list,WL_08,3,catch,False,,,,,0,regular,(not critical),WL_08_none,1333,118797
+P01,speech,493207915,146,3,3|3,S33_12,3,critical_I2,True,I2,3.0,30.0,early,-30,irregular,within-phrase,S33_12_I2_m30,908,117531
+P01,speech,493207915,147,3,2|4,S24_18,3,critical_I3,True,I3,4.0,50.0,late,50,irregular,within-phrase,S24_18_I3_p50,545,121147
+P01,speech,493207915,148,3,word list,WL_01,3,critical_I3,True,I3,4.0,30.0,late,30,irregular,no structure,WL_01_I3_p30,1132,120258
+P01,speech,493207915,149,3,2|4,S24_01,3,critical_I3,True,I3,4.0,15.0,late,15,irregular,within-phrase,S24_01_I3_p15,14,119577
+P01,speech,493207915,150,3,3|3,S33_18,3,critical_I2,True,I2,3.0,50.0,late,50,irregular,within-phrase,S33_18_I2_p50,1097,121120
+P01,speech,493207915,151,3,2|4,S24_12,3,critical_I3,True,I3,4.0,50.0,early,-50,irregular,within-phrase,S24_12_I3_m50,358,116707
+P01,speech,493207915,152,3,word list,WL_14,3,filler,True,I5,6.0,50.0,early,-50,irregular,(not critical),WL_14_I5_m50,1548,116663
+P01,speech,493207915,153,3,3|3,S33_01,3,filler,True,I1,2.0,50.0,late,50,irregular,(not critical),S33_01_I1_p50,564,121140
+P01,speech,493207915,154,3,word list,WL_13,3,critical_I2,True,I2,3.0,50.0,early,-50,irregular,no structure,WL_13_I2_m50,1499,116709
+P01,speech,493207915,155,3,word list,WL_12,3,critical_I3,True,I3,4.0,50.0,late,50,irregular,no structure,WL_12_I3_p50,1475,121059
+P01,speech,493207915,156,3,2|4,S24_15,3,catch,False,,,,,0,regular,(not critical),S24_15_none,434,118915
+P01,speech,493207915,157,3,3|3,S33_05,3,critical_I3,True,I3,4.0,50.0,late,50,irregular,boundary,S33_05_I3_p50,700,120099
+P01,speech,493207915,158,3,word list,WL_05,3,filler,True,I4,5.0,15.0,early,-15,irregular,(not critical),WL_05_I4_m15,1259,117232
+P01,speech,493207915,159,3,2|4,S24_11,3,critical_I2,True,I2,3.0,30.0,early,-30,irregular,boundary,S24_11_I2_m30,319,117634
+P01,speech,493207915,160,3,2|4,S24_17,3,critical_I3,True,I3,4.0,30.0,late,30,irregular,within-phrase,S24_17_I3_p30,512,120260
+P01,speech,493207915,161,3,3|3,S33_15,3,critical_I3,True,I3,4.0,15.0,early,-15,irregular,boundary,S33_15_I3_m15,1005,118275
+P01,speech,493207915,162,3,2|4,S24_05,3,filler,True,I4,5.0,30.0,late,30,irregular,(not critical),S24_05_I4_p30,146,120260

@@ -1,0 +1,5 @@
+item,item_id,type,slot1,slot2,slot3,slot4,slot5,slot6
+1,TR_DEMO_WL,word list,in,ritt,Ort,mein,nahm,Sohn
+2,TR_S24,2|4,beim,Spiel,nahm,mein,Sohn,teil
+3,TR_S33,3|3,in,den,Ort,ritt,ein,Mann
+4,TR_WL,word list,den,in,Mann,beim,nahm,Spiel

@@ -1,0 +1,24 @@
+# participant data: never on GitHub
+data/
+data_test/
+tapping_test/
+
+# generated stimuli (large; rebuilt by the build scripts)
+stimuli/
+stimuli_tapping/
+training_stimuli/
+training_stimuli_tapping/
+*.npy
+
+# generated audio
+sws_words/1_tts/
+sws_words/2_trimmed/
+sws_words/3_sws/
+sws_words/noise_pool/
+*.wav
+*.mp3
+
+# system / editor files
+.DS_Store
+__pycache__/
+.ipynb_checkpoints/

@@ -1,0 +1,9 @@
+phase,trial,item_id,words,sentence_type,role,jittered,interval,moved_word,size_ms,direction,shift_ms,correct_response,stim_id,stim_row,n_samples
+demo,1,TR_DEMO_WL,in ritt Ort mein nahm Sohn,word list,demo_regular,False,,,,,0,regular,TR_DEMO_WL_none,0,118940
+demo,2,TR_DEMO_WL,in ritt Ort mein nahm Sohn,word list,demo_irregular,True,I3,4.0,100.0,late,100,irregular,TR_DEMO_WL_I3_p100,1,123350
+practice,1,TR_WL,den in Mann beim nahm Spiel,word list,practice,False,,,,,0,regular,TR_WL_none,2,118927
+practice,2,TR_S24,beim Spiel nahm mein Sohn teil,2|4,practice,False,,,,,0,regular,TR_S24_none,3,118935
+practice,3,TR_S33,in den Ort ritt ein Mann,3|3,practice,True,I5,6.0,90.0,late,90,irregular,TR_S33_I5_p90,4,122924
+practice,4,TR_S24,beim Spiel nahm mein Sohn teil,2|4,practice,True,I1,2.0,90.0,late,90,irregular,TR_S24_I1_p90,5,122904
+practice,5,TR_S33,in den Ort ritt ein Mann,3|3,practice,True,I2,3.0,90.0,early,-90,irregular,TR_S33_I2_m90,6,114986
+practice,6,TR_WL,den in Mann beim nahm Spiel,word list,practice,True,I4,5.0,90.0,early,-90,irregular,TR_WL_I4_m90,7,114958
