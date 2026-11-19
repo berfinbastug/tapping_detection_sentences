@@ -206,24 +206,26 @@ for base in sel:
 
 
 # %%
-# # plot
-# SWS_DIR = 'sws_words/3_sws_normal'
-# PATTERN = '*_sws50ms_dur350ms.wav'        # '*_dur400ms.wav' for the equalized files
+# plot
+SWS_DIR = 'sws_words/3_sws'
+PATTERN = '*_sws50ms_dur350ms.wav'        # '*_dur400ms.wav' for the equalized files
 
-# file_ms, sound_ms = [], []
-# for path in sorted(glob.glob(os.path.join(SWS_DIR, PATTERN))):
-#     y, fs = load_audio(path)
-#     on, off = find_on_offset(y, fs, -40, 5)              # same rule as the SWS trim
-#     file_ms.append(len(y) / fs * 1000)                   # whole file, incl. the 10 ms pads
-#     sound_ms.append((off - on) / fs * 1000)              # audible part
+file_ms, sound_ms = [], []
+for path in sorted(glob.glob(os.path.join(SWS_DIR, PATTERN))):
+    y, fs = load_audio(path)
+    on, off = find_on_offset(y, fs, -40, 5)              # same rule as the SWS trim
+    file_ms.append(len(y) / fs * 1000)                   # whole file, incl. the 10 ms pads
+    sound_ms.append((off - on) / fs * 1000)              # audible part
 
-# fig, ax = plt.subplots(figsize=(8, 3.5))
-# bins = np.arange(min(sound_ms) // 10 * 10, max(file_ms) + 20, 10)
-# ax.hist(sound_ms, bins=bins, color='tab:blue', alpha=0.8, label='audible part')
-# ax.hist(file_ms, bins=bins, color='0.6', alpha=0.5, label='whole file')
-# ax.set(xlabel='Duration (ms)', ylabel='Words', title=f'{len(sound_ms)} SWS words')
-# ax.legend(frameon=False)
-# plt.tight_layout(); plt.show()
+fig, ax = plt.subplots(figsize=(8, 3.5))
+bins = np.arange(min(sound_ms) // 10 * 10, max(file_ms) + 20, 10)
+ax.hist(sound_ms, bins=bins, color='tab:blue', alpha=0.8, label='audible part')
+ax.hist(file_ms, bins=bins, color='0.6', alpha=0.5, label='whole file')
+ax.set(xlabel='Duration (ms)', ylabel='Words', title=f'{len(sound_ms)} SWS words')
+ax.legend(frameon=False)
+plt.tight_layout(); plt.show()
 
-# print(f'audible: {min(sound_ms):.0f}–{max(sound_ms):.0f} ms, median {np.median(sound_ms):.0f}, SD {np.std(sound_ms):.1f}')
+print(f'audible: {min(sound_ms):.0f}–{max(sound_ms):.0f} ms, median {np.median(sound_ms):.0f}, SD {np.std(sound_ms):.1f}')
 
+
+# %%

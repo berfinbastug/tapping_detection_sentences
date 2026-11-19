@@ -1,0 +1,36 @@
+{
+  "n_reference_words": 140,
+  "carrier": "noise",
+  "f0_hz": null,
+  "phases": null,
+  "n_tokens": 20,
+  "seed": 1,
+  "fs": 44100,
+  "duration_ms": 342.7,
+  "spectrum": "shaped",
+  "smooth_oct": "1/3",
+  "band_hz": [
+    150,
+    5000
+  ],
+  "fir_taps": 2049,
+  "envelope": "word",
+  "env_smooth_ms": 5,
+  "ramp_ms": 17.5,
+  "rise_db": -6,
+  "word_rise_ms_mean": 46.05,
+  "word_rise_ms_range": [
+    9.3,
+    103.15
+  ],
+  "noise_rise_ms": 46.03,
+  "rise_note": "",
+  "rms_target": 0.29324,
+  "level_db": 0.0,
+  "shared_gain": 0.57583,
+  "shared_gain_db": -4.79,
+  "rms_noise_minus_words_db": 0.08,
+  "peak_factor_tokens_db": 13.34,
+  "onset_ms": 2.95,
+  "offset_ms": 339.61
+}
