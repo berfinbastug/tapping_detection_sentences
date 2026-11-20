@@ -46,7 +46,7 @@ SWS_INFO_CSV = 'sws_words/sws_info.csv'
 NOISE_DIR   = 'sws_words/noise_pool'
 OUT_DIR     = 'tapping/training_stimuli_tapping'
 
-LOWER_ITEM_INITIAL = True     # same rule as sentence_lists_to_tts.py (first word of an item lowercased)
+LOWER_ITEM_INITIAL = False     # same rule as sentence_lists_to_tts.py (first word of an item lowercased)
 TOKEN_SEED = 2026             # noise token order (fixed: every participant hears the same training)
 
 N_EVENTS     = 30

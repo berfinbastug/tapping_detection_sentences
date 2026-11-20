@@ -1,10 +1,10 @@
 phase,trial,item_id,sentence_type,words,jittered,jitter_part,jitter_interval,jitter_event,shift_ms,stim_id
-listen,1,TR_TAP_WL,word list,teil Ort mein ritt Spiel den,False,,,,0,TR_TAP_WL_none
-tap_example,1,TR_TAP_WL,word list,teil Ort mein ritt Spiel den,False,,,,0,TR_TAP_WL_none
-stumble,1,TR_TAP_WL,word list,teil Ort mein ritt Spiel den,True,S2,I2,21.0,100,TR_TAP_WL_S2I2_p100
-test,1,TR_WL,word list,den in Mann beim nahm Spiel,True,S2,I1,20.0,90,TR_WL_S2I1_p90
-test,2,TR_S24,2|4,beim Spiel nahm mein Sohn teil,False,,,,0,TR_S24_none
-test,3,TR_S33,3|3,in den Ort ritt ein Mann,True,A,I2,15.0,90,TR_S33_AI2_p90
-test,4,TR_S24,2|4,beim Spiel nahm mein Sohn teil,True,S2,I2,21.0,90,TR_S24_S2I2_p90
-test,5,TR_S33,3|3,in den Ort ritt ein Mann,True,S2,I3,22.0,-90,TR_S33_S2I3_m90
-test,6,TR_WL,word list,den in Mann beim nahm Spiel,False,,,,0,TR_WL_none
+listen,1,TR_TAP_WL,word list,Rhein der Tor mit beim ließ,False,,,,0,TR_TAP_WL_none
+tap_example,1,TR_TAP_WL,word list,Rhein der Tor mit beim ließ,False,,,,0,TR_TAP_WL_none
+stumble,1,TR_TAP_WL,word list,Rhein der Tor mit beim ließ,True,S2,I2,21.0,100,TR_TAP_WL_S2I2_p100
+test,1,TR_WL,word list,Chor sein Luft am zog ihr,True,S2,I1,20.0,90,TR_WL_S2I1_p90
+test,2,TR_S24,2|4,nach drei macht die Bar auf,False,,,,0,TR_S24_none
+test,3,TR_S33,3|3,in der Bank lag mein Gold,True,A,I2,15.0,90,TR_S33_AI2_p90
+test,4,TR_S24,2|4,nach drei macht die Bar auf,True,S2,I2,21.0,90,TR_S24_S2I2_p90
+test,5,TR_S33,3|3,in der Bank lag mein Gold,True,S2,I3,22.0,-90,TR_S33_S2I3_m90
+test,6,TR_WL,word list,Chor sein Luft am zog ihr,False,,,,0,TR_WL_none
