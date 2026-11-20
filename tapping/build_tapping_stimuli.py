@@ -59,9 +59,9 @@ NOISE_DIR    = 'sws_words/noise_pool'       # from make_noise_pool.py
 OUT_ROOT     = 'tapping/stimuli_tapping'
 
 
-LIST_TO_TYPE = {'items_2_4': 'S24', 'items_3_3': 'S33'}    # sentence-list file name -> sentence code
-N_ITEMS      = 18                                           # first N items of each list
-WL_FROM      = 'S33'          # PLACEHOLDER: WL_k uses the words of S33_k until the word list exists
+LIST_TO_TYPE = {'items_2_4': 'S24', 'items_3_3': 'S33', 'items_wl': 'WL'}    # list name in items.csv -> code
+N_ITEMS      = 18                                           
+
 
 N_EVENTS     = 30
 N_WORDS      = 6
@@ -136,8 +136,7 @@ for lst, code in LIST_TO_TYPE.items():
         if len(w) != N_WORDS:
             raise ValueError(f'{lst} item {item}: {len(w)} words, expected {N_WORDS}')
         sentences[f'{code}_{k:02d}'] = w[['word', 'base', 'sws_file']].to_dict('records')
-for k in range(1, N_ITEMS + 1):                          # PLACEHOLDER word list
-    sentences[f'WL_{k:02d}'] = sentences[f'{WL_FROM}_{k:02d}']
+
 missing = sorted(set(design['sentence_id']) - set(sentences))
 if missing:
     raise ValueError(f'sentences in the design table but not in the lists: {missing}')
@@ -320,7 +319,7 @@ meta = dict(participant=pid, group=group, built=datetime.now().strftime('%Y-%m-%
             shared_gain=GAIN, token_seed=TOKEN_SEED, token_onset_vs_placed_ms=[round(v, 3) for v in token_dev_ms],
             fs=FS, ioi_ms=IOI_MS, n_events=N_EVENTS, lead_ms=LEAD_MS, tail_ms=TAIL_MS, edge_fade_ms=EDGE_FADE_MS,
             onset_db=ONSET_DB, env_win_ms=ENV_WIN_MS, min_gap_ms=MIN_GAP_MS, redetect_tol_ms=REDETECT_TOL_MS,
-            n_items=N_ITEMS, list_to_type=LIST_TO_TYPE, wl_placeholder_from=WL_FROM,
+            n_items=N_ITEMS, list_to_type=LIST_TO_TYPE, 
             n_trials=len(stim), max_samples=int(max_len), dtype='float32',
             levels=dict(word_rms_db_min=round(float(word_rms_db.min()), 2), word_rms_db_max=round(float(word_rms_db.max()), 2),
                         word_rms_db_sd=round(float(word_rms_db.std()), 2), noise_rms_db=round(float(noise_rms_db), 2),

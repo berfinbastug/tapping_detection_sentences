@@ -48,9 +48,9 @@ SWS_INFO_CSV = 'sws_words/sws_info.csv'     # from make_sws_words_trimmed.py (ba
 DESIGN_DIR   = 'detection/design_tables'              # detection_<pid>_<group>.csv from generate_detection_table.py
 OUT_ROOT     = 'detection/stimuli'                    # detection/stimuli/<pid>_<group>/
 
-LIST_TO_TYPE = {'items_2_4': 'S24', 'items_3_3': 'S33'}    # sentence-list file name -> sentence code
+LIST_TO_TYPE = {'items_2_4': 'S24', 'items_3_3': 'S33', 'items_wl': 'WL'}    # list name in items.csv -> code
 N_ITEMS      = 18                                           # first N items of each list
-WL_FROM      = 'S33'          # PLACEHOLDER: WL_k uses the words of S33_k until the word list exists
+
 
 N_WORDS      = 6
 IOI_MS       = 450            # onset-to-onset grid
@@ -101,8 +101,6 @@ for lst, code in LIST_TO_TYPE.items():
         if len(w) != N_WORDS:
             raise ValueError(f'{lst} item {item}: {len(w)} words, expected {N_WORDS}')
         sentences[f'{code}_{k:02d}'] = w[['word', 'base', 'sws_file']].to_dict('records')
-for k in range(1, N_ITEMS + 1):                          # PLACEHOLDER word list
-    sentences[f'WL_{k:02d}'] = sentences[f'{WL_FROM}_{k:02d}']
 print(f'{len(sentences)} sentences')
 
 # %% 2 LOAD EVERY WORD ONCE (+ its onset / offset with the trimming rule)
@@ -213,7 +211,7 @@ json.dump(dict(participant=pid, group=group, built=datetime.now().strftime('%Y-%
                fs=FS, ioi_ms=IOI_MS, n_words=N_WORDS, shifts_ms=[float(s) for s in shifts],
                lead_ms=LEAD_MS, tail_ms=TAIL_MS, edge_fade_ms=EDGE_FADE_MS, onset_db=ONSET_DB,
                env_win_ms=ENV_WIN_MS, min_gap_ms=MIN_GAP_MS, n_items=N_ITEMS, list_to_type=LIST_TO_TYPE,
-               wl_placeholder_from=WL_FROM, n_trials=len(stim), max_samples=store.shape[1], dtype='float32',
+               n_trials=len(stim), max_samples=store.shape[1], dtype='float32',
                words_files={w['word']: w['sws_file'] for s in sentences.values() for w in s}),
           open(os.path.join(tmp_dir, 'detection_stim_meta.json'), 'w'), indent=2)
 
