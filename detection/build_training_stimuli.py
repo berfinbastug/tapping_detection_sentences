@@ -36,7 +36,7 @@ from repo import build_sequence, find_on_offset, load_audio
 TRAINING_CSV  = 'sentence_lists/training_items.csv'
 WORDS_CSV     = 'sws_words/words.csv'         # word -> base (from sentence_lists_to_tts.py)
 SWS_INFO_CSV  = 'sws_words/sws_info.csv'      # base -> SWS file (from make_sws_words_trimmed.py)
-LOWER_ITEM_INITIAL = True                     # same rule as sentence_lists_to_tts.py
+LOWER_ITEM_INITIAL = False                     # same rule as sentence_lists_to_tts.py
 DESIGN_CSV    = 'detection/design_tables/training_design.csv'
 DESIGN_OUT    = 'detection/design_tables_stim/training_design.csv'
 OUT_DIR       = 'detection/training_stimuli'
