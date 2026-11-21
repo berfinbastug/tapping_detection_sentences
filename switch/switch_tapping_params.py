@@ -42,15 +42,20 @@ RATING_QUESTION = {   # short name stored in the data file
     'acoustic': 'focus',
     'speech':   'intelligibility',
 }
-_SCALE = '1 = {low}          2          3          4 = {high}'
-RATING_SCREEN = {
-    'acoustic': ('Wie konzentriert waren Sie während dieser Klangfolge auf die Klänge?\n\n'
-                 + _SCALE.format(low='gar nicht', high='voll und ganz')
-                 + '\n\nDrücken Sie eine Taste von 1 bis 4.'),
-    'speech':   ('Wie gut konnten Sie die Wörter verstehen?\n\n'
-                 + _SCALE.format(low='gar nicht', high='sehr gut')
-                 + '\n\nDrücken Sie eine Taste von 1 bis 4.'),
+# same layout in both conditions (speech wording = the previous SWS experiment)
+RATING_TEXT = {
+    'acoustic': ('Bitte bewerten Sie, wie konzentriert Sie während dieser Klangfolge auf die Klänge waren.\n\n'
+                 '1 - Gar nicht konzentriert\n'
+                 '2 - Etwas konzentriert\n'
+                 '3 - Größtenteils konzentriert\n'
+                 '4 - Sehr konzentriert'),
+    'speech':   ('Bitte bewerten Sie die Verständlichkeit des künstlichen Sprachlauts.\n\n'
+                 '1 - Gar nicht verständlich\n'
+                 '2 - Etwas verständlich\n'
+                 '3 - Größtenteils verständlich\n'
+                 '4 - Sehr verständlich'),
 }
+RATING_SCREEN = {c: t + '\n\nDrücken Sie eine Taste von 1 bis 4.' for c, t in RATING_TEXT.items()}
 
 #=====================
 # TEXTS (German) - added to / replacing the texts of tapping_params.TEXTS[condition]
@@ -58,31 +63,37 @@ RATING_SCREEN = {
 # placeholders as in tapping_params: {n_blocks} (= blocks in THIS phase), {n_trials}, {block_min}, {block}
 # (= block within this phase), {n_good}, {n_played}, {feedback}
 _CONTINUE = 'Drücken Sie eine beliebige Taste, um fortzufahren.'
-_QUESTION_INTRO = ('Nach jeder Klangfolge erscheint eine Frage:\n\n{question}\n\n'
-                   'Antworten Sie mit den Tasten 1 bis 4 ({scale}). Es gibt keine richtigen oder falschen '
-                   'Antworten. Nach Ihrer Antwort beginnt kurz darauf die nächste Klangfolge.\n\n' + _CONTINUE)
+_QUESTION_INTRO = ('Nach jeder Klangfolge erscheint diese Frage:\n\n{rating}\n\n'
+                   'Antworten Sie mit den Tasten 1 bis 4. Es gibt keine richtigen oder falschen Antworten. '
+                   'Nach Ihrer Antwort beginnt kurz darauf die nächste Klangfolge.\n\n' + _CONTINUE)
 _BLOCKS = ('Dieser Teil besteht aus {n_blocks} Blöcken mit jeweils {n_trials} Klangfolgen.\n\n'
            'Nach jeder Klangfolge beantworten Sie eine kurze Frage. Danach beginnt die nächste Klangfolge '
            'automatisch.\n\n' + _CONTINUE)
 _P2_WELCOME = ('Willkommen zurück!\n\nJetzt geht es mit dem Tippen weiter.\n\n' + _CONTINUE)
+# speech (switch group, phase 2): read the words; comes AFTER the reveal / familiarisation
+_P2_READ = ('Wie Sie gerade gehört haben, bestehen die Töne aus computergenerierter Sprache.\n\n'
+            'Ab jetzt sehen Sie vor jeder Klangfolge die Wörter auf dem Bildschirm, die Sie gleich hören werden. '
+            'Manchmal bilden die Wörter einen Satz, manchmal sind sie eine Liste von Wörtern.\n\n'
+            'Bitte lesen Sie die Wörter aufmerksam, bevor die Klangfolge beginnt, und achten Sie beim Tippen darauf, '
+            'die Wörter in den Klängen zu verstehen. Nach jeder Klangfolge werden Sie gefragt, wie verständlich die '
+            'künstliche Sprache war.\n\n' + _CONTINUE)
 
 EXTRA_TEXTS = {
     'acoustic': {
         'main_blocks':    _BLOCKS,
-        'question_intro': _QUESTION_INTRO.format(
-            question='Wie konzentriert waren Sie während dieser Klangfolge auf die Klänge?',
-            scale='1 = gar nicht, 4 = voll und ganz'),
+        'question_intro': _QUESTION_INTRO.format(rating=RATING_TEXT['acoustic']),
         'p2_welcome':     _P2_WELCOME,
     },
     'speech': {
         'main_blocks':    _BLOCKS,
-        'question_intro': _QUESTION_INTRO.format(
-            question='Wie gut konnten Sie die Wörter verstehen?',
-            scale='1 = gar nicht, 4 = sehr gut'),
+        'question_intro': _QUESTION_INTRO.format(rating=RATING_TEXT['speech']),
         'p2_welcome':     _P2_WELCOME,
+        'p2_read':        _P2_READ,
     },
 }
-# screens before 'start' (only when the phase starts at its first block; a resumed phase shows only 'start')
-# main_welcome / main_task / main_breaks are the texts of tapping_params.TEXTS[condition]
-INTRO_SCREENS = {1: ['main_welcome', 'main_task', 'main_blocks', 'question_intro', 'main_breaks'],
-                 2: ['p2_welcome', 'main_task', 'main_blocks', 'question_intro']}
+# screens before 'start', per (phase, condition) (only when the phase starts at its first block; a resumed phase
+# shows only 'start'). main_welcome / main_task / main_breaks are the texts of tapping_params.TEXTS[condition]
+# (speech main_task: '... Lesen Sie die Wörter auf dem Bildschirm ...').
+INTRO_SCREENS = {(1, 'acoustic'): ['main_welcome', 'main_task', 'main_blocks', 'question_intro', 'main_breaks'],
+                 (2, 'acoustic'): ['p2_welcome', 'main_task', 'main_blocks', 'question_intro'],
+                 (2, 'speech'):   ['p2_welcome', 'p2_read', 'main_task', 'main_blocks', 'question_intro']}

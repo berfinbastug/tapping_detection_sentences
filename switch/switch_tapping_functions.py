@@ -126,7 +126,7 @@ def run_phase(params, sp, setup, phase):
 
         # ---------- instructions (only when the phase starts at its first block)
         if start_block == blocks[0]:
-            for key in sp.INTRO_SCREENS[phase]:
+            for key in sp.INTRO_SCREENS[(phase, condition)]:
                 show_and_wait(tf.fill(T[key], values), win, kb, params)
         show_and_wait(tf.fill(T['start'], values), win, kb, params)
 
