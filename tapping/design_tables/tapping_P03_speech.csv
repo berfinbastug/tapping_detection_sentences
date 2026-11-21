@@ -1,0 +1,217 @@
+participant,group,seed,trial,block,sentence_type,sentence_id,exposure,role,n_jitters,jitter_pattern,A_jitter,A_interval,A_event,A_size_ms,A_direction,A_shift_ms,S2_jitter,S2_interval,S2_event,S2_size_ms,S2_direction,S2_shift_ms,B_jitter,B_interval,B_event,B_size_ms,B_direction,B_shift_ms,S2_critical,S2_with_noise,critical_with_noise,jitter_distance,clean_events_between,S2_boundary_status
+P03,speech,4083916871,1,1,word list,WL_13,1,critical_I2,1,S2,False,,,,,0,True,I2,21.0,30.0,early,-30,False,,,,,0,True,False,False,,,no structure
+P03,speech,4083916871,2,1,word list,WL_04,1,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical)
+P03,speech,4083916871,3,1,2|4,S24_09,1,critical_I2,1,S2,False,,,,,0,True,I2,21.0,50.0,early,-50,False,,,,,0,True,False,False,,,boundary
+P03,speech,4083916871,4,1,word list,WL_08,1,filler,1,S2,False,,,,,0,True,I4,23.0,15.0,early,-15,False,,,,,0,False,False,False,,,(not critical)
+P03,speech,4083916871,5,1,word list,WL_11,1,critical_I3,1,S2,False,,,,,0,True,I3,22.0,30.0,late,30,False,,,,,0,True,False,False,,,no structure
+P03,speech,4083916871,6,1,3|3,S33_05,1,baseline,2,A+B,True,I2,15.0,15.0,early,-15,False,,,,,0,True,I2,27.0,30.0,late,30,False,False,False,12.0,11.0,(not critical)
+P03,speech,4083916871,7,1,2|4,S24_10,1,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical)
+P03,speech,4083916871,8,1,2|4,S24_15,1,critical_I3,2,A+S2,True,I1,14.0,15.0,early,-15,True,I3,22.0,15.0,late,15,False,,,,,0,True,True,True,8.0,7.0,within-phrase
+P03,speech,4083916871,9,1,3|3,S33_08,1,critical_I3,1,S2,False,,,,,0,True,I3,22.0,50.0,late,50,False,,,,,0,True,False,False,,,boundary
+P03,speech,4083916871,10,1,3|3,S33_14,1,filler,1,S2,False,,,,,0,True,I1,20.0,30.0,early,-30,False,,,,,0,False,False,False,,,(not critical)
+P03,speech,4083916871,11,1,3|3,S33_12,1,filler,1,S2,False,,,,,0,True,I1,20.0,50.0,late,50,False,,,,,0,False,False,False,,,(not critical)
+P03,speech,4083916871,12,1,3|3,S33_02,1,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical)
+P03,speech,4083916871,13,1,word list,WL_06,1,critical_I2,2,A+S2,True,I2,15.0,15.0,late,15,True,I2,21.0,30.0,early,-30,False,,,,,0,True,True,True,6.0,5.0,no structure
+P03,speech,4083916871,14,1,word list,WL_05,1,baseline,2,A+B,True,I2,15.0,50.0,late,50,False,,,,,0,True,I2,27.0,15.0,early,-15,False,False,False,12.0,11.0,(not critical)
+P03,speech,4083916871,15,1,3|3,S33_04,1,critical_I3,1,S2,False,,,,,0,True,I3,22.0,50.0,early,-50,False,,,,,0,True,False,False,,,boundary
+P03,speech,4083916871,16,1,word list,WL_03,1,critical_I3,1,S2,False,,,,,0,True,I3,22.0,15.0,early,-15,False,,,,,0,True,False,False,,,no structure
+P03,speech,4083916871,17,1,3|3,S33_10,1,critical_I2,1,S2,False,,,,,0,True,I2,21.0,30.0,late,30,False,,,,,0,True,False,False,,,within-phrase
+P03,speech,4083916871,18,1,2|4,S24_18,1,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical)
+P03,speech,4083916871,19,1,2|4,S24_02,1,filler,1,S2,False,,,,,0,True,I1,20.0,30.0,late,30,False,,,,,0,False,False,False,,,(not critical)
+P03,speech,4083916871,20,1,2|4,S24_08,1,critical_I3,1,S2,False,,,,,0,True,I3,22.0,50.0,late,50,False,,,,,0,True,False,False,,,within-phrase
+P03,speech,4083916871,21,1,3|3,S33_07,1,critical_I2,2,A+S2,True,I1,14.0,50.0,late,50,True,I2,21.0,30.0,late,30,False,,,,,0,True,True,True,7.0,6.0,within-phrase
+P03,speech,4083916871,22,1,2|4,S24_11,1,filler,1,S2,False,,,,,0,True,I4,23.0,50.0,early,-50,False,,,,,0,False,False,False,,,(not critical)
+P03,speech,4083916871,23,1,2|4,S24_17,1,critical_I2,1,S2,False,,,,,0,True,I2,21.0,15.0,late,15,False,,,,,0,True,False,False,,,boundary
+P03,speech,4083916871,24,1,word list,WL_17,1,filler,1,S2,False,,,,,0,True,I4,23.0,50.0,early,-50,False,,,,,0,False,False,False,,,(not critical)
+P03,speech,4083916871,25,2,2|4,S24_15,2,filler,2,A+S2,True,I1,14.0,15.0,early,-15,True,I5,24.0,50.0,early,-50,False,,,,,0,False,True,False,10.0,9.0,(not critical)
+P03,speech,4083916871,26,2,word list,WL_02,1,filler,1,S2,False,,,,,0,True,I1,20.0,30.0,early,-30,False,,,,,0,False,False,False,,,(not critical)
+P03,speech,4083916871,27,2,word list,WL_18,1,filler,2,A+S2,True,I1,14.0,30.0,late,30,True,I4,23.0,30.0,early,-30,False,,,,,0,False,True,False,9.0,8.0,(not critical)
+P03,speech,4083916871,28,2,3|3,S33_13,1,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical)
+P03,speech,4083916871,29,2,3|3,S33_04,2,filler,1,S2,False,,,,,0,True,I1,20.0,50.0,early,-50,False,,,,,0,False,False,False,,,(not critical)
+P03,speech,4083916871,30,2,3|3,S33_16,1,critical_I3,1,S2,False,,,,,0,True,I3,22.0,50.0,late,50,False,,,,,0,True,False,False,,,boundary
+P03,speech,4083916871,31,2,word list,WL_03,2,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical)
+P03,speech,4083916871,32,2,2|4,S24_17,2,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical)
+P03,speech,4083916871,33,2,3|3,S33_03,1,critical_I2,1,S2,False,,,,,0,True,I2,21.0,30.0,early,-30,False,,,,,0,True,False,False,,,within-phrase
+P03,speech,4083916871,34,2,3|3,S33_17,1,critical_I2,1,S2,False,,,,,0,True,I2,21.0,15.0,early,-15,False,,,,,0,True,False,False,,,within-phrase
+P03,speech,4083916871,35,2,2|4,S24_18,2,critical_I3,1,S2,False,,,,,0,True,I3,22.0,15.0,early,-15,False,,,,,0,True,False,False,,,within-phrase
+P03,speech,4083916871,36,2,2|4,S24_10,2,critical_I2,1,S2,False,,,,,0,True,I2,21.0,30.0,early,-30,False,,,,,0,True,False,False,,,boundary
+P03,speech,4083916871,37,2,3|3,S33_09,1,critical_I3,2,A+S2,True,I1,14.0,50.0,late,50,True,I3,22.0,30.0,early,-30,False,,,,,0,True,True,True,8.0,7.0,boundary
+P03,speech,4083916871,38,2,word list,WL_09,1,critical_I2,1,S2,False,,,,,0,True,I2,21.0,15.0,early,-15,False,,,,,0,True,False,False,,,no structure
+P03,speech,4083916871,39,2,3|3,S33_18,1,filler,1,S2,False,,,,,0,True,I4,23.0,15.0,early,-15,False,,,,,0,False,False,False,,,(not critical)
+P03,speech,4083916871,40,2,2|4,S24_06,1,filler,1,S2,False,,,,,0,True,I1,20.0,50.0,late,50,False,,,,,0,False,False,False,,,(not critical)
+P03,speech,4083916871,41,2,word list,WL_12,1,critical_I3,1,S2,False,,,,,0,True,I3,22.0,50.0,late,50,False,,,,,0,True,False,False,,,no structure
+P03,speech,4083916871,42,2,2|4,S24_07,1,baseline,2,A+B,True,I1,14.0,30.0,late,30,False,,,,,0,True,I1,26.0,15.0,late,15,False,False,False,12.0,11.0,(not critical)
+P03,speech,4083916871,43,2,2|4,S24_14,1,critical_I2,1,S2,False,,,,,0,True,I2,21.0,30.0,early,-30,False,,,,,0,True,False,False,,,boundary
+P03,speech,4083916871,44,2,word list,WL_06,2,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical)
+P03,speech,4083916871,45,2,word list,WL_01,1,critical_I2,2,S2+B,False,,,,,0,True,I2,21.0,50.0,late,50,True,I2,27.0,30.0,late,30,True,True,True,6.0,5.0,no structure
+P03,speech,4083916871,46,2,2|4,S24_03,1,critical_I3,1,S2,False,,,,,0,True,I3,22.0,30.0,late,30,False,,,,,0,True,False,False,,,within-phrase
+P03,speech,4083916871,47,2,3|3,S33_07,2,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical)
+P03,speech,4083916871,48,2,word list,WL_13,2,critical_I3,1,S2,False,,,,,0,True,I3,22.0,15.0,late,15,False,,,,,0,True,False,False,,,no structure
+P03,speech,4083916871,49,3,word list,WL_07,1,critical_I3,1,S2,False,,,,,0,True,I3,22.0,50.0,early,-50,False,,,,,0,True,False,False,,,no structure
+P03,speech,4083916871,50,3,2|4,S24_10,3,critical_I3,1,S2,False,,,,,0,True,I3,22.0,50.0,late,50,False,,,,,0,True,False,False,,,within-phrase
+P03,speech,4083916871,51,3,word list,WL_13,3,filler,2,A+S2,True,I2,15.0,30.0,early,-30,True,I5,24.0,50.0,early,-50,False,,,,,0,False,True,False,9.0,8.0,(not critical)
+P03,speech,4083916871,52,3,2|4,S24_03,2,filler,2,S2+B,False,,,,,0,True,I1,20.0,15.0,late,15,True,I1,26.0,15.0,late,15,False,True,False,6.0,5.0,(not critical)
+P03,speech,4083916871,53,3,word list,WL_16,1,critical_I2,1,S2,False,,,,,0,True,I2,21.0,50.0,late,50,False,,,,,0,True,False,False,,,no structure
+P03,speech,4083916871,54,3,3|3,S33_18,2,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical)
+P03,speech,4083916871,55,3,2|4,S24_11,2,critical_I2,1,S2,False,,,,,0,True,I2,21.0,50.0,early,-50,False,,,,,0,True,False,False,,,boundary
+P03,speech,4083916871,56,3,word list,WL_12,2,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical)
+P03,speech,4083916871,57,3,2|4,S24_16,1,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical)
+P03,speech,4083916871,58,3,word list,WL_09,2,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical)
+P03,speech,4083916871,59,3,2|4,S24_13,1,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical)
+P03,speech,4083916871,60,3,word list,WL_03,3,filler,2,A+S2,True,I2,15.0,15.0,late,15,True,I4,23.0,50.0,late,50,False,,,,,0,False,True,False,8.0,7.0,(not critical)
+P03,speech,4083916871,61,3,2|4,S24_12,1,critical_I2,1,S2,False,,,,,0,True,I2,21.0,30.0,late,30,False,,,,,0,True,False,False,,,boundary
+P03,speech,4083916871,62,3,3|3,S33_06,1,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical)
+P03,speech,4083916871,63,3,3|3,S33_07,3,filler,2,S2+B,False,,,,,0,True,I1,20.0,15.0,early,-15,True,I1,26.0,50.0,late,50,False,True,False,6.0,5.0,(not critical)
+P03,speech,4083916871,64,3,3|3,S33_01,1,critical_I3,1,S2,False,,,,,0,True,I3,22.0,30.0,early,-30,False,,,,,0,True,False,False,,,boundary
+P03,speech,4083916871,65,3,2|4,S24_07,2,filler,1,S2,False,,,,,0,True,I1,20.0,50.0,early,-50,False,,,,,0,False,False,False,,,(not critical)
+P03,speech,4083916871,66,3,word list,WL_17,2,critical_I2,1,S2,False,,,,,0,True,I2,21.0,50.0,early,-50,False,,,,,0,True,False,False,,,no structure
+P03,speech,4083916871,67,3,3|3,S33_11,1,critical_I2,1,S2,False,,,,,0,True,I2,21.0,15.0,early,-15,False,,,,,0,True,False,False,,,within-phrase
+P03,speech,4083916871,68,3,3|3,S33_16,2,critical_I2,1,S2,False,,,,,0,True,I2,21.0,50.0,early,-50,False,,,,,0,True,False,False,,,within-phrase
+P03,speech,4083916871,69,3,word list,WL_08,2,critical_I3,1,S2,False,,,,,0,True,I3,22.0,15.0,late,15,False,,,,,0,True,False,False,,,no structure
+P03,speech,4083916871,70,3,2|4,S24_01,1,critical_I3,1,S2,False,,,,,0,True,I3,22.0,50.0,early,-50,False,,,,,0,True,False,False,,,within-phrase
+P03,speech,4083916871,71,3,3|3,S33_12,2,critical_I3,1,S2,False,,,,,0,True,I3,22.0,15.0,late,15,False,,,,,0,True,False,False,,,boundary
+P03,speech,4083916871,72,3,3|3,S33_02,2,filler,1,S2,False,,,,,0,True,I1,20.0,15.0,late,15,False,,,,,0,False,False,False,,,(not critical)
+P03,speech,4083916871,73,4,2|4,S24_04,1,filler,1,S2,False,,,,,0,True,I4,23.0,15.0,late,15,False,,,,,0,False,False,False,,,(not critical)
+P03,speech,4083916871,74,4,2|4,S24_14,2,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical)
+P03,speech,4083916871,75,4,word list,WL_01,2,critical_I3,1,S2,False,,,,,0,True,I3,22.0,30.0,early,-30,False,,,,,0,True,False,False,,,no structure
+P03,speech,4083916871,76,4,3|3,S33_01,2,filler,1,S2,False,,,,,0,True,I5,24.0,50.0,late,50,False,,,,,0,False,False,False,,,(not critical)
+P03,speech,4083916871,77,4,3|3,S33_04,3,critical_I2,1,S2,False,,,,,0,True,I2,21.0,50.0,late,50,False,,,,,0,True,False,False,,,within-phrase
+P03,speech,4083916871,78,4,3|3,S33_09,2,filler,1,S2,False,,,,,0,True,I5,24.0,15.0,early,-15,False,,,,,0,False,False,False,,,(not critical)
+P03,speech,4083916871,79,4,3|3,S33_02,3,critical_I2,1,S2,False,,,,,0,True,I2,21.0,50.0,late,50,False,,,,,0,True,False,False,,,within-phrase
+P03,speech,4083916871,80,4,2|4,S24_11,3,critical_I3,1,S2,False,,,,,0,True,I3,22.0,30.0,late,30,False,,,,,0,True,False,False,,,within-phrase
+P03,speech,4083916871,81,4,2|4,S24_08,2,critical_I2,1,S2,False,,,,,0,True,I2,21.0,30.0,late,30,False,,,,,0,True,False,False,,,boundary
+P03,speech,4083916871,82,4,3|3,S33_12,3,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical)
+P03,speech,4083916871,83,4,word list,WL_04,2,critical_I2,1,S2,False,,,,,0,True,I2,21.0,50.0,early,-50,False,,,,,0,True,False,False,,,no structure
+P03,speech,4083916871,84,4,word list,WL_14,1,filler,1,S2,False,,,,,0,True,I1,20.0,50.0,early,-50,False,,,,,0,False,False,False,,,(not critical)
+P03,speech,4083916871,85,4,word list,WL_08,3,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical)
+P03,speech,4083916871,86,4,2|4,S24_05,1,baseline,2,A+B,True,I1,14.0,50.0,early,-50,False,,,,,0,True,I1,26.0,30.0,early,-30,False,False,False,12.0,11.0,(not critical)
+P03,speech,4083916871,87,4,3|3,S33_14,2,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical)
+P03,speech,4083916871,88,4,3|3,S33_06,2,critical_I3,1,S2,False,,,,,0,True,I3,22.0,15.0,late,15,False,,,,,0,True,False,False,,,boundary
+P03,speech,4083916871,89,4,word list,WL_18,2,critical_I2,1,S2,False,,,,,0,True,I2,21.0,15.0,late,15,False,,,,,0,True,False,False,,,no structure
+P03,speech,4083916871,90,4,2|4,S24_13,2,critical_I3,1,S2,False,,,,,0,True,I3,22.0,30.0,early,-30,False,,,,,0,True,False,False,,,within-phrase
+P03,speech,4083916871,91,4,word list,WL_15,1,filler,1,S2,False,,,,,0,True,I5,24.0,15.0,late,15,False,,,,,0,False,False,False,,,(not critical)
+P03,speech,4083916871,92,4,2|4,S24_09,2,filler,1,S2,False,,,,,0,True,I5,24.0,15.0,late,15,False,,,,,0,False,False,False,,,(not critical)
+P03,speech,4083916871,93,4,word list,WL_10,1,critical_I3,1,S2,False,,,,,0,True,I3,22.0,30.0,late,30,False,,,,,0,True,False,False,,,no structure
+P03,speech,4083916871,94,4,word list,WL_11,2,baseline,2,A+B,True,I2,15.0,50.0,late,50,False,,,,,0,True,I1,26.0,15.0,late,15,False,False,False,11.0,10.0,(not critical)
+P03,speech,4083916871,95,4,3|3,S33_11,2,critical_I3,1,S2,False,,,,,0,True,I3,22.0,15.0,early,-15,False,,,,,0,True,False,False,,,boundary
+P03,speech,4083916871,96,4,2|4,S24_01,2,critical_I2,1,S2,False,,,,,0,True,I2,21.0,15.0,late,15,False,,,,,0,True,False,False,,,boundary
+P03,speech,4083916871,97,5,word list,WL_09,3,critical_I3,1,S2,False,,,,,0,True,I3,22.0,30.0,early,-30,False,,,,,0,True,False,False,,,no structure
+P03,speech,4083916871,98,5,word list,WL_17,3,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical)
+P03,speech,4083916871,99,5,3|3,S33_12,4,critical_I2,1,S2,False,,,,,0,True,I2,21.0,30.0,early,-30,False,,,,,0,True,False,False,,,within-phrase
+P03,speech,4083916871,100,5,3|3,S33_13,2,filler,2,A+S2,True,I1,14.0,30.0,early,-30,True,I1,20.0,30.0,late,30,False,,,,,0,False,True,False,6.0,5.0,(not critical)
+P03,speech,4083916871,101,5,word list,WL_02,2,critical_I2,1,S2,False,,,,,0,True,I2,21.0,15.0,early,-15,False,,,,,0,True,False,False,,,no structure
+P03,speech,4083916871,102,5,2|4,S24_18,3,critical_I2,1,S2,False,,,,,0,True,I2,21.0,50.0,late,50,False,,,,,0,True,False,False,,,boundary
+P03,speech,4083916871,103,5,2|4,S24_06,2,critical_I2,1,S2,False,,,,,0,True,I2,21.0,15.0,early,-15,False,,,,,0,True,False,False,,,boundary
+P03,speech,4083916871,104,5,word list,WL_05,2,filler,1,S2,False,,,,,0,True,I5,24.0,15.0,early,-15,False,,,,,0,False,False,False,,,(not critical)
+P03,speech,4083916871,105,5,word list,WL_15,2,critical_I2,1,S2,False,,,,,0,True,I2,21.0,30.0,early,-30,False,,,,,0,True,False,False,,,no structure
+P03,speech,4083916871,106,5,3|3,S33_18,3,critical_I3,1,S2,False,,,,,0,True,I3,22.0,30.0,early,-30,False,,,,,0,True,False,False,,,boundary
+P03,speech,4083916871,107,5,2|4,S24_05,2,critical_I3,1,S2,False,,,,,0,True,I3,22.0,15.0,late,15,False,,,,,0,True,False,False,,,within-phrase
+P03,speech,4083916871,108,5,3|3,S33_10,2,filler,1,S2,False,,,,,0,True,I4,23.0,30.0,early,-30,False,,,,,0,False,False,False,,,(not critical)
+P03,speech,4083916871,109,5,word list,WL_07,2,filler,1,S2,False,,,,,0,True,I1,20.0,30.0,late,30,False,,,,,0,False,False,False,,,(not critical)
+P03,speech,4083916871,110,5,2|4,S24_03,3,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical)
+P03,speech,4083916871,111,5,2|4,S24_14,3,filler,1,S2,False,,,,,0,True,I5,24.0,30.0,late,30,False,,,,,0,False,False,False,,,(not critical)
+P03,speech,4083916871,112,5,word list,WL_18,3,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical)
+P03,speech,4083916871,113,5,3|3,S33_03,2,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical)
+P03,speech,4083916871,114,5,3|3,S33_16,3,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical)
+P03,speech,4083916871,115,5,2|4,S24_08,3,filler,2,A+S2,True,I2,15.0,50.0,late,50,True,I5,24.0,50.0,late,50,False,,,,,0,False,True,False,9.0,8.0,(not critical)
+P03,speech,4083916871,116,5,word list,WL_06,3,critical_I3,2,A+S2,True,I2,15.0,50.0,late,50,True,I3,22.0,30.0,late,30,False,,,,,0,True,True,True,7.0,6.0,no structure
+P03,speech,4083916871,117,5,2|4,S24_17,3,critical_I3,1,S2,False,,,,,0,True,I3,22.0,50.0,late,50,False,,,,,0,True,False,False,,,within-phrase
+P03,speech,4083916871,118,5,2|4,S24_02,2,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical)
+P03,speech,4083916871,119,5,3|3,S33_15,1,critical_I3,1,S2,False,,,,,0,True,I3,22.0,15.0,late,15,False,,,,,0,True,False,False,,,boundary
+P03,speech,4083916871,120,5,3|3,S33_14,3,critical_I2,2,A+S2,True,I2,15.0,15.0,late,15,True,I2,21.0,15.0,late,15,False,,,,,0,True,True,True,6.0,5.0,within-phrase
+P03,speech,4083916871,121,6,word list,WL_07,3,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical)
+P03,speech,4083916871,122,6,2|4,S24_09,3,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical)
+P03,speech,4083916871,123,6,word list,WL_02,3,baseline,2,A+B,True,I1,14.0,50.0,early,-50,False,,,,,0,True,I2,27.0,15.0,early,-15,False,False,False,13.0,12.0,(not critical)
+P03,speech,4083916871,124,6,3|3,S33_05,2,filler,1,S2,False,,,,,0,True,I4,23.0,15.0,late,15,False,,,,,0,False,False,False,,,(not critical)
+P03,speech,4083916871,125,6,3|3,S33_11,3,filler,1,S2,False,,,,,0,True,I5,24.0,50.0,early,-50,False,,,,,0,False,False,False,,,(not critical)
+P03,speech,4083916871,126,6,2|4,S24_12,2,filler,1,S2,False,,,,,0,True,I4,23.0,30.0,early,-30,False,,,,,0,False,False,False,,,(not critical)
+P03,speech,4083916871,127,6,word list,WL_08,4,critical_I2,1,S2,False,,,,,0,True,I2,21.0,30.0,late,30,False,,,,,0,True,False,False,,,no structure
+P03,speech,4083916871,128,6,2|4,S24_08,4,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical)
+P03,speech,4083916871,129,6,2|4,S24_03,4,critical_I2,2,A+S2,True,I1,14.0,50.0,late,50,True,I2,21.0,30.0,early,-30,False,,,,,0,True,True,True,7.0,6.0,boundary
+P03,speech,4083916871,130,6,word list,WL_01,3,filler,1,S2,False,,,,,0,True,I5,24.0,50.0,late,50,False,,,,,0,False,False,False,,,(not critical)
+P03,speech,4083916871,131,6,word list,WL_09,4,filler,1,S2,False,,,,,0,True,I4,23.0,15.0,late,15,False,,,,,0,False,False,False,,,(not critical)
+P03,speech,4083916871,132,6,3|3,S33_03,3,critical_I3,2,A+S2,True,I2,15.0,50.0,early,-50,True,I3,22.0,50.0,late,50,False,,,,,0,True,True,True,7.0,6.0,boundary
+P03,speech,4083916871,133,6,word list,WL_15,3,critical_I3,1,S2,False,,,,,0,True,I3,22.0,15.0,early,-15,False,,,,,0,True,False,False,,,no structure
+P03,speech,4083916871,134,6,2|4,S24_10,4,filler,1,S2,False,,,,,0,True,I4,23.0,50.0,late,50,False,,,,,0,False,False,False,,,(not critical)
+P03,speech,4083916871,135,6,3|3,S33_07,4,critical_I3,1,S2,False,,,,,0,True,I3,22.0,50.0,early,-50,False,,,,,0,True,False,False,,,boundary
+P03,speech,4083916871,136,6,2|4,S24_15,3,critical_I2,1,S2,False,,,,,0,True,I2,21.0,15.0,early,-15,False,,,,,0,True,False,False,,,boundary
+P03,speech,4083916871,137,6,word list,WL_11,3,critical_I2,1,S2,False,,,,,0,True,I2,21.0,50.0,early,-50,False,,,,,0,True,False,False,,,no structure
+P03,speech,4083916871,138,6,2|4,S24_07,3,critical_I3,2,A+S2,True,I1,14.0,50.0,early,-50,True,I3,22.0,30.0,late,30,False,,,,,0,True,True,True,8.0,7.0,within-phrase
+P03,speech,4083916871,139,6,3|3,S33_17,2,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical)
+P03,speech,4083916871,140,6,3|3,S33_04,4,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical)
+P03,speech,4083916871,141,6,3|3,S33_01,3,critical_I2,1,S2,False,,,,,0,True,I2,21.0,30.0,early,-30,False,,,,,0,True,False,False,,,within-phrase
+P03,speech,4083916871,142,6,3|3,S33_08,2,critical_I2,1,S2,False,,,,,0,True,I2,21.0,15.0,early,-15,False,,,,,0,True,False,False,,,within-phrase
+P03,speech,4083916871,143,6,word list,WL_18,4,critical_I3,1,S2,False,,,,,0,True,I3,22.0,30.0,early,-30,False,,,,,0,True,False,False,,,no structure
+P03,speech,4083916871,144,6,2|4,S24_02,3,critical_I3,1,S2,False,,,,,0,True,I3,22.0,15.0,late,15,False,,,,,0,True,False,False,,,within-phrase
+P03,speech,4083916871,145,7,word list,WL_14,2,critical_I3,1,S2,False,,,,,0,True,I3,22.0,15.0,late,15,False,,,,,0,True,False,False,,,no structure
+P03,speech,4083916871,146,7,word list,WL_10,2,filler,1,S2,False,,,,,0,True,I1,20.0,50.0,late,50,False,,,,,0,False,False,False,,,(not critical)
+P03,speech,4083916871,147,7,2|4,S24_01,3,filler,1,S2,False,,,,,0,True,I5,24.0,30.0,early,-30,False,,,,,0,False,False,False,,,(not critical)
+P03,speech,4083916871,148,7,3|3,S33_05,3,critical_I3,1,S2,False,,,,,0,True,I3,22.0,30.0,late,30,False,,,,,0,True,False,False,,,boundary
+P03,speech,4083916871,149,7,3|3,S33_10,3,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical)
+P03,speech,4083916871,150,7,word list,WL_01,4,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical)
+P03,speech,4083916871,151,7,2|4,S24_09,4,critical_I3,1,S2,False,,,,,0,True,I3,22.0,15.0,early,-15,False,,,,,0,True,False,False,,,within-phrase
+P03,speech,4083916871,152,7,word list,WL_15,4,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical)
+P03,speech,4083916871,153,7,3|3,S33_02,4,critical_I3,1,S2,False,,,,,0,True,I3,22.0,15.0,early,-15,False,,,,,0,True,False,False,,,boundary
+P03,speech,4083916871,154,7,2|4,S24_02,4,critical_I2,1,S2,False,,,,,0,True,I2,21.0,50.0,late,50,False,,,,,0,True,False,False,,,boundary
+P03,speech,4083916871,155,7,word list,WL_16,2,filler,1,S2,False,,,,,0,True,I4,23.0,30.0,late,30,False,,,,,0,False,False,False,,,(not critical)
+P03,speech,4083916871,156,7,word list,WL_04,3,critical_I3,2,A+S2,True,I1,14.0,50.0,early,-50,True,I3,22.0,50.0,early,-50,False,,,,,0,True,True,True,8.0,7.0,no structure
+P03,speech,4083916871,157,7,2|4,S24_12,3,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical)
+P03,speech,4083916871,158,7,3|3,S33_03,4,filler,1,S2,False,,,,,0,True,I5,24.0,30.0,late,30,False,,,,,0,False,False,False,,,(not critical)
+P03,speech,4083916871,159,7,2|4,S24_11,4,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical)
+P03,speech,4083916871,160,7,2|4,S24_04,2,critical_I3,1,S2,False,,,,,0,True,I3,22.0,50.0,early,-50,False,,,,,0,True,False,False,,,within-phrase
+P03,speech,4083916871,161,7,2|4,S24_13,3,filler,2,A+S2,True,I1,14.0,30.0,late,30,True,I4,23.0,15.0,early,-15,False,,,,,0,False,True,False,9.0,8.0,(not critical)
+P03,speech,4083916871,162,7,word list,WL_05,3,critical_I2,1,S2,False,,,,,0,True,I2,21.0,50.0,late,50,False,,,,,0,True,False,False,,,no structure
+P03,speech,4083916871,163,7,3|3,S33_06,3,filler,1,S2,False,,,,,0,True,I4,23.0,30.0,late,30,False,,,,,0,False,False,False,,,(not critical)
+P03,speech,4083916871,164,7,3|3,S33_09,3,critical_I2,1,S2,False,,,,,0,True,I2,21.0,50.0,early,-50,False,,,,,0,True,False,False,,,within-phrase
+P03,speech,4083916871,165,7,3|3,S33_15,2,critical_I2,1,S2,False,,,,,0,True,I2,21.0,15.0,late,15,False,,,,,0,True,False,False,,,within-phrase
+P03,speech,4083916871,166,7,word list,WL_12,3,critical_I2,1,S2,False,,,,,0,True,I2,21.0,15.0,early,-15,False,,,,,0,True,False,False,,,no structure
+P03,speech,4083916871,167,7,3|3,S33_01,4,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical)
+P03,speech,4083916871,168,7,2|4,S24_16,2,critical_I2,1,S2,False,,,,,0,True,I2,21.0,50.0,early,-50,False,,,,,0,True,False,False,,,boundary
+P03,speech,4083916871,169,8,word list,WL_14,3,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical)
+P03,speech,4083916871,170,8,2|4,S24_05,3,critical_I2,1,S2,False,,,,,0,True,I2,21.0,15.0,late,15,False,,,,,0,True,False,False,,,boundary
+P03,speech,4083916871,171,8,word list,WL_10,3,critical_I2,1,S2,False,,,,,0,True,I2,21.0,15.0,late,15,False,,,,,0,True,False,False,,,no structure
+P03,speech,4083916871,172,8,3|3,S33_06,4,critical_I2,1,S2,False,,,,,0,True,I2,21.0,15.0,late,15,False,,,,,0,True,False,False,,,within-phrase
+P03,speech,4083916871,173,8,word list,WL_11,4,filler,2,S2+B,False,,,,,0,True,I1,20.0,15.0,early,-15,True,I2,27.0,30.0,early,-30,False,True,False,7.0,6.0,(not critical)
+P03,speech,4083916871,174,8,word list,WL_04,4,filler,2,A+S2,True,I1,14.0,30.0,early,-30,True,I1,20.0,15.0,late,15,False,,,,,0,False,True,False,6.0,5.0,(not critical)
+P03,speech,4083916871,175,8,2|4,S24_14,4,critical_I3,1,S2,False,,,,,0,True,I3,22.0,15.0,early,-15,False,,,,,0,True,False,False,,,within-phrase
+P03,speech,4083916871,176,8,3|3,S33_10,4,critical_I3,2,A+S2,True,I1,14.0,15.0,early,-15,True,I3,22.0,15.0,early,-15,False,,,,,0,True,True,True,8.0,7.0,boundary
+P03,speech,4083916871,177,8,2|4,S24_07,4,critical_I2,2,S2+B,False,,,,,0,True,I2,21.0,15.0,early,-15,True,I2,27.0,30.0,late,30,True,True,True,6.0,5.0,boundary
+P03,speech,4083916871,178,8,2|4,S24_16,3,filler,1,S2,False,,,,,0,True,I1,20.0,15.0,early,-15,False,,,,,0,False,False,False,,,(not critical)
+P03,speech,4083916871,179,8,word list,WL_17,4,critical_I3,1,S2,False,,,,,0,True,I3,22.0,50.0,late,50,False,,,,,0,True,False,False,,,no structure
+P03,speech,4083916871,180,8,word list,WL_13,4,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical)
+P03,speech,4083916871,181,8,word list,WL_16,3,critical_I3,1,S2,False,,,,,0,True,I3,22.0,50.0,early,-50,False,,,,,0,True,False,False,,,no structure
+P03,speech,4083916871,182,8,2|4,S24_04,3,baseline,2,A+B,True,I1,14.0,30.0,early,-30,False,,,,,0,True,I2,27.0,50.0,early,-50,False,False,False,13.0,12.0,(not critical)
+P03,speech,4083916871,183,8,3|3,S33_15,3,filler,2,A+S2,True,I1,14.0,30.0,late,30,True,I5,24.0,30.0,early,-30,False,,,,,0,False,True,False,10.0,9.0,(not critical)
+P03,speech,4083916871,184,8,3|3,S33_17,3,filler,2,A+S2,True,I2,15.0,15.0,late,15,True,I5,24.0,15.0,late,15,False,,,,,0,False,True,False,9.0,8.0,(not critical)
+P03,speech,4083916871,185,8,2|4,S24_06,3,critical_I3,1,S2,False,,,,,0,True,I3,22.0,30.0,early,-30,False,,,,,0,True,False,False,,,within-phrase
+P03,speech,4083916871,186,8,2|4,S24_15,4,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical)
+P03,speech,4083916871,187,8,word list,WL_03,4,critical_I2,2,A+S2,True,I2,15.0,15.0,early,-15,True,I2,21.0,15.0,late,15,False,,,,,0,True,True,True,6.0,5.0,no structure
+P03,speech,4083916871,188,8,3|3,S33_13,3,critical_I3,1,S2,False,,,,,0,True,I3,22.0,30.0,late,30,False,,,,,0,True,False,False,,,boundary
+P03,speech,4083916871,189,8,3|3,S33_09,4,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical)
+P03,speech,4083916871,190,8,3|3,S33_18,4,critical_I2,1,S2,False,,,,,0,True,I2,21.0,30.0,late,30,False,,,,,0,True,False,False,,,within-phrase
+P03,speech,4083916871,191,8,2|4,S24_18,4,filler,2,A+S2,True,I1,14.0,15.0,early,-15,True,I1,20.0,30.0,early,-30,False,,,,,0,False,True,False,6.0,5.0,(not critical)
+P03,speech,4083916871,192,8,3|3,S33_08,3,baseline,2,A+B,True,I2,15.0,15.0,early,-15,False,,,,,0,True,I1,26.0,50.0,early,-50,False,False,False,11.0,10.0,(not critical)
+P03,speech,4083916871,193,9,word list,WL_06,4,filler,1,S2,False,,,,,0,True,I5,24.0,30.0,early,-30,False,,,,,0,False,False,False,,,(not critical)
+P03,speech,4083916871,194,9,word list,WL_16,4,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical)
+P03,speech,4083916871,195,9,3|3,S33_05,4,critical_I2,2,S2+B,False,,,,,0,True,I2,21.0,50.0,early,-50,True,I2,27.0,50.0,early,-50,True,True,True,6.0,5.0,within-phrase
+P03,speech,4083916871,196,9,2|4,S24_16,4,critical_I3,1,S2,False,,,,,0,True,I3,22.0,30.0,early,-30,False,,,,,0,True,False,False,,,within-phrase
+P03,speech,4083916871,197,9,3|3,S33_17,4,critical_I3,1,S2,False,,,,,0,True,I3,22.0,50.0,early,-50,False,,,,,0,True,False,False,,,boundary
+P03,speech,4083916871,198,9,word list,WL_12,4,filler,2,A+S2,True,I1,14.0,50.0,early,-50,True,I5,24.0,30.0,late,30,False,,,,,0,False,True,False,10.0,9.0,(not critical)
+P03,speech,4083916871,199,9,2|4,S24_06,4,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical)
+P03,speech,4083916871,200,9,word list,WL_07,4,critical_I2,1,S2,False,,,,,0,True,I2,21.0,30.0,late,30,False,,,,,0,True,False,False,,,no structure
+P03,speech,4083916871,201,9,3|3,S33_13,4,critical_I2,1,S2,False,,,,,0,True,I2,21.0,50.0,late,50,False,,,,,0,True,False,False,,,within-phrase
+P03,speech,4083916871,202,9,word list,WL_10,4,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical)
+P03,speech,4083916871,203,9,3|3,S33_16,4,filler,2,A+S2,True,I2,15.0,30.0,early,-30,True,I4,23.0,50.0,late,50,False,,,,,0,False,True,False,8.0,7.0,(not critical)
+P03,speech,4083916871,204,9,2|4,S24_13,4,critical_I2,2,A+S2,True,I1,14.0,30.0,early,-30,True,I2,21.0,50.0,late,50,False,,,,,0,True,True,True,7.0,6.0,boundary
+P03,speech,4083916871,205,9,2|4,S24_05,4,filler,1,S2,False,,,,,0,True,I5,24.0,15.0,early,-15,False,,,,,0,False,False,False,,,(not critical)
+P03,speech,4083916871,206,9,3|3,S33_11,4,baseline,2,A+B,True,I2,15.0,30.0,late,30,False,,,,,0,True,I2,27.0,15.0,late,15,False,False,False,12.0,11.0,(not critical)
+P03,speech,4083916871,207,9,word list,WL_05,4,critical_I3,2,A+S2,True,I2,15.0,30.0,late,30,True,I3,22.0,15.0,early,-15,False,,,,,0,True,True,True,7.0,6.0,no structure
+P03,speech,4083916871,208,9,2|4,S24_17,4,filler,2,A+S2,True,I1,14.0,15.0,late,15,True,I4,23.0,30.0,late,30,False,,,,,0,False,True,False,9.0,8.0,(not critical)
+P03,speech,4083916871,209,9,3|3,S33_08,4,filler,2,A+S2,True,I2,15.0,30.0,early,-30,True,I4,23.0,50.0,early,-50,False,,,,,0,False,True,False,8.0,7.0,(not critical)
+P03,speech,4083916871,210,9,word list,WL_02,4,critical_I3,1,S2,False,,,,,0,True,I3,22.0,50.0,late,50,False,,,,,0,True,False,False,,,no structure
+P03,speech,4083916871,211,9,word list,WL_14,4,critical_I2,1,S2,False,,,,,0,True,I2,21.0,30.0,late,30,False,,,,,0,True,False,False,,,no structure
+P03,speech,4083916871,212,9,3|3,S33_14,4,critical_I3,1,S2,False,,,,,0,True,I3,22.0,30.0,late,30,False,,,,,0,True,False,False,,,boundary
+P03,speech,4083916871,213,9,3|3,S33_15,4,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical)
+P03,speech,4083916871,214,9,2|4,S24_01,4,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical)
+P03,speech,4083916871,215,9,2|4,S24_12,4,critical_I3,2,A+S2,True,I2,15.0,50.0,late,50,True,I3,22.0,50.0,early,-50,False,,,,,0,True,True,True,7.0,6.0,within-phrase
+P03,speech,4083916871,216,9,2|4,S24_04,4,critical_I2,1,S2,False,,,,,0,True,I2,21.0,30.0,late,30,False,,,,,0,True,False,False,,,boundary
