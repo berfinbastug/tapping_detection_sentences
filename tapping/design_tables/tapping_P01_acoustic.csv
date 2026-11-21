@@ -1,0 +1,217 @@
+participant,group,seed,trial,block,sentence_type,sentence_id,exposure,role,n_jitters,jitter_pattern,A_jitter,A_interval,A_event,A_size_ms,A_direction,A_shift_ms,S2_jitter,S2_interval,S2_event,S2_size_ms,S2_direction,S2_shift_ms,B_jitter,B_interval,B_event,B_size_ms,B_direction,B_shift_ms,S2_critical,S2_with_noise,critical_with_noise,jitter_distance,clean_events_between,S2_boundary_status,mode,phase,phase_condition
+P01,acoustic,493207915,1,1,2|4,S24_17,1,critical_I3,1,S2,False,,,,,0,True,I3,22.0,35.0,early,-35,False,,,,,0,True,False,False,,,within-phrase,switch,1,acoustic
+P01,acoustic,493207915,2,1,3|3,S33_14,1,filler,2,A+S2,True,I1,14.0,35.0,early,-35,True,I5,24.0,75.0,late,75,False,,,,,0,False,True,False,10.0,9.0,(not critical),switch,1,acoustic
+P01,acoustic,493207915,3,1,2|4,S24_14,1,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical),switch,1,acoustic
+P01,acoustic,493207915,4,1,2|4,S24_08,1,critical_I3,1,S2,False,,,,,0,True,I3,22.0,55.0,early,-55,False,,,,,0,True,False,False,,,within-phrase,switch,1,acoustic
+P01,acoustic,493207915,5,1,2|4,S24_01,1,filler,2,A+S2,True,I2,15.0,35.0,early,-35,True,I5,24.0,75.0,late,75,False,,,,,0,False,True,False,9.0,8.0,(not critical),switch,1,acoustic
+P01,acoustic,493207915,6,1,word list,WL_01,1,critical_I2,1,S2,False,,,,,0,True,I2,21.0,35.0,early,-35,False,,,,,0,True,False,False,,,no structure,switch,1,acoustic
+P01,acoustic,493207915,7,1,word list,WL_13,1,filler,1,S2,False,,,,,0,True,I5,24.0,75.0,late,75,False,,,,,0,False,False,False,,,(not critical),switch,1,acoustic
+P01,acoustic,493207915,8,1,2|4,S24_15,1,critical_I2,1,S2,False,,,,,0,True,I2,21.0,55.0,late,55,False,,,,,0,True,False,False,,,boundary,switch,1,acoustic
+P01,acoustic,493207915,9,1,3|3,S33_05,1,critical_I3,1,S2,False,,,,,0,True,I3,22.0,75.0,early,-75,False,,,,,0,True,False,False,,,boundary,switch,1,acoustic
+P01,acoustic,493207915,10,1,2|4,S24_11,1,critical_I2,2,A+S2,True,I1,14.0,75.0,early,-75,True,I2,21.0,35.0,late,35,False,,,,,0,True,True,True,7.0,6.0,boundary,switch,1,acoustic
+P01,acoustic,493207915,11,1,word list,WL_16,1,filler,2,A+S2,True,I1,14.0,75.0,early,-75,True,I1,20.0,55.0,late,55,False,,,,,0,False,True,False,6.0,5.0,(not critical),switch,1,acoustic
+P01,acoustic,493207915,12,1,3|3,S33_02,1,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical),switch,1,acoustic
+P01,acoustic,493207915,13,1,word list,WL_08,1,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical),switch,1,acoustic
+P01,acoustic,493207915,14,1,3|3,S33_16,1,critical_I2,1,S2,False,,,,,0,True,I2,21.0,55.0,early,-55,False,,,,,0,True,False,False,,,within-phrase,switch,1,acoustic
+P01,acoustic,493207915,15,1,3|3,S33_07,1,filler,1,S2,False,,,,,0,True,I4,23.0,35.0,early,-35,False,,,,,0,False,False,False,,,(not critical),switch,1,acoustic
+P01,acoustic,493207915,16,1,word list,WL_14,1,critical_I2,1,S2,False,,,,,0,True,I2,21.0,75.0,early,-75,False,,,,,0,True,False,False,,,no structure,switch,1,acoustic
+P01,acoustic,493207915,17,1,2|4,S24_12,1,filler,1,S2,False,,,,,0,True,I1,20.0,55.0,early,-55,False,,,,,0,False,False,False,,,(not critical),switch,1,acoustic
+P01,acoustic,493207915,18,1,word list,WL_15,1,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical),switch,1,acoustic
+P01,acoustic,493207915,19,1,3|3,S33_13,1,critical_I2,1,S2,False,,,,,0,True,I2,21.0,55.0,late,55,False,,,,,0,True,False,False,,,within-phrase,switch,1,acoustic
+P01,acoustic,493207915,20,1,2|4,S24_05,1,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical),switch,1,acoustic
+P01,acoustic,493207915,21,1,word list,WL_06,1,critical_I3,2,A+S2,True,I2,15.0,75.0,late,75,True,I3,22.0,55.0,early,-55,False,,,,,0,True,True,True,7.0,6.0,no structure,switch,1,acoustic
+P01,acoustic,493207915,22,1,3|3,S33_12,1,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical),switch,1,acoustic
+P01,acoustic,493207915,23,1,3|3,S33_09,1,critical_I3,2,A+S2,True,I2,15.0,55.0,late,55,True,I3,22.0,75.0,late,75,False,,,,,0,True,True,True,7.0,6.0,boundary,switch,1,acoustic
+P01,acoustic,493207915,24,1,word list,WL_12,1,critical_I3,1,S2,False,,,,,0,True,I3,22.0,35.0,late,35,False,,,,,0,True,False,False,,,no structure,switch,1,acoustic
+P01,acoustic,493207915,25,2,3|3,S33_16,2,baseline,2,A+B,True,I1,14.0,35.0,late,35,False,,,,,0,True,I2,27.0,55.0,early,-55,False,False,False,13.0,12.0,(not critical),switch,1,acoustic
+P01,acoustic,493207915,26,2,2|4,S24_18,1,critical_I2,1,S2,False,,,,,0,True,I2,21.0,35.0,early,-35,False,,,,,0,True,False,False,,,boundary,switch,1,acoustic
+P01,acoustic,493207915,27,2,word list,WL_11,1,baseline,2,A+B,True,I2,15.0,75.0,early,-75,False,,,,,0,True,I2,27.0,35.0,early,-35,False,False,False,12.0,11.0,(not critical),switch,1,acoustic
+P01,acoustic,493207915,28,2,word list,WL_08,2,filler,1,S2,False,,,,,0,True,I1,20.0,35.0,early,-35,False,,,,,0,False,False,False,,,(not critical),switch,1,acoustic
+P01,acoustic,493207915,29,2,3|3,S33_15,1,critical_I2,2,A+S2,True,I2,15.0,55.0,late,55,True,I2,21.0,75.0,early,-75,False,,,,,0,True,True,True,6.0,5.0,within-phrase,switch,1,acoustic
+P01,acoustic,493207915,30,2,3|3,S33_05,2,filler,1,S2,False,,,,,0,True,I4,23.0,55.0,late,55,False,,,,,0,False,False,False,,,(not critical),switch,1,acoustic
+P01,acoustic,493207915,31,2,word list,WL_13,2,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical),switch,1,acoustic
+P01,acoustic,493207915,32,2,3|3,S33_10,1,critical_I3,1,S2,False,,,,,0,True,I3,22.0,35.0,early,-35,False,,,,,0,True,False,False,,,boundary,switch,1,acoustic
+P01,acoustic,493207915,33,2,2|4,S24_01,2,baseline,2,A+B,True,I2,15.0,55.0,late,55,False,,,,,0,True,I1,26.0,75.0,late,75,False,False,False,11.0,10.0,(not critical),switch,1,acoustic
+P01,acoustic,493207915,34,2,2|4,S24_16,1,filler,1,S2,False,,,,,0,True,I4,23.0,75.0,early,-75,False,,,,,0,False,False,False,,,(not critical),switch,1,acoustic
+P01,acoustic,493207915,35,2,3|3,S33_09,2,critical_I2,1,S2,False,,,,,0,True,I2,21.0,35.0,late,35,False,,,,,0,True,False,False,,,within-phrase,switch,1,acoustic
+P01,acoustic,493207915,36,2,3|3,S33_01,1,filler,1,S2,False,,,,,0,True,I1,20.0,35.0,late,35,False,,,,,0,False,False,False,,,(not critical),switch,1,acoustic
+P01,acoustic,493207915,37,2,3|3,S33_14,2,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical),switch,1,acoustic
+P01,acoustic,493207915,38,2,2|4,S24_07,1,filler,1,S2,False,,,,,0,True,I1,20.0,35.0,late,35,False,,,,,0,False,False,False,,,(not critical),switch,1,acoustic
+P01,acoustic,493207915,39,2,word list,WL_12,2,critical_I2,1,S2,False,,,,,0,True,I2,21.0,75.0,late,75,False,,,,,0,True,False,False,,,no structure,switch,1,acoustic
+P01,acoustic,493207915,40,2,2|4,S24_12,2,critical_I2,1,S2,False,,,,,0,True,I2,21.0,75.0,late,75,False,,,,,0,True,False,False,,,boundary,switch,1,acoustic
+P01,acoustic,493207915,41,2,word list,WL_06,2,filler,2,A+S2,True,I1,14.0,75.0,early,-75,True,I5,24.0,75.0,early,-75,False,,,,,0,False,True,False,10.0,9.0,(not critical),switch,1,acoustic
+P01,acoustic,493207915,42,2,word list,WL_18,1,critical_I3,1,S2,False,,,,,0,True,I3,22.0,35.0,early,-35,False,,,,,0,True,False,False,,,no structure,switch,1,acoustic
+P01,acoustic,493207915,43,2,word list,WL_03,1,critical_I3,1,S2,False,,,,,0,True,I3,22.0,55.0,late,55,False,,,,,0,True,False,False,,,no structure,switch,1,acoustic
+P01,acoustic,493207915,44,2,3|3,S33_08,1,critical_I3,1,S2,False,,,,,0,True,I3,22.0,55.0,late,55,False,,,,,0,True,False,False,,,boundary,switch,1,acoustic
+P01,acoustic,493207915,45,2,word list,WL_04,1,critical_I2,1,S2,False,,,,,0,True,I2,21.0,35.0,late,35,False,,,,,0,True,False,False,,,no structure,switch,1,acoustic
+P01,acoustic,493207915,46,2,2|4,S24_03,1,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical),switch,1,acoustic
+P01,acoustic,493207915,47,2,2|4,S24_15,2,critical_I3,1,S2,False,,,,,0,True,I3,22.0,75.0,early,-75,False,,,,,0,True,False,False,,,within-phrase,switch,1,acoustic
+P01,acoustic,493207915,48,2,2|4,S24_14,2,critical_I3,1,S2,False,,,,,0,True,I3,22.0,35.0,late,35,False,,,,,0,True,False,False,,,within-phrase,switch,1,acoustic
+P01,acoustic,493207915,49,3,word list,WL_15,2,critical_I2,2,A+S2,True,I2,15.0,35.0,late,35,True,I2,21.0,55.0,late,55,False,,,,,0,True,True,True,6.0,5.0,no structure,switch,1,acoustic
+P01,acoustic,493207915,50,3,3|3,S33_17,1,filler,2,A+S2,True,I2,15.0,75.0,early,-75,True,I5,24.0,75.0,early,-75,False,,,,,0,False,True,False,9.0,8.0,(not critical),switch,1,acoustic
+P01,acoustic,493207915,51,3,2|4,S24_05,2,filler,2,A+S2,True,I1,14.0,35.0,early,-35,True,I5,24.0,35.0,early,-35,False,,,,,0,False,True,False,10.0,9.0,(not critical),switch,1,acoustic
+P01,acoustic,493207915,52,3,3|3,S33_01,2,critical_I2,1,S2,False,,,,,0,True,I2,21.0,75.0,late,75,False,,,,,0,True,False,False,,,within-phrase,switch,1,acoustic
+P01,acoustic,493207915,53,3,2|4,S24_09,1,critical_I2,1,S2,False,,,,,0,True,I2,21.0,75.0,early,-75,False,,,,,0,True,False,False,,,boundary,switch,1,acoustic
+P01,acoustic,493207915,54,3,word list,WL_10,1,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical),switch,1,acoustic
+P01,acoustic,493207915,55,3,3|3,S33_10,2,critical_I2,1,S2,False,,,,,0,True,I2,21.0,35.0,early,-35,False,,,,,0,True,False,False,,,within-phrase,switch,1,acoustic
+P01,acoustic,493207915,56,3,3|3,S33_02,2,critical_I3,1,S2,False,,,,,0,True,I3,22.0,35.0,late,35,False,,,,,0,True,False,False,,,boundary,switch,1,acoustic
+P01,acoustic,493207915,57,3,word list,WL_02,1,critical_I3,1,S2,False,,,,,0,True,I3,22.0,75.0,late,75,False,,,,,0,True,False,False,,,no structure,switch,1,acoustic
+P01,acoustic,493207915,58,3,3|3,S33_09,3,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical),switch,1,acoustic
+P01,acoustic,493207915,59,3,2|4,S24_17,2,critical_I2,1,S2,False,,,,,0,True,I2,21.0,55.0,early,-55,False,,,,,0,True,False,False,,,boundary,switch,1,acoustic
+P01,acoustic,493207915,60,3,word list,WL_14,2,filler,1,S2,False,,,,,0,True,I4,23.0,35.0,late,35,False,,,,,0,False,False,False,,,(not critical),switch,1,acoustic
+P01,acoustic,493207915,61,3,word list,WL_08,3,critical_I3,1,S2,False,,,,,0,True,I3,22.0,75.0,early,-75,False,,,,,0,True,False,False,,,no structure,switch,1,acoustic
+P01,acoustic,493207915,62,3,2|4,S24_15,3,filler,1,S2,False,,,,,0,True,I4,23.0,55.0,late,55,False,,,,,0,False,False,False,,,(not critical),switch,1,acoustic
+P01,acoustic,493207915,63,3,3|3,S33_06,1,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical),switch,1,acoustic
+P01,acoustic,493207915,64,3,word list,WL_06,3,critical_I2,1,S2,False,,,,,0,True,I2,21.0,55.0,early,-55,False,,,,,0,True,False,False,,,no structure,switch,1,acoustic
+P01,acoustic,493207915,65,3,2|4,S24_10,1,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical),switch,1,acoustic
+P01,acoustic,493207915,66,3,2|4,S24_18,2,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical),switch,1,acoustic
+P01,acoustic,493207915,67,3,2|4,S24_11,2,critical_I3,2,A+S2,True,I2,15.0,35.0,early,-35,True,I3,22.0,75.0,late,75,False,,,,,0,True,True,True,7.0,6.0,within-phrase,switch,1,acoustic
+P01,acoustic,493207915,68,3,2|4,S24_16,2,critical_I3,1,S2,False,,,,,0,True,I3,22.0,55.0,late,55,False,,,,,0,True,False,False,,,within-phrase,switch,1,acoustic
+P01,acoustic,493207915,69,3,3|3,S33_04,1,filler,1,S2,False,,,,,0,True,I1,20.0,55.0,early,-55,False,,,,,0,False,False,False,,,(not critical),switch,1,acoustic
+P01,acoustic,493207915,70,3,3|3,S33_18,1,critical_I3,1,S2,False,,,,,0,True,I3,22.0,55.0,early,-55,False,,,,,0,True,False,False,,,boundary,switch,1,acoustic
+P01,acoustic,493207915,71,3,word list,WL_04,2,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical),switch,1,acoustic
+P01,acoustic,493207915,72,3,word list,WL_17,1,filler,1,S2,False,,,,,0,True,I4,23.0,55.0,early,-55,False,,,,,0,False,False,False,,,(not critical),switch,1,acoustic
+P01,acoustic,493207915,73,4,3|3,S33_06,2,critical_I2,1,S2,False,,,,,0,True,I2,21.0,55.0,early,-55,False,,,,,0,True,False,False,,,within-phrase,switch,2,speech
+P01,acoustic,493207915,74,4,word list,WL_12,3,filler,1,S2,False,,,,,0,True,I1,20.0,75.0,early,-75,False,,,,,0,False,False,False,,,(not critical),switch,2,speech
+P01,acoustic,493207915,75,4,word list,WL_10,2,critical_I3,1,S2,False,,,,,0,True,I3,22.0,55.0,early,-55,False,,,,,0,True,False,False,,,no structure,switch,2,speech
+P01,acoustic,493207915,76,4,3|3,S33_03,1,filler,2,S2+B,False,,,,,0,True,I1,20.0,35.0,early,-35,True,I2,27.0,55.0,early,-55,False,True,False,7.0,6.0,(not critical),switch,2,speech
+P01,acoustic,493207915,77,4,3|3,S33_08,2,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical),switch,2,speech
+P01,acoustic,493207915,78,4,word list,WL_17,2,baseline,2,A+B,True,I2,15.0,75.0,late,75,False,,,,,0,True,I2,27.0,55.0,early,-55,False,False,False,12.0,11.0,(not critical),switch,2,speech
+P01,acoustic,493207915,79,4,3|3,S33_04,2,critical_I3,1,S2,False,,,,,0,True,I3,22.0,75.0,late,75,False,,,,,0,True,False,False,,,boundary,switch,2,speech
+P01,acoustic,493207915,80,4,3|3,S33_18,2,filler,2,A+S2,True,I2,15.0,75.0,late,75,True,I4,23.0,55.0,early,-55,False,,,,,0,False,True,False,8.0,7.0,(not critical),switch,2,speech
+P01,acoustic,493207915,81,4,word list,WL_18,2,critical_I2,1,S2,False,,,,,0,True,I2,21.0,75.0,early,-75,False,,,,,0,True,False,False,,,no structure,switch,2,speech
+P01,acoustic,493207915,82,4,3|3,S33_12,2,critical_I2,1,S2,False,,,,,0,True,I2,21.0,75.0,early,-75,False,,,,,0,True,False,False,,,within-phrase,switch,2,speech
+P01,acoustic,493207915,83,4,2|4,S24_02,1,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical),switch,2,speech
+P01,acoustic,493207915,84,4,2|4,S24_10,2,critical_I3,1,S2,False,,,,,0,True,I3,22.0,75.0,early,-75,False,,,,,0,True,False,False,,,within-phrase,switch,2,speech
+P01,acoustic,493207915,85,4,2|4,S24_04,1,critical_I2,1,S2,False,,,,,0,True,I2,21.0,35.0,early,-35,False,,,,,0,True,False,False,,,boundary,switch,2,speech
+P01,acoustic,493207915,86,4,3|3,S33_15,2,critical_I3,1,S2,False,,,,,0,True,I3,22.0,55.0,early,-55,False,,,,,0,True,False,False,,,boundary,switch,2,speech
+P01,acoustic,493207915,87,4,word list,WL_09,1,filler,1,S2,False,,,,,0,True,I4,23.0,55.0,late,55,False,,,,,0,False,False,False,,,(not critical),switch,2,speech
+P01,acoustic,493207915,88,4,word list,WL_03,2,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical),switch,2,speech
+P01,acoustic,493207915,89,4,2|4,S24_13,1,critical_I2,1,S2,False,,,,,0,True,I2,21.0,75.0,early,-75,False,,,,,0,True,False,False,,,boundary,switch,2,speech
+P01,acoustic,493207915,90,4,2|4,S24_06,1,filler,1,S2,False,,,,,0,True,I1,20.0,35.0,early,-35,False,,,,,0,False,False,False,,,(not critical),switch,2,speech
+P01,acoustic,493207915,91,4,2|4,S24_17,3,filler,1,S2,False,,,,,0,True,I4,23.0,35.0,early,-35,False,,,,,0,False,False,False,,,(not critical),switch,2,speech
+P01,acoustic,493207915,92,4,3|3,S33_11,1,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical),switch,2,speech
+P01,acoustic,493207915,93,4,word list,WL_04,3,critical_I3,1,S2,False,,,,,0,True,I3,22.0,55.0,early,-55,False,,,,,0,True,False,False,,,no structure,switch,2,speech
+P01,acoustic,493207915,94,4,2|4,S24_05,3,critical_I3,1,S2,False,,,,,0,True,I3,22.0,35.0,late,35,False,,,,,0,True,False,False,,,within-phrase,switch,2,speech
+P01,acoustic,493207915,95,4,2|4,S24_16,3,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical),switch,2,speech
+P01,acoustic,493207915,96,4,word list,WL_11,2,critical_I2,1,S2,False,,,,,0,True,I2,21.0,35.0,late,35,False,,,,,0,True,False,False,,,no structure,switch,2,speech
+P01,acoustic,493207915,97,5,2|4,S24_13,2,filler,2,S2+B,False,,,,,0,True,I1,20.0,75.0,early,-75,True,I2,27.0,35.0,late,35,False,True,False,7.0,6.0,(not critical),switch,2,speech
+P01,acoustic,493207915,98,5,2|4,S24_14,3,critical_I2,1,S2,False,,,,,0,True,I2,21.0,75.0,late,75,False,,,,,0,True,False,False,,,boundary,switch,2,speech
+P01,acoustic,493207915,99,5,3|3,S33_04,3,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical),switch,2,speech
+P01,acoustic,493207915,100,5,3|3,S33_15,3,filler,1,S2,False,,,,,0,True,I4,23.0,75.0,late,75,False,,,,,0,False,False,False,,,(not critical),switch,2,speech
+P01,acoustic,493207915,101,5,word list,WL_07,1,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical),switch,2,speech
+P01,acoustic,493207915,102,5,3|3,S33_16,3,filler,2,A+S2,True,I1,14.0,75.0,late,75,True,I1,20.0,55.0,late,55,False,,,,,0,False,True,False,6.0,5.0,(not critical),switch,2,speech
+P01,acoustic,493207915,103,5,3|3,S33_11,2,critical_I2,1,S2,False,,,,,0,True,I2,21.0,75.0,late,75,False,,,,,0,True,False,False,,,within-phrase,switch,2,speech
+P01,acoustic,493207915,104,5,word list,WL_14,3,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical),switch,2,speech
+P01,acoustic,493207915,105,5,word list,WL_17,3,critical_I3,1,S2,False,,,,,0,True,I3,22.0,35.0,early,-35,False,,,,,0,True,False,False,,,no structure,switch,2,speech
+P01,acoustic,493207915,106,5,3|3,S33_10,3,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical),switch,2,speech
+P01,acoustic,493207915,107,5,word list,WL_03,3,filler,1,S2,False,,,,,0,True,I5,24.0,55.0,late,55,False,,,,,0,False,False,False,,,(not critical),switch,2,speech
+P01,acoustic,493207915,108,5,3|3,S33_07,2,critical_I3,1,S2,False,,,,,0,True,I3,22.0,35.0,early,-35,False,,,,,0,True,False,False,,,boundary,switch,2,speech
+P01,acoustic,493207915,109,5,3|3,S33_03,2,critical_I2,1,S2,False,,,,,0,True,I2,21.0,35.0,late,35,False,,,,,0,True,False,False,,,within-phrase,switch,2,speech
+P01,acoustic,493207915,110,5,3|3,S33_17,2,critical_I3,1,S2,False,,,,,0,True,I3,22.0,75.0,early,-75,False,,,,,0,True,False,False,,,boundary,switch,2,speech
+P01,acoustic,493207915,111,5,2|4,S24_09,2,filler,1,S2,False,,,,,0,True,I5,24.0,35.0,late,35,False,,,,,0,False,False,False,,,(not critical),switch,2,speech
+P01,acoustic,493207915,112,5,2|4,S24_12,3,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical),switch,2,speech
+P01,acoustic,493207915,113,5,word list,WL_05,1,critical_I2,1,S2,False,,,,,0,True,I2,21.0,55.0,late,55,False,,,,,0,True,False,False,,,no structure,switch,2,speech
+P01,acoustic,493207915,114,5,word list,WL_18,3,filler,1,S2,False,,,,,0,True,I5,24.0,35.0,early,-35,False,,,,,0,False,False,False,,,(not critical),switch,2,speech
+P01,acoustic,493207915,115,5,2|4,S24_03,2,critical_I3,1,S2,False,,,,,0,True,I3,22.0,35.0,early,-35,False,,,,,0,True,False,False,,,within-phrase,switch,2,speech
+P01,acoustic,493207915,116,5,word list,WL_01,2,critical_I3,1,S2,False,,,,,0,True,I3,22.0,35.0,late,35,False,,,,,0,True,False,False,,,no structure,switch,2,speech
+P01,acoustic,493207915,117,5,word list,WL_13,3,critical_I2,1,S2,False,,,,,0,True,I2,21.0,35.0,early,-35,False,,,,,0,True,False,False,,,no structure,switch,2,speech
+P01,acoustic,493207915,118,5,2|4,S24_07,2,critical_I3,1,S2,False,,,,,0,True,I3,22.0,75.0,late,75,False,,,,,0,True,False,False,,,within-phrase,switch,2,speech
+P01,acoustic,493207915,119,5,2|4,S24_11,3,baseline,2,A+B,True,I2,15.0,55.0,early,-55,False,,,,,0,True,I2,27.0,75.0,early,-75,False,False,False,12.0,11.0,(not critical),switch,2,speech
+P01,acoustic,493207915,120,5,2|4,S24_02,2,critical_I2,1,S2,False,,,,,0,True,I2,21.0,35.0,late,35,False,,,,,0,True,False,False,,,boundary,switch,2,speech
+P01,acoustic,493207915,121,6,3|3,S33_13,2,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical),switch,2,speech
+P01,acoustic,493207915,122,6,word list,WL_17,4,critical_I2,2,A+S2,True,I1,14.0,35.0,late,35,True,I2,21.0,75.0,late,75,False,,,,,0,True,True,True,7.0,6.0,no structure,switch,2,speech
+P01,acoustic,493207915,123,6,2|4,S24_14,4,filler,2,A+S2,True,I1,14.0,75.0,late,75,True,I4,23.0,55.0,early,-55,False,,,,,0,False,True,False,9.0,8.0,(not critical),switch,2,speech
+P01,acoustic,493207915,124,6,word list,WL_02,2,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical),switch,2,speech
+P01,acoustic,493207915,125,6,2|4,S24_13,3,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical),switch,2,speech
+P01,acoustic,493207915,126,6,2|4,S24_18,3,filler,1,S2,False,,,,,0,True,I1,20.0,75.0,late,75,False,,,,,0,False,False,False,,,(not critical),switch,2,speech
+P01,acoustic,493207915,127,6,word list,WL_05,2,critical_I3,1,S2,False,,,,,0,True,I3,22.0,55.0,late,55,False,,,,,0,True,False,False,,,no structure,switch,2,speech
+P01,acoustic,493207915,128,6,2|4,S24_09,3,critical_I3,1,S2,False,,,,,0,True,I3,22.0,75.0,early,-75,False,,,,,0,True,False,False,,,within-phrase,switch,2,speech
+P01,acoustic,493207915,129,6,word list,WL_09,2,critical_I3,2,A+S2,True,I2,15.0,35.0,early,-35,True,I3,22.0,35.0,early,-35,False,,,,,0,True,True,True,7.0,6.0,no structure,switch,2,speech
+P01,acoustic,493207915,130,6,word list,WL_16,2,critical_I2,1,S2,False,,,,,0,True,I2,21.0,55.0,late,55,False,,,,,0,True,False,False,,,no structure,switch,2,speech
+P01,acoustic,493207915,131,6,word list,WL_15,3,filler,2,S2+B,False,,,,,0,True,I1,20.0,55.0,early,-55,True,I2,27.0,55.0,late,55,False,True,False,7.0,6.0,(not critical),switch,2,speech
+P01,acoustic,493207915,132,6,3|3,S33_11,3,critical_I3,2,A+S2,True,I2,15.0,35.0,early,-35,True,I3,22.0,55.0,early,-55,False,,,,,0,True,True,True,7.0,6.0,boundary,switch,2,speech
+P01,acoustic,493207915,133,6,3|3,S33_07,3,critical_I2,1,S2,False,,,,,0,True,I2,21.0,55.0,early,-55,False,,,,,0,True,False,False,,,within-phrase,switch,2,speech
+P01,acoustic,493207915,134,6,word list,WL_12,4,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical),switch,2,speech
+P01,acoustic,493207915,135,6,3|3,S33_09,4,filler,1,S2,False,,,,,0,True,I1,20.0,75.0,early,-75,False,,,,,0,False,False,False,,,(not critical),switch,2,speech
+P01,acoustic,493207915,136,6,word list,WL_07,2,filler,1,S2,False,,,,,0,True,I4,23.0,75.0,early,-75,False,,,,,0,False,False,False,,,(not critical),switch,2,speech
+P01,acoustic,493207915,137,6,3|3,S33_06,3,filler,2,A+S2,True,I1,14.0,55.0,late,55,True,I4,23.0,35.0,late,35,False,,,,,0,False,True,False,9.0,8.0,(not critical),switch,2,speech
+P01,acoustic,493207915,138,6,3|3,S33_08,3,critical_I2,2,A+S2,True,I1,14.0,35.0,late,35,True,I2,21.0,55.0,late,55,False,,,,,0,True,True,True,7.0,6.0,within-phrase,switch,2,speech
+P01,acoustic,493207915,139,6,2|4,S24_08,2,critical_I2,1,S2,False,,,,,0,True,I2,21.0,35.0,late,35,False,,,,,0,True,False,False,,,boundary,switch,2,speech
+P01,acoustic,493207915,140,6,2|4,S24_07,3,critical_I2,1,S2,False,,,,,0,True,I2,21.0,75.0,late,75,False,,,,,0,True,False,False,,,boundary,switch,2,speech
+P01,acoustic,493207915,141,6,2|4,S24_17,4,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical),switch,2,speech
+P01,acoustic,493207915,142,6,3|3,S33_01,3,critical_I3,1,S2,False,,,,,0,True,I3,22.0,75.0,late,75,False,,,,,0,True,False,False,,,boundary,switch,2,speech
+P01,acoustic,493207915,143,6,3|3,S33_05,3,baseline,2,A+B,True,I1,14.0,75.0,early,-75,False,,,,,0,True,I1,26.0,55.0,early,-55,False,False,False,12.0,11.0,(not critical),switch,2,speech
+P01,acoustic,493207915,144,6,2|4,S24_01,3,critical_I3,2,A+S2,True,I2,15.0,55.0,early,-55,True,I3,22.0,55.0,late,55,False,,,,,0,True,True,True,7.0,6.0,within-phrase,switch,2,speech
+P01,acoustic,493207915,145,7,3|3,S33_16,4,critical_I3,1,S2,False,,,,,0,True,I3,22.0,35.0,early,-35,False,,,,,0,True,False,False,,,boundary,switch,2,speech
+P01,acoustic,493207915,146,7,2|4,S24_01,4,critical_I2,2,S2+B,False,,,,,0,True,I2,21.0,55.0,early,-55,True,I2,27.0,55.0,late,55,True,True,True,6.0,5.0,boundary,switch,2,speech
+P01,acoustic,493207915,147,7,2|4,S24_12,4,critical_I3,1,S2,False,,,,,0,True,I3,22.0,75.0,late,75,False,,,,,0,True,False,False,,,within-phrase,switch,2,speech
+P01,acoustic,493207915,148,7,3|3,S33_14,3,critical_I3,1,S2,False,,,,,0,True,I3,22.0,55.0,late,55,False,,,,,0,True,False,False,,,boundary,switch,2,speech
+P01,acoustic,493207915,149,7,2|4,S24_02,3,critical_I3,1,S2,False,,,,,0,True,I3,22.0,35.0,late,35,False,,,,,0,True,False,False,,,within-phrase,switch,2,speech
+P01,acoustic,493207915,150,7,3|3,S33_13,3,filler,1,S2,False,,,,,0,True,I5,24.0,35.0,late,35,False,,,,,0,False,False,False,,,(not critical),switch,2,speech
+P01,acoustic,493207915,151,7,2|4,S24_15,4,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical),switch,2,speech
+P01,acoustic,493207915,152,7,word list,WL_11,3,filler,2,A+S2,True,I2,15.0,35.0,late,35,True,I5,24.0,35.0,late,35,False,,,,,0,False,True,False,9.0,8.0,(not critical),switch,2,speech
+P01,acoustic,493207915,153,7,3|3,S33_10,4,filler,1,S2,False,,,,,0,True,I1,20.0,75.0,late,75,False,,,,,0,False,False,False,,,(not critical),switch,2,speech
+P01,acoustic,493207915,154,7,word list,WL_18,4,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical),switch,2,speech
+P01,acoustic,493207915,155,7,3|3,S33_07,4,baseline,2,A+B,True,I2,15.0,75.0,early,-75,False,,,,,0,True,I2,27.0,75.0,late,75,False,False,False,12.0,11.0,(not critical),switch,2,speech
+P01,acoustic,493207915,156,7,2|4,S24_08,3,filler,2,A+S2,True,I2,15.0,35.0,late,35,True,I4,23.0,35.0,late,35,False,,,,,0,False,True,False,8.0,7.0,(not critical),switch,2,speech
+P01,acoustic,493207915,157,7,word list,WL_13,4,critical_I3,2,A+S2,True,I1,14.0,75.0,late,75,True,I3,22.0,75.0,early,-75,False,,,,,0,True,True,True,8.0,7.0,no structure,switch,2,speech
+P01,acoustic,493207915,158,7,word list,WL_01,3,filler,1,S2,False,,,,,0,True,I1,20.0,75.0,late,75,False,,,,,0,False,False,False,,,(not critical),switch,2,speech
+P01,acoustic,493207915,159,7,2|4,S24_05,4,critical_I2,1,S2,False,,,,,0,True,I2,21.0,55.0,early,-55,False,,,,,0,True,False,False,,,boundary,switch,2,speech
+P01,acoustic,493207915,160,7,3|3,S33_18,3,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical),switch,2,speech
+P01,acoustic,493207915,161,7,3|3,S33_17,3,critical_I2,1,S2,False,,,,,0,True,I2,21.0,35.0,late,35,False,,,,,0,True,False,False,,,within-phrase,switch,2,speech
+P01,acoustic,493207915,162,7,word list,WL_16,3,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical),switch,2,speech
+P01,acoustic,493207915,163,7,3|3,S33_02,3,critical_I2,1,S2,False,,,,,0,True,I2,21.0,35.0,early,-35,False,,,,,0,True,False,False,,,within-phrase,switch,2,speech
+P01,acoustic,493207915,164,7,word list,WL_10,3,critical_I2,1,S2,False,,,,,0,True,I2,21.0,75.0,late,75,False,,,,,0,True,False,False,,,no structure,switch,2,speech
+P01,acoustic,493207915,165,7,2|4,S24_06,2,baseline,2,A+B,True,I2,15.0,55.0,late,55,False,,,,,0,True,I2,27.0,55.0,early,-55,False,False,False,12.0,11.0,(not critical),switch,2,speech
+P01,acoustic,493207915,166,7,word list,WL_14,4,critical_I3,1,S2,False,,,,,0,True,I3,22.0,75.0,early,-75,False,,,,,0,True,False,False,,,no structure,switch,2,speech
+P01,acoustic,493207915,167,7,2|4,S24_04,2,filler,2,A+S2,True,I1,14.0,75.0,late,75,True,I1,20.0,55.0,late,55,False,,,,,0,False,True,False,6.0,5.0,(not critical),switch,2,speech
+P01,acoustic,493207915,168,7,word list,WL_07,3,critical_I2,1,S2,False,,,,,0,True,I2,21.0,55.0,early,-55,False,,,,,0,True,False,False,,,no structure,switch,2,speech
+P01,acoustic,493207915,169,8,2|4,S24_03,3,critical_I2,1,S2,False,,,,,0,True,I2,21.0,55.0,late,55,False,,,,,0,True,False,False,,,boundary,switch,2,speech
+P01,acoustic,493207915,170,8,2|4,S24_10,3,filler,1,S2,False,,,,,0,True,I5,24.0,55.0,late,55,False,,,,,0,False,False,False,,,(not critical),switch,2,speech
+P01,acoustic,493207915,171,8,word list,WL_09,3,baseline,2,A+B,True,I2,15.0,55.0,late,55,False,,,,,0,True,I1,26.0,55.0,early,-55,False,False,False,11.0,10.0,(not critical),switch,2,speech
+P01,acoustic,493207915,172,8,3|3,S33_05,4,critical_I2,1,S2,False,,,,,0,True,I2,21.0,75.0,late,75,False,,,,,0,True,False,False,,,within-phrase,switch,2,speech
+P01,acoustic,493207915,173,8,word list,WL_15,4,critical_I3,1,S2,False,,,,,0,True,I3,22.0,35.0,late,35,False,,,,,0,True,False,False,,,no structure,switch,2,speech
+P01,acoustic,493207915,174,8,2|4,S24_11,4,filler,1,S2,False,,,,,0,True,I5,24.0,55.0,early,-55,False,,,,,0,False,False,False,,,(not critical),switch,2,speech
+P01,acoustic,493207915,175,8,2|4,S24_09,4,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical),switch,2,speech
+P01,acoustic,493207915,176,8,3|3,S33_03,3,critical_I3,1,S2,False,,,,,0,True,I3,22.0,75.0,early,-75,False,,,,,0,True,False,False,,,boundary,switch,2,speech
+P01,acoustic,493207915,177,8,word list,WL_06,4,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical),switch,2,speech
+P01,acoustic,493207915,178,8,word list,WL_11,4,critical_I3,1,S2,False,,,,,0,True,I3,22.0,75.0,late,75,False,,,,,0,True,False,False,,,no structure,switch,2,speech
+P01,acoustic,493207915,179,8,word list,WL_04,4,filler,2,A+S2,True,I2,15.0,35.0,early,-35,True,I4,23.0,75.0,late,75,False,,,,,0,False,True,False,8.0,7.0,(not critical),switch,2,speech
+P01,acoustic,493207915,180,8,2|4,S24_04,3,critical_I3,1,S2,False,,,,,0,True,I3,22.0,55.0,early,-55,False,,,,,0,True,False,False,,,within-phrase,switch,2,speech
+P01,acoustic,493207915,181,8,2|4,S24_16,4,critical_I2,1,S2,False,,,,,0,True,I2,21.0,35.0,early,-35,False,,,,,0,True,False,False,,,boundary,switch,2,speech
+P01,acoustic,493207915,182,8,word list,WL_05,3,filler,1,S2,False,,,,,0,True,I1,20.0,35.0,late,35,False,,,,,0,False,False,False,,,(not critical),switch,2,speech
+P01,acoustic,493207915,183,8,3|3,S33_04,4,critical_I2,2,S2+B,False,,,,,0,True,I2,21.0,35.0,early,-35,True,I2,27.0,35.0,early,-35,True,True,True,6.0,5.0,within-phrase,switch,2,speech
+P01,acoustic,493207915,184,8,word list,WL_02,3,critical_I2,1,S2,False,,,,,0,True,I2,21.0,75.0,early,-75,False,,,,,0,True,False,False,,,no structure,switch,2,speech
+P01,acoustic,493207915,185,8,2|4,S24_06,3,critical_I3,1,S2,False,,,,,0,True,I3,22.0,55.0,late,55,False,,,,,0,True,False,False,,,within-phrase,switch,2,speech
+P01,acoustic,493207915,186,8,2|4,S24_07,4,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical),switch,2,speech
+P01,acoustic,493207915,187,8,3|3,S33_08,4,filler,1,S2,False,,,,,0,True,I5,24.0,55.0,early,-55,False,,,,,0,False,False,False,,,(not critical),switch,2,speech
+P01,acoustic,493207915,188,8,word list,WL_03,4,critical_I2,2,S2+B,False,,,,,0,True,I2,21.0,35.0,late,35,True,I2,27.0,55.0,early,-55,True,True,True,6.0,5.0,no structure,switch,2,speech
+P01,acoustic,493207915,189,8,3|3,S33_17,4,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical),switch,2,speech
+P01,acoustic,493207915,190,8,3|3,S33_12,3,filler,1,S2,False,,,,,0,True,I4,23.0,75.0,early,-75,False,,,,,0,False,False,False,,,(not critical),switch,2,speech
+P01,acoustic,493207915,191,8,3|3,S33_13,4,critical_I3,1,S2,False,,,,,0,True,I3,22.0,55.0,late,55,False,,,,,0,True,False,False,,,boundary,switch,2,speech
+P01,acoustic,493207915,192,8,3|3,S33_01,4,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical),switch,2,speech
+P01,acoustic,493207915,193,9,3|3,S33_11,4,filler,1,S2,False,,,,,0,True,I5,24.0,55.0,late,55,False,,,,,0,False,False,False,,,(not critical),switch,2,speech
+P01,acoustic,493207915,194,9,word list,WL_02,4,filler,2,A+S2,True,I2,15.0,55.0,late,55,True,I4,23.0,35.0,early,-35,False,,,,,0,False,True,False,8.0,7.0,(not critical),switch,2,speech
+P01,acoustic,493207915,195,9,word list,WL_07,4,critical_I3,1,S2,False,,,,,0,True,I3,22.0,75.0,late,75,False,,,,,0,True,False,False,,,no structure,switch,2,speech
+P01,acoustic,493207915,196,9,2|4,S24_02,4,filler,1,S2,False,,,,,0,True,I4,23.0,75.0,late,75,False,,,,,0,False,False,False,,,(not critical),switch,2,speech
+P01,acoustic,493207915,197,9,2|4,S24_13,4,critical_I3,1,S2,False,,,,,0,True,I3,22.0,55.0,early,-55,False,,,,,0,True,False,False,,,within-phrase,switch,2,speech
+P01,acoustic,493207915,198,9,word list,WL_05,4,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical),switch,2,speech
+P01,acoustic,493207915,199,9,3|3,S33_14,4,critical_I2,1,S2,False,,,,,0,True,I2,21.0,75.0,early,-75,False,,,,,0,True,False,False,,,within-phrase,switch,2,speech
+P01,acoustic,493207915,200,9,3|3,S33_12,4,critical_I3,2,A+S2,True,I2,15.0,35.0,late,35,True,I3,22.0,35.0,late,35,False,,,,,0,True,True,True,7.0,6.0,boundary,switch,2,speech
+P01,acoustic,493207915,201,9,3|3,S33_15,4,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical),switch,2,speech
+P01,acoustic,493207915,202,9,2|4,S24_06,4,critical_I2,2,A+S2,True,I1,14.0,35.0,late,35,True,I2,21.0,75.0,early,-75,False,,,,,0,True,True,True,7.0,6.0,boundary,switch,2,speech
+P01,acoustic,493207915,203,9,word list,WL_01,4,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical),switch,2,speech
+P01,acoustic,493207915,204,9,3|3,S33_06,4,critical_I3,1,S2,False,,,,,0,True,I3,22.0,35.0,late,35,False,,,,,0,True,False,False,,,boundary,switch,2,speech
+P01,acoustic,493207915,205,9,2|4,S24_04,4,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical),switch,2,speech
+P01,acoustic,493207915,206,9,3|3,S33_18,4,critical_I2,1,S2,False,,,,,0,True,I2,21.0,55.0,late,55,False,,,,,0,True,False,False,,,within-phrase,switch,2,speech
+P01,acoustic,493207915,207,9,word list,WL_10,4,filler,1,S2,False,,,,,0,True,I5,24.0,55.0,early,-55,False,,,,,0,False,False,False,,,(not critical),switch,2,speech
+P01,acoustic,493207915,208,9,2|4,S24_08,4,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical),switch,2,speech
+P01,acoustic,493207915,209,9,3|3,S33_03,4,baseline,0,none,False,,,,,0,False,,,,,0,False,,,,,0,False,False,False,,,(not critical),switch,2,speech
+P01,acoustic,493207915,210,9,word list,WL_09,4,critical_I2,1,S2,False,,,,,0,True,I2,21.0,55.0,early,-55,False,,,,,0,True,False,False,,,no structure,switch,2,speech
+P01,acoustic,493207915,211,9,word list,WL_16,4,critical_I3,1,S2,False,,,,,0,True,I3,22.0,55.0,late,55,False,,,,,0,True,False,False,,,no structure,switch,2,speech
+P01,acoustic,493207915,212,9,2|4,S24_03,4,filler,1,S2,False,,,,,0,True,I5,24.0,75.0,early,-75,False,,,,,0,False,False,False,,,(not critical),switch,2,speech
+P01,acoustic,493207915,213,9,word list,WL_08,4,critical_I2,1,S2,False,,,,,0,True,I2,21.0,35.0,early,-35,False,,,,,0,True,False,False,,,no structure,switch,2,speech
+P01,acoustic,493207915,214,9,2|4,S24_10,4,critical_I2,1,S2,False,,,,,0,True,I2,21.0,55.0,late,55,False,,,,,0,True,False,False,,,boundary,switch,2,speech
+P01,acoustic,493207915,215,9,3|3,S33_02,4,filler,1,S2,False,,,,,0,True,I5,24.0,35.0,early,-35,False,,,,,0,False,False,False,,,(not critical),switch,2,speech
+P01,acoustic,493207915,216,9,2|4,S24_18,4,critical_I3,2,A+S2,True,I2,15.0,75.0,early,-75,True,I3,22.0,35.0,early,-35,False,,,,,0,True,True,True,7.0,6.0,within-phrase,switch,2,speech
