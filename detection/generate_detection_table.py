@@ -29,7 +29,7 @@ PARTICIPANT_ID, GROUP = ask_settings()
 SEED           = None              # None -> derived from PARTICIPANT_ID (reproducible)
 
 
-JITTER_SIZES_MS = [15, 30, 50]     # PLACEHOLDERS – must match the tapping experiment
+JITTER_SIZES_MS = [35, 55, 75]     
 IOI_MS          = 450
 EVENT_MS        = 350
 RESPONSE_S      = 1.5              # assumed mean response time (duration estimate only)
