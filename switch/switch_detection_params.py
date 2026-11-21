@@ -57,7 +57,8 @@ START_TEXT = {
         'speech':   ('Willkommen zurück!\n\n'
                      'Ihre Aufgabe ist dieselbe wie vorhin: Ist der Rhythmus regelmäßig oder unregelmäßig?\n'
                      'LINKS: {left}          RECHTS: {right}\n\n'
-                     'Neu ist: Vor jeder Klangfolge sehen Sie jetzt den Satz auf dem Bildschirm. Lesen Sie ihn.\n\n'
+                     'Neu ist: Vor jeder Klangfolge sehen Sie jetzt die Wörter auf dem Bildschirm (manchmal ein Satz, '
+                     'manchmal eine Liste von Wörtern). Bitte lesen Sie sie aufmerksam.\n\n'
                      'Dieser Teil besteht aus {n_blocks} Blöcken von jeweils etwa {block_min} Minuten. Zwischen den '
                      'Blöcken können Sie so lange Pause machen, wie Sie möchten.\n\n'
                      'Bereit? Drücken Sie eine beliebige Taste, um zu beginnen.')},

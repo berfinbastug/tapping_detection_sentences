@@ -27,7 +27,7 @@ CSV_DIR =os.path.join(BASE_DIR, 'sentence_lists')
 SWS_DIR  = os.path.join(BASE_DIR, 'sws_words', '3_sws')
 OUT_DIR  = os.path.join(BASE_DIR, 'checks')
 LISTS = {'2|4': 'items_2_4.csv', '3|3': 'items_3_3.csv', 'WL': 'items_wl.csv'}
-TARGET_N = 35
+TARGET_N = 18
 # -------------------------------------------------------------------------
 
 os.makedirs(OUT_DIR, exist_ok=True)
